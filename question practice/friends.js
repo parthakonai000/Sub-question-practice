@@ -123,17 +123,33 @@ function renderTiles(box, getSel, onPick) {
   });
 }
 
-// ---------- 4b. Free WebRTC Mesh Voice Chat (2-4 players) ----------
+
+// ---------- 4b. Free WebRTC Mesh Voice Chat (2-4 players, Fixed) ----------
 const RTC_CONFIG = {
   iceServers: [
     { urls: "stun:stun.l.google.com:19302" },
-    { urls: "stun:stun1.l.google.com:19302" }
+    { urls: "stun:stun1.l.google.com:19302" },
+    { urls: "stun:stun2.l.google.com:19302" },
+    { urls: "stun:stun3.l.google.com:19302" }
   ]
 };
+
 let localStream = null;
 let micMuted = false;
+let voiceReady = false;
 let voicePeers = {};       // { [peerSeat]: { pc, unsubs: [], audioEl } }
 let voiceSession = 0;
+
+// মোবাইল ব্রাউজারে অডিও অটোপ্লে আনলক করার জন্য
+function unlockVoiceAudio() {
+  Object.values(voicePeers).forEach((p) => {
+    if (p.audioEl && p.audioEl.srcObject && p.audioEl.paused) {
+      p.audioEl.play().catch(() => {});
+    }
+  });
+}
+document.addEventListener("click", unlockVoiceAudio, { passive: true });
+document.addEventListener("touchstart", unlockVoiceAudio, { passive: true });
 
 function updateMicUI() {
   const btn = $("btn-mic");
@@ -146,17 +162,26 @@ function updateMicUI() {
 async function initVoice() {
   const btn = $("btn-mic");
   if (btn) btn.classList.remove("hidden");
+
   if (localStream) {
     localStream.getAudioTracks().forEach((t) => (t.enabled = !micMuted));
+    voiceReady = true;
     updateMicUI();
+    if (lastRoom?.players) syncVoicePeers(lastRoom.players);
     return true;
   }
+
   if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
     micMuted = true;
+    voiceReady = true;
     updateMicUI();
+    showError("Your browser does not support voice chat.");
     return false;
   }
+
   const vs = voiceSession;
+  voiceReady = false;
+
   try {
     const stream = await navigator.mediaDevices.getUserMedia({
       audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true },
@@ -167,25 +192,22 @@ async function initVoice() {
       return false;
     }
     localStream = stream;
-    micMuted = false; // Default ON after permission
+    micMuted = false; // পারমিশন দিলে বাই ডিফল্ট অন থাকবে
     localStream.getAudioTracks().forEach((t) => (t.enabled = true));
+    voiceReady = true;
     updateMicUI();
 
-    // Add tracks to any already-initialized peers
-    Object.keys(voicePeers).forEach((seat) => {
-      const p = voicePeers[seat];
-      if (p && p.pc && !p.tracksAdded) {
-        localStream.getTracks().forEach((t) => p.pc.addTrack(t, localStream));
-        p.tracksAdded = true;
-      }
-    });
+    // আগে কোনো কানেকশন থাকলে রিসেট করে নতুন করে অডিওসহ কানেক্ট করবে
+    Object.keys(voicePeers).forEach(closeVoicePeer);
     if (lastRoom?.players) syncVoicePeers(lastRoom.players);
     return true;
   } catch (err) {
-    console.warn("Mic permission denied or unavailable:", err);
+    console.warn("Mic permission error:", err);
     micMuted = true;
+    voiceReady = true;
     updateMicUI();
-    toast("Mic permission off. Tap the mic icon to enable voice.");
+    toast("Mic off. Tap the mic icon to allow voice.");
+    if (lastRoom?.players) syncVoicePeers(lastRoom.players);
     return false;
   }
 }
@@ -198,17 +220,16 @@ async function toggleMic() {
   micMuted = !micMuted;
   localStream.getAudioTracks().forEach((t) => (t.enabled = !micMuted));
   updateMicUI();
+  unlockVoiceAudio();
 }
 
 function syncVoicePeers(players) {
-  if (!roomCode || !myRole || !players) return;
+  if (!voiceReady || !roomCode || !myRole || !players) return;
   const activeOthers = seatsOf(players).filter((s) => s !== myRole);
 
-  // Close peers who left
   for (const seat of Object.keys(voicePeers)) {
     if (!activeOthers.includes(seat)) closeVoicePeer(seat);
   }
-  // Connect to new peers
   for (const seat of activeOthers) {
     if (!voicePeers[seat]) connectVoicePeer(seat);
   }
@@ -222,24 +243,25 @@ async function connectVoicePeer(peerSeat) {
   const basePath = `Rooms/${roomCode}/voice/${pairId}`;
 
   const pc = new RTCPeerConnection(RTC_CONFIG);
+
+  // hidden div-এর বদলে সরাসরি body-তে অদৃশ্য audio ট্যাগ (মোবাইলে সাউন্ড ব্লক হবে না)
   const audioEl = document.createElement("audio");
   audioEl.autoplay = true;
   audioEl.playsInline = true;
-  $("voice-audios").appendChild(audioEl);
+  audioEl.style.cssText = "position:fixed;width:0;height:0;opacity:0;pointer-events:none;";
+  document.body.appendChild(audioEl);
 
-  const peerObj = { pc, unsubs: [], audioEl, tracksAdded: false, answered: false, offered: false };
+  const peerObj = { pc, unsubs: [], audioEl, pendingIce: [], answered: false, offered: false };
   voicePeers[peerSeat] = peerObj;
 
   if (localStream) {
     localStream.getTracks().forEach((t) => pc.addTrack(t, localStream));
-    peerObj.tracksAdded = true;
   }
 
   pc.ontrack = (e) => {
-    if (e.streams && e.streams[0]) {
-      audioEl.srcObject = e.streams[0];
-      audioEl.play().catch(() => {});
-    }
+    const stream = (e.streams && e.streams[0]) || new MediaStream([e.track]);
+    audioEl.srcObject = stream;
+    audioEl.play().catch(() => {});
   };
 
   const myIcePath = `${basePath}/${isCaller ? "callerIce" : "calleeIce"}`;
@@ -251,24 +273,24 @@ async function connectVoicePeer(peerSeat) {
     }
   };
 
-  // Listen for remote ICE candidates
-  const unsubIce = onChildAdded(ref(db, remoteIcePath), (snap) => {
-    const c = snap.val();
-    if (c && pc.remoteDescription) {
-      pc.addIceCandidate(new RTCIceCandidate(c)).catch(() => {});
-    } else if (c) {
-      peerObj.pendingIce = peerObj.pendingIce || [];
-      peerObj.pendingIce.push(c);
-    }
-  });
-  peerObj.unsubs.push(unsubIce);
-
   const flushIce = () => {
-    if (!peerObj.pendingIce) return;
-    for (const c of peerObj.pendingIce) {
+    while (peerObj.pendingIce.length) {
+      const c = peerObj.pendingIce.shift();
       pc.addIceCandidate(new RTCIceCandidate(c)).catch(() => {});
     }
-    peerObj.pendingIce = [];
+  };
+
+  const listenRemoteIce = () => {
+    const unsubIce = onChildAdded(ref(db, remoteIcePath), (snap) => {
+      const c = snap.val();
+      if (!c) return;
+      if (pc.remoteDescription) {
+        pc.addIceCandidate(new RTCIceCandidate(c)).catch(() => {});
+      } else {
+        peerObj.pendingIce.push(c);
+      }
+    });
+    peerObj.unsubs.push(unsubIce);
   };
 
   if (isCaller) {
@@ -276,7 +298,10 @@ async function connectVoicePeer(peerSeat) {
       const offer = await pc.createOffer({ offerToReceiveAudio: true });
       if (vs !== voiceSession) return;
       await pc.setLocalDescription(offer);
-      await set(ref(db, `${basePath}/offer`), { type: offer.type, sdp: offer.sdp });
+      // পুরনো ডেটা মুছে নতুন offer সেভ করা
+      await set(ref(db, basePath), { offer: { type: offer.type, sdp: offer.sdp } });
+
+      listenRemoteIce();
 
       const unsubAns = onValue(ref(db, `${basePath}/answer`), async (snap) => {
         const ans = snap.val();
@@ -285,12 +310,14 @@ async function connectVoicePeer(peerSeat) {
           try {
             await pc.setRemoteDescription(new RTCSessionDescription(ans));
             flushIce();
-          } catch {}
+          } catch (err) { console.warn("Set remote answer error:", err); }
         }
       });
       peerObj.unsubs.push(unsubAns);
     } catch (err) { console.warn("WebRTC offer error:", err); }
   } else {
+    listenRemoteIce();
+
     const unsubOff = onValue(ref(db, `${basePath}/offer`), async (snap) => {
       const off = snap.val();
       if (off && !peerObj.offered && pc.signalingState === "stable") {
@@ -320,6 +347,7 @@ function closeVoicePeer(seat) {
 
 function stopVoice() {
   voiceSession++;
+  voiceReady = false;
   Object.keys(voicePeers).forEach(closeVoicePeer);
   if (localStream) {
     localStream.getTracks().forEach((t) => t.stop());
@@ -329,6 +357,10 @@ function stopVoice() {
   const btn = $("btn-mic");
   if (btn) btn.classList.add("hidden");
 }
+
+
+
+
 
 // ---------- 5. App state ----------
 let myUid = null, myName = "", myRole = null, roomCode = null;
