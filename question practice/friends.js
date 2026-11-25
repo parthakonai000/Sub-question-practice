@@ -7,6 +7,10 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/fireba
 import { getAuth, signInAnonymously } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getDatabase, ref, get, set, update, remove, push, onValue, onChildAdded, serverTimestamp }
   from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
+  
+  
+  import { initEmoji, startEmojiRoom, stopEmojiRoom } from "./emoji.js";
+
 
 // ---------- 1. Config (paste YOUR Firebase config here) ----------
 const firebaseConfig = {
@@ -385,7 +389,7 @@ let nextWatchers = [], nextCtx = null;
 
 function showState(name) {
   currentState = name;
-  for (const s of ["lobby", "waiting", "game", "result"]) $("state-" + s).classList.toggle("hidden", s !== name);
+  for (const s of ["lobby", "loading", "waiting", "game", "result"]) $("state-" + s).classList.toggle("hidden", s !== name);
   window.scrollTo({ top: 0 });
 }
 
@@ -425,7 +429,17 @@ async function init() {
   $("input-name").value = saved;
   paintLobbyAvatar(); paintCells("");
 
+  // ইনভাইট লিংক হলে শুরুতেই লোডিং স্পিনার দেখাবে (লবি পেজ ফ্ল্যাশ করবে না)
+  const codeFromUrl = (new URLSearchParams(location.search).get("room") || "").trim();
+  const hasInvite = /^\d{4}$/.test(codeFromUrl);
+  if (hasInvite) {
+    $("loading-title").textContent = saved ? `রুম ${codeFromUrl}-এ জয়েন হচ্ছে…` : `রুম ${codeFromUrl} লোড হচ্ছে…`;
+    $("loading-sub").textContent = "একটু অপেক্ষা করো";
+    showState("loading");
+  }
+
   $("btn-mic").onclick = toggleMic;
+  initEmoji();
 
   $("input-name").addEventListener("input", paintLobbyAvatar);
   $("input-name").addEventListener("keydown", (e) => { if (e.key === "Enter") $("input-code").value.length === 4 ? $("btn-join").click() : $("input-code").focus(); });
@@ -459,7 +473,9 @@ async function init() {
     if (i > -1) handleAnswer(i);
   });
 
-  await QB.load();
+  // প্রশ্ন লোড এবং Firebase লগইন একসাথে করা হচ্ছে (সময় কম লাগবে)
+  const [, signedIn] = await Promise.all([QB.load(), signIn()]);
+
   pickSel.subject = QB.SUBJECTS.find((s) => QB.has(s.id))?.id || "all";
   renderTiles($("subjects"), () => pickSel.subject, (id) => (pickSel.subject = id));
   $("btn-start").onclick = startGame;
@@ -471,19 +487,26 @@ async function init() {
   document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("modal").classList.contains("hidden")) closeModal(); });
 
   const note = $("load-note");
-  if (!(await signIn())) { note.textContent = "Could not connect. Check your Firebase config and that Anonymous sign-in is enabled."; note.classList.add("err"); }
-  else { note.textContent = ""; ready = true; }
+  if (!signedIn) {
+    note.textContent = "Could not connect. Check your Firebase config and that Anonymous sign-in is enabled.";
+    note.classList.add("err");
+    if (hasInvite) showState("lobby");
+    return;
+  }
+  note.textContent = "";
+  ready = true;
   updateButtons();
-  if (!ready) return;
 
-  const codeFromUrl = (new URLSearchParams(location.search).get("room") || "").trim();
-  if (/^\d{4}$/.test(codeFromUrl)) {
-    if ($("input-name").value.trim()) joinRoom(codeFromUrl);
-    else {
+  // ইনভাইট লিংক হ্যান্ডেল করা
+  if (hasInvite) {
+    if (saved) {
+      joinRoom(codeFromUrl);
+    } else {
       $("input-code").value = codeFromUrl; paintCells(codeFromUrl); updateButtons();
       $("invite-code").textContent = codeFromUrl;
       $("invite-banner").classList.remove("hidden");
       $("state-lobby").classList.add("invited");
+      showState("lobby");
       $("input-name").focus();
     }
   }
@@ -525,7 +548,18 @@ async function createRoom() {
 async function joinRoom(rawCode) {
   if (!ready || !readName()) return;
   const code = String(rawCode).trim();
-  const fail = (msg) => { showError(msg); history.replaceState(null, "", location.pathname); updateButtons(); };
+  
+    const fail = (msg) => {
+    showError(msg);
+    history.replaceState(null, "", location.pathname);
+    $("state-lobby").classList.remove("invited");
+    $("invite-banner").classList.add("hidden");
+    showState("lobby");
+    updateButtons();
+  };
+
+  
+  
   if (!/^\d{4}$/.test(code)) return fail("Enter a valid 4-digit code.");
 
   $("btn-join").disabled = true;
@@ -563,6 +597,10 @@ function enterRoom(code, role) {
   // Start Voice Chat automatically on entering room
   initVoice();
 
+  startEmojiRoom(db, code, () => ({ name: myName, uid: myUid }));
+
+
+
   unsubscribe = onValue(
     ref(db, `Rooms/${code}`),
     (snap) => renderRoom(snap.val()),
@@ -597,6 +635,9 @@ async function shareInvite() {
 function resetToLobby() {
   session++;
   stopVoice();
+  
+    stopEmojiRoom();
+
   stopWatchingNext(); moving = false; round = 1;
   if (unsubscribe) { unsubscribe(); unsubscribe = null; }
   roomCode = null; myRole = null; gameStarted = false; lastRoom = null;
@@ -1018,6 +1059,9 @@ async function startNextRound(chosen) {
 function moveInto(code, role) {
   const oldCode = roomCode, oldRole = myRole, nextRound = round + 1;
   stopVoice();
+  
+    stopEmojiRoom();
+
   stopWatchingNext();
   if (unsubscribe) { unsubscribe(); unsubscribe = null; }
   session++;

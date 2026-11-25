@@ -91,6 +91,16 @@
     </div>
 
     <main>
+      
+            <!-- ================= STATE 0: LOADING ================= -->
+      <section id="state-loading" class="screen hidden">
+        <div class="card wait-card loading-card">
+          <div class="spinner lg" aria-hidden="true"></div>
+          <h2 id="loading-title">রুমে কানেক্ট হচ্ছে…</h2>
+          <p id="loading-sub" class="note">একটু অপেক্ষা করো</p>
+        </div>
+      </section>
+
       <!-- ================= STATE 1: LOBBY ================= -->
       <section id="state-lobby" class="screen">
         <div class="hero">
@@ -111,12 +121,13 @@
             </div>
           </div>
 
-          <p id="invite-banner" class="invite-banner hidden">
+                    <p id="invite-banner" class="invite-banner hidden">
             Your friend invited you to room <b id="invite-code"></b>. Add your name and join.
           </p>
 
-          <div><label class="field-label">Subject</label><div id="subjects" class="tiles"></div></div>
+          <div class="subject-pick"><label class="field-label">Subject</label><div id="subjects" class="tiles"></div></div>
           <button id="btn-create" class="btn primary" type="button" disabled>Create a room</button>
+
 
           <div class="or"><span>or join with a code</span></div>
 
