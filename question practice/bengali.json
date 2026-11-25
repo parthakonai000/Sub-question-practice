@@ -1,0 +1,2102 @@
+[
+  {
+    "question": "‘অসুখী একজন’ কবিতার কবি কে?",
+    "options": [
+      {
+        "text": "সুভাষ মুখোপাধ্যায়",
+        "correct": true
+      },
+      {
+        "text": "শঙ্খ ঘোষ",
+        "correct": false
+      },
+      {
+        "text": "জয় গোস্বামী",
+        "correct": false
+      },
+      {
+        "text": "বীরেন্দ্র চট্টোপাধ্যায়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘আয় আরো বেঁধে বেঁধে থাকি’ কবিতার মূল আহ্বান কী?",
+    "options": [
+      {
+        "text": "সমবেতভাবে বেঁচে থাকা",
+        "correct": true
+      },
+      {
+        "text": "একাকী আত্মরক্ষা",
+        "correct": false
+      },
+      {
+        "text": "যুদ্ধ ঘোষণা",
+        "correct": false
+      },
+      {
+        "text": "দেশত্যাগ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘অভিষেক’ কবিতার রচয়িতা কে?",
+    "options": [
+      {
+        "text": "মাইকেল মধুসূদন দত্ত",
+        "correct": true
+      },
+      {
+        "text": "রবীন্দ্রনাথ ঠাকুর",
+        "correct": false
+      },
+      {
+        "text": "কাজী নজরুল ইসলাম",
+        "correct": false
+      },
+      {
+        "text": "জীবনানন্দ দাশ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘জ্ঞানচক্ষু’ গল্পের লেখক কে?",
+    "options": [
+      {
+        "text": "আশাপূর্ণা দেবী",
+        "correct": true
+      },
+      {
+        "text": "লীলা মজুমদার",
+        "correct": false
+      },
+      {
+        "text": "মহাশ্বেতা দেবী",
+        "correct": false
+      },
+      {
+        "text": "বাণী বসু",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘জ্ঞানচক্ষু’ গল্পে তপনের কাকা কী পেশায় যুক্ত?",
+    "options": [
+      {
+        "text": "লেখক",
+        "correct": true
+      },
+      {
+        "text": "চিকিৎসক",
+        "correct": false
+      },
+      {
+        "text": "শিক্ষক",
+        "correct": false
+      },
+      {
+        "text": "সাংবাদিক",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘বহুরূপী’ গল্পের লেখক কে?",
+    "options": [
+      {
+        "text": "সুবোধ ঘোষ",
+        "correct": true
+      },
+      {
+        "text": "সত্যজিৎ রায়",
+        "correct": false
+      },
+      {
+        "text": "তারাশঙ্কর বন্দ্যোপাধ্যায়",
+        "correct": false
+      },
+      {
+        "text": "প্রেমেন্দ্র মিত্র",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘বহুরূপী’ গল্পে হরিদার জীবিকা কী?",
+    "options": [
+      {
+        "text": "বহুরূপী সেজে উপার্জন",
+        "correct": true
+      },
+      {
+        "text": "দোকান চালানো",
+        "correct": false
+      },
+      {
+        "text": "চাষ করা",
+        "correct": false
+      },
+      {
+        "text": "নৌকা চালানো",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘পথের দাবী’ উপন্যাসের রচয়িতা কে?",
+    "options": [
+      {
+        "text": "শরৎচন্দ্র চট্টোপাধ্যায়",
+        "correct": true
+      },
+      {
+        "text": "বিভূতিভূষণ বন্দ্যোপাধ্যায়",
+        "correct": false
+      },
+      {
+        "text": "মানিক বন্দ্যোপাধ্যায়",
+        "correct": false
+      },
+      {
+        "text": "বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘পথের দাবী’র কেন্দ্রীয় চরিত্র কে?",
+    "options": [
+      {
+        "text": "সব্যসাচী",
+        "correct": true
+      },
+      {
+        "text": "অপূর্ব",
+        "correct": false
+      },
+      {
+        "text": "ইন্দ্রনাথ",
+        "correct": false
+      },
+      {
+        "text": "শ্রীকান্ত",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘অদল বদল’ গল্পে কোন বিষয়টি মুখ্য?",
+    "options": [
+      {
+        "text": "বন্ধুত্ব ও পরিচয়বোধ",
+        "correct": true
+      },
+      {
+        "text": "রাজদরবারের ষড়যন্ত্র",
+        "correct": false
+      },
+      {
+        "text": "প্রকৃতির দুর্যোগ",
+        "correct": false
+      },
+      {
+        "text": "বাণিজ্যযাত্রা",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘নদীর বিদ্রোহ’ গল্পের লেখক কে?",
+    "options": [
+      {
+        "text": "মানিক বন্দ্যোপাধ্যায়",
+        "correct": true
+      },
+      {
+        "text": "তারাশঙ্কর বন্দ্যোপাধ্যায়",
+        "correct": false
+      },
+      {
+        "text": "শরৎচন্দ্র চট্টোপাধ্যায়",
+        "correct": false
+      },
+      {
+        "text": "বিভূতিভূষণ বন্দ্যোপাধ্যায়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘নদীর বিদ্রোহ’ গল্পে নদীকে কীভাবে দেখানো হয়েছে?",
+    "options": [
+      {
+        "text": "প্রতিবাদী শক্তি",
+        "correct": true
+      },
+      {
+        "text": "নির্জীব বস্তু",
+        "correct": false
+      },
+      {
+        "text": "শুধু পথ",
+        "correct": false
+      },
+      {
+        "text": "কল্পনার নগরী",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘কোনি’ উপন্যাসের লেখক কে?",
+    "options": [
+      {
+        "text": "মতি নন্দী",
+        "correct": true
+      },
+      {
+        "text": "সমরেশ বসু",
+        "correct": false
+      },
+      {
+        "text": "নারায়ণ গঙ্গোপাধ্যায়",
+        "correct": false
+      },
+      {
+        "text": "সুনীল গঙ্গোপাধ্যায়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘কোনি’ উপন্যাসে কোন ক্রীড়া প্রধান?",
+    "options": [
+      {
+        "text": "সাঁতার",
+        "correct": true
+      },
+      {
+        "text": "ফুটবল",
+        "correct": false
+      },
+      {
+        "text": "দৌড়",
+        "correct": false
+      },
+      {
+        "text": "কুস্তি",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘সিংহাসন’ কবিতার কবি কে?",
+    "options": [
+      {
+        "text": "নবকান্ত বরুয়া",
+        "correct": true
+      },
+      {
+        "text": "সুকান্ত ভট্টাচার্য",
+        "correct": false
+      },
+      {
+        "text": "রবীন্দ্রনাথ ঠাকুর",
+        "correct": false
+      },
+      {
+        "text": "জসীমউদ্দীন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘অস্ত্রের বিরুদ্ধে গান’ কবিতার রচয়িতা কে?",
+    "options": [
+      {
+        "text": "জয় গোস্বামী",
+        "correct": true
+      },
+      {
+        "text": "শঙ্খ ঘোষ",
+        "correct": false
+      },
+      {
+        "text": "সুভাষ মুখোপাধ্যায়",
+        "correct": false
+      },
+      {
+        "text": "শক্তি চট্টোপাধ্যায়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘আকাশে সাতটি তারা’ কবিতার কবি কে?",
+    "options": [
+      {
+        "text": "জীবনানন্দ দাশ",
+        "correct": true
+      },
+      {
+        "text": "রবীন্দ্রনাথ ঠাকুর",
+        "correct": false
+      },
+      {
+        "text": "কাজী নজরুল ইসলাম",
+        "correct": false
+      },
+      {
+        "text": "সুকান্ত ভট্টাচার্য",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘হারিয়ে যাওয়া কালি কলম’ রচনার লেখক কে?",
+    "options": [
+      {
+        "text": "শ্রীপান্থ",
+        "correct": true
+      },
+      {
+        "text": "বুদ্ধদেব বসু",
+        "correct": false
+      },
+      {
+        "text": "প্রমথ চৌধুরী",
+        "correct": false
+      },
+      {
+        "text": "সুনীতিকুমার চট্টোপাধ্যায়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘বাংলা ভাষায় বিজ্ঞান’ প্রবন্ধের লেখক কে?",
+    "options": [
+      {
+        "text": "রাজশেখর বসু",
+        "correct": true
+      },
+      {
+        "text": "সুনীতিকুমার চট্টোপাধ্যায়",
+        "correct": false
+      },
+      {
+        "text": "জগদীশচন্দ্র বসু",
+        "correct": false
+      },
+      {
+        "text": "প্রমথ চৌধুরী",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘ভারতবাসীর আহার’ প্রবন্ধের রচয়িতা কে?",
+    "options": [
+      {
+        "text": "সুনীতিকুমার চট্টোপাধ্যায়",
+        "correct": true
+      },
+      {
+        "text": "রাজশেখর বসু",
+        "correct": false
+      },
+      {
+        "text": "ঈশ্বরচন্দ্র বিদ্যাসাগর",
+        "correct": false
+      },
+      {
+        "text": "রবীন্দ্রনাথ ঠাকুর",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘কর্তার ভূত’ রচনার লেখক কে?",
+    "options": [
+      {
+        "text": "রবীন্দ্রনাথ ঠাকুর",
+        "correct": true
+      },
+      {
+        "text": "অবনীন্দ্রনাথ ঠাকুর",
+        "correct": false
+      },
+      {
+        "text": "পরশুরাম",
+        "correct": false
+      },
+      {
+        "text": "বিভূতিভূষণ বন্দ্যোপাধ্যায়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘নব নব সৃষ্টি’ প্রবন্ধের লেখক কে?",
+    "options": [
+      {
+        "text": "পরশুরাম",
+        "correct": true
+      },
+      {
+        "text": "বনফুল",
+        "correct": false
+      },
+      {
+        "text": "প্রমথ চৌধুরী",
+        "correct": false
+      },
+      {
+        "text": "রাজশেখর বসু",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘সে বই পড়ে’ বাক্যে ক্রিয়াপদ কোনটি?",
+    "options": [
+      {
+        "text": "পড়ে",
+        "correct": true
+      },
+      {
+        "text": "সে",
+        "correct": false
+      },
+      {
+        "text": "বই",
+        "correct": false
+      },
+      {
+        "text": "কোনোটিই নয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘সুন্দর ফুল’ পদবন্ধে ‘সুন্দর’ কোন পদ?",
+    "options": [
+      {
+        "text": "বিশেষণ",
+        "correct": true
+      },
+      {
+        "text": "বিশেষ্য",
+        "correct": false
+      },
+      {
+        "text": "সর্বনাম",
+        "correct": false
+      },
+      {
+        "text": "অব্যয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘আমি’ কোন পুরুষের সর্বনাম?",
+    "options": [
+      {
+        "text": "উত্তম পুরুষ",
+        "correct": true
+      },
+      {
+        "text": "মধ্যম পুরুষ",
+        "correct": false
+      },
+      {
+        "text": "প্রথম পুরুষ",
+        "correct": false
+      },
+      {
+        "text": "অনির্দিষ্ট",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘রাজপুত্র’ কোন সমাসের উদাহরণ?",
+    "options": [
+      {
+        "text": "ষষ্ঠী তৎপুরুষ",
+        "correct": true
+      },
+      {
+        "text": "দ্বন্দ্ব",
+        "correct": false
+      },
+      {
+        "text": "বহুব্রীহি",
+        "correct": false
+      },
+      {
+        "text": "অব্যয়ীভাব",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘নীলকণ্ঠ’ (শিব অর্থে) কোন সমাস?",
+    "options": [
+      {
+        "text": "বহুব্রীহি",
+        "correct": true
+      },
+      {
+        "text": "কর্মধারয়",
+        "correct": false
+      },
+      {
+        "text": "দ্বিগু",
+        "correct": false
+      },
+      {
+        "text": "দ্বন্দ্ব",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘বিদ্যালয়’ শব্দের সন্ধিবিচ্ছেদ কোনটি?",
+    "options": [
+      {
+        "text": "বিদ্যা+আলয়",
+        "correct": true
+      },
+      {
+        "text": "বিদ্য+লয়",
+        "correct": false
+      },
+      {
+        "text": "বিদ্যা+লয়",
+        "correct": false
+      },
+      {
+        "text": "বিদ+আলয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘অতি’ উপসর্গযুক্ত শব্দ কোনটি?",
+    "options": [
+      {
+        "text": "অতিশয়",
+        "correct": true
+      },
+      {
+        "text": "পর্বত",
+        "correct": false
+      },
+      {
+        "text": "জলজ",
+        "correct": false
+      },
+      {
+        "text": "বইখানা",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘পাখিরা আকাশে ওড়ে’ বাক্যে কর্তা কোনটি?",
+    "options": [
+      {
+        "text": "পাখিরা",
+        "correct": true
+      },
+      {
+        "text": "আকাশে",
+        "correct": false
+      },
+      {
+        "text": "ওড়ে",
+        "correct": false
+      },
+      {
+        "text": "কোনোটিই নয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who wrote “The Proposal”?",
+    "options": [
+      {
+        "text": "Anton Chekhov",
+        "correct": true
+      },
+      {
+        "text": "William Shakespeare",
+        "correct": false
+      },
+      {
+        "text": "John Galsworthy",
+        "correct": false
+      },
+      {
+        "text": "G. B. Shaw",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In “The Proposal”, why does Lomov visit Chubukov?",
+    "options": [
+      {
+        "text": "To propose to Natalya",
+        "correct": true
+      },
+      {
+        "text": "To borrow money",
+        "correct": false
+      },
+      {
+        "text": "To sell land",
+        "correct": false
+      },
+      {
+        "text": "To invite him to a party",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who wrote the poem “Fable”?",
+    "options": [
+      {
+        "text": "Ralph Waldo Emerson",
+        "correct": true
+      },
+      {
+        "text": "Walt Whitman",
+        "correct": false
+      },
+      {
+        "text": "William Blake",
+        "correct": false
+      },
+      {
+        "text": "Robert Frost",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In “Fable”, what do the mountain and the squirrel debate?",
+    "options": [
+      {
+        "text": "Their respective importance",
+        "correct": true
+      },
+      {
+        "text": "The colour of the sky",
+        "correct": false
+      },
+      {
+        "text": "A lost nut",
+        "correct": false
+      },
+      {
+        "text": "The arrival of spring",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is the poet of “The Cat”?",
+    "options": [
+      {
+        "text": "A. B. Paterson",
+        "correct": true
+      },
+      {
+        "text": "William Wordsworth",
+        "correct": false
+      },
+      {
+        "text": "John Keats",
+        "correct": false
+      },
+      {
+        "text": "W. H. Davies",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who wrote “A Shipwrecked Sailor”?",
+    "options": [
+      {
+        "text": "Daniel Defoe",
+        "correct": true
+      },
+      {
+        "text": "Jonathan Swift",
+        "correct": false
+      },
+      {
+        "text": "R. L. Stevenson",
+        "correct": false
+      },
+      {
+        "text": "Charles Dickens",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Robinson Crusoe is shipwrecked on an _____.",
+    "options": [
+      {
+        "text": "uninhabited island",
+        "correct": true
+      },
+      {
+        "text": "iceberg",
+        "correct": false
+      },
+      {
+        "text": "deserted city",
+        "correct": false
+      },
+      {
+        "text": "African village",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct passive form: “They make toys here.”",
+    "options": [
+      {
+        "text": "Toys are made here.",
+        "correct": true
+      },
+      {
+        "text": "Toys were made here.",
+        "correct": false
+      },
+      {
+        "text": "Toys have made here.",
+        "correct": false
+      },
+      {
+        "text": "Toys are making here.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct indirect speech: He said, “I am ill.”",
+    "options": [
+      {
+        "text": "He said that he was ill.",
+        "correct": true
+      },
+      {
+        "text": "He said that I am ill.",
+        "correct": false
+      },
+      {
+        "text": "He says that he was ill.",
+        "correct": false
+      },
+      {
+        "text": "He said he is ill tomorrow.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct article: She is ___ honest girl.",
+    "options": [
+      {
+        "text": "an",
+        "correct": true
+      },
+      {
+        "text": "a",
+        "correct": false
+      },
+      {
+        "text": "the",
+        "correct": false
+      },
+      {
+        "text": "no article",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct preposition: He is fond ___ music.",
+    "options": [
+      {
+        "text": "of",
+        "correct": true
+      },
+      {
+        "text": "at",
+        "correct": false
+      },
+      {
+        "text": "for",
+        "correct": false
+      },
+      {
+        "text": "by",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "By next June, she ___ her course.",
+    "options": [
+      {
+        "text": "will have completed",
+        "correct": true
+      },
+      {
+        "text": "completes",
+        "correct": false
+      },
+      {
+        "text": "has completed",
+        "correct": false
+      },
+      {
+        "text": "was completing",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "If it rains, we ___ at home.",
+    "options": [
+      {
+        "text": "will stay",
+        "correct": true
+      },
+      {
+        "text": "would stayed",
+        "correct": false
+      },
+      {
+        "text": "stayed",
+        "correct": false
+      },
+      {
+        "text": "had stay",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "The antonym of “ancient” is _____.",
+    "options": [
+      {
+        "text": "modern",
+        "correct": true
+      },
+      {
+        "text": "old",
+        "correct": false
+      },
+      {
+        "text": "historic",
+        "correct": false
+      },
+      {
+        "text": "former",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "The synonym of “brave” is _____.",
+    "options": [
+      {
+        "text": "courageous",
+        "correct": true
+      },
+      {
+        "text": "timid",
+        "correct": false
+      },
+      {
+        "text": "careless",
+        "correct": false
+      },
+      {
+        "text": "silent",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correctly spelt word.",
+    "options": [
+      {
+        "text": "necessary",
+        "correct": true
+      },
+      {
+        "text": "neccessary",
+        "correct": false
+      },
+      {
+        "text": "necessery",
+        "correct": false
+      },
+      {
+        "text": "necesary",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "She can swim, ___?",
+    "options": [
+      {
+        "text": "can’t she",
+        "correct": true
+      },
+      {
+        "text": "doesn’t she",
+        "correct": false
+      },
+      {
+        "text": "isn’t she",
+        "correct": false
+      },
+      {
+        "text": "won’t she",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which is the gerund in “Swimming is good exercise”?",
+    "options": [
+      {
+        "text": "Swimming",
+        "correct": true
+      },
+      {
+        "text": "is",
+        "correct": false
+      },
+      {
+        "text": "good",
+        "correct": false
+      },
+      {
+        "text": "exercise",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct comparative form of “good”.",
+    "options": [
+      {
+        "text": "better",
+        "correct": true
+      },
+      {
+        "text": "gooder",
+        "correct": false
+      },
+      {
+        "text": "best",
+        "correct": false
+      },
+      {
+        "text": "more good",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct plural of “child”.",
+    "options": [
+      {
+        "text": "children",
+        "correct": true
+      },
+      {
+        "text": "childs",
+        "correct": false
+      },
+      {
+        "text": "childes",
+        "correct": false
+      },
+      {
+        "text": "childrens",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতের প্রধান পাট উৎপাদক রাজ্য কোনটি?",
+    "options": [
+      {
+        "text": "পশ্চিমবঙ্গ",
+        "correct": true
+      },
+      {
+        "text": "রাজস্থান",
+        "correct": false
+      },
+      {
+        "text": "পাঞ্জাব",
+        "correct": false
+      },
+      {
+        "text": "গুজরাট",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতের অধিকাংশ বৃষ্টিপাত কোন বায়ুপ্রবাহ থেকে হয়?",
+    "options": [
+      {
+        "text": "দক্ষিণ-পশ্চিম মৌসুমি বায়ু",
+        "correct": true
+      },
+      {
+        "text": "উত্তর-পূর্ব বায়ু",
+        "correct": false
+      },
+      {
+        "text": "পশ্চিমি ঝঞ্ঝা",
+        "correct": false
+      },
+      {
+        "text": "লু",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "দামোদর নদী কোন নদীপ্রণালীর উপনদী?",
+    "options": [
+      {
+        "text": "গঙ্গা",
+        "correct": true
+      },
+      {
+        "text": "ব্রহ্মপুত্র",
+        "correct": false
+      },
+      {
+        "text": "নর্মদা",
+        "correct": false
+      },
+      {
+        "text": "গোদাবরী",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতের দীর্ঘতম উপকূলরেখা রয়েছে কোন রাজ্যে?",
+    "options": [
+      {
+        "text": "গুজরাট",
+        "correct": true
+      },
+      {
+        "text": "কেরল",
+        "correct": false
+      },
+      {
+        "text": "ওডিশা",
+        "correct": false
+      },
+      {
+        "text": "তামিলনাড়ু",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বক্সাইট থেকে কোন ধাতু নিষ্কাশন করা হয়?",
+    "options": [
+      {
+        "text": "অ্যালুমিনিয়াম",
+        "correct": true
+      },
+      {
+        "text": "তামা",
+        "correct": false
+      },
+      {
+        "text": "লোহা",
+        "correct": false
+      },
+      {
+        "text": "দস্তা",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "রানিগঞ্জ কয়লাক্ষেত্র কোথায় অবস্থিত?",
+    "options": [
+      {
+        "text": "পশ্চিমবঙ্গ",
+        "correct": true
+      },
+      {
+        "text": "বিহার",
+        "correct": false
+      },
+      {
+        "text": "মধ্যপ্রদেশ",
+        "correct": false
+      },
+      {
+        "text": "অসম",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘উত্তর ভারতের শোক’ নামে পরিচিত নদী কোনটি?",
+    "options": [
+      {
+        "text": "কোশী",
+        "correct": true
+      },
+      {
+        "text": "যমুনা",
+        "correct": false
+      },
+      {
+        "text": "গোদাবরী",
+        "correct": false
+      },
+      {
+        "text": "কাবেরী",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "কালো মাটি প্রধানত কোন ফসলের জন্য উপযোগী?",
+    "options": [
+      {
+        "text": "কার্পাস",
+        "correct": true
+      },
+      {
+        "text": "চা",
+        "correct": false
+      },
+      {
+        "text": "পাট",
+        "correct": false
+      },
+      {
+        "text": "ধান",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "দুর্গাপুর কোন রাজ্যের লৌহ-ইস্পাত কেন্দ্র?",
+    "options": [
+      {
+        "text": "পশ্চিমবঙ্গ",
+        "correct": true
+      },
+      {
+        "text": "ঝাড়খণ্ড",
+        "correct": false
+      },
+      {
+        "text": "ওডিশা",
+        "correct": false
+      },
+      {
+        "text": "ছত্তিশগড়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সুন্দরবন বদ্বীপ কোন নদীগুলির মোহনায় গঠিত?",
+    "options": [
+      {
+        "text": "গঙ্গা-ব্রহ্মপুত্র-মেঘনা",
+        "correct": true
+      },
+      {
+        "text": "নর্মদা-তাপ্তি",
+        "correct": false
+      },
+      {
+        "text": "কৃষ্ণা-কাবেরী",
+        "correct": false
+      },
+      {
+        "text": "সিন্ধু-ঝিলম",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পৃথিবীর বায়ুমণ্ডলে সর্বাধিক পরিমাণে কোন গ্যাস আছে?",
+    "options": [
+      {
+        "text": "নাইট্রোজেন",
+        "correct": true
+      },
+      {
+        "text": "অক্সিজেন",
+        "correct": false
+      },
+      {
+        "text": "কার্বন ডাই-অক্সাইড",
+        "correct": false
+      },
+      {
+        "text": "আর্গন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সমোচ্চরেখা কী যুক্ত করে?",
+    "options": [
+      {
+        "text": "সমান উচ্চতার স্থান",
+        "correct": true
+      },
+      {
+        "text": "সমান বৃষ্টিপাতের স্থান",
+        "correct": false
+      },
+      {
+        "text": "সমান তাপমাত্রার স্থান",
+        "correct": false
+      },
+      {
+        "text": "সমান জনসংখ্যার স্থান",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "চা উৎপাদন কোন রাজ্যে বিশেষভাবে গুরুত্বপূর্ণ?",
+    "options": [
+      {
+        "text": "অসম",
+        "correct": true
+      },
+      {
+        "text": "রাজস্থান",
+        "correct": false
+      },
+      {
+        "text": "হরিয়ানা",
+        "correct": false
+      },
+      {
+        "text": "গুজরাট",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভাকরা-নাঙ্গাল বাঁধ কোন নদীর ওপর?",
+    "options": [
+      {
+        "text": "শতদ্রু",
+        "correct": true
+      },
+      {
+        "text": "গঙ্গা",
+        "correct": false
+      },
+      {
+        "text": "মহানদী",
+        "correct": false
+      },
+      {
+        "text": "কৃষ্ণা",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "জোয়ার-ভাটা প্রধানত কোন আকর্ষণের ফলে ঘটে?",
+    "options": [
+      {
+        "text": "চাঁদ ও সূর্যের মহাকর্ষ",
+        "correct": true
+      },
+      {
+        "text": "বায়ুচাপ",
+        "correct": false
+      },
+      {
+        "text": "পৃথিবীর চৌম্বকত্ব",
+        "correct": false
+      },
+      {
+        "text": "সমুদ্রের লবণাক্ততা",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পশ্চিম উপকূলের উত্তরের অংশকে কী বলা হয়?",
+    "options": [
+      {
+        "text": "কোঙ্কন উপকূল",
+        "correct": true
+      },
+      {
+        "text": "করমণ্ডল উপকূল",
+        "correct": false
+      },
+      {
+        "text": "উত্তর সরকার উপকূল",
+        "correct": false
+      },
+      {
+        "text": "মালাবার উপকূল",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বৃষ্টিচ্ছায় অঞ্চল কোথায় সৃষ্টি হয়?",
+    "options": [
+      {
+        "text": "পর্বতের প্রতিবাত ঢালের আড়ালে",
+        "correct": true
+      },
+      {
+        "text": "সমুদ্রের মাঝখানে",
+        "correct": false
+      },
+      {
+        "text": "নদীর বদ্বীপে",
+        "correct": false
+      },
+      {
+        "text": "মেরু অঞ্চলে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পেট্রোলিয়াম শোধনাগার কোন শিল্পের উদাহরণ?",
+    "options": [
+      {
+        "text": "খনিজ তেলভিত্তিক শিল্প",
+        "correct": true
+      },
+      {
+        "text": "বনভিত্তিক শিল্প",
+        "correct": false
+      },
+      {
+        "text": "কুটির শিল্প",
+        "correct": false
+      },
+      {
+        "text": "কृषিভিত্তিক শিল্প",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পৃথিবীর ঘূর্ণনের ফলে কী ঘটে?",
+    "options": [
+      {
+        "text": "দিন ও রাত",
+        "correct": true
+      },
+      {
+        "text": "ঋতু পরিবর্তন",
+        "correct": false
+      },
+      {
+        "text": "জোয়ার-ভাটা",
+        "correct": false
+      },
+      {
+        "text": "বৃষ্টিপাত",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "থর মরুভূমি প্রধানত কোন রাজ্যে অবস্থিত?",
+    "options": [
+      {
+        "text": "রাজস্থান",
+        "correct": true
+      },
+      {
+        "text": "পশ্চিমবঙ্গ",
+        "correct": false
+      },
+      {
+        "text": "কেরল",
+        "correct": false
+      },
+      {
+        "text": "আসাম",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বাংলার নবজাগরণের অন্যতম পথিকৃৎ কে?",
+    "options": [
+      {
+        "text": "রাজা রামমোহন রায়",
+        "correct": true
+      },
+      {
+        "text": "লর্ড ডালহৌসি",
+        "correct": false
+      },
+      {
+        "text": "ওয়ারেন হেস্টিংস",
+        "correct": false
+      },
+      {
+        "text": "লর্ড কার্জন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ব্রাহ্মসমাজ প্রতিষ্ঠা করেন কে?",
+    "options": [
+      {
+        "text": "রাজা রামমোহন রায়",
+        "correct": true
+      },
+      {
+        "text": "ঈশ্বরচন্দ্র বিদ্যাসাগর",
+        "correct": false
+      },
+      {
+        "text": "কেশবচন্দ্র সেন",
+        "correct": false
+      },
+      {
+        "text": "দেবেন্দ্রনাথ ঠাকুর",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বিধবা বিবাহ আইন প্রণয়নে প্রধান ভূমিকা কার ছিল?",
+    "options": [
+      {
+        "text": "ঈশ্বরচন্দ্র বিদ্যাসাগর",
+        "correct": true
+      },
+      {
+        "text": "বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
+        "correct": false
+      },
+      {
+        "text": "দ্বারকানাথ ঠাকুর",
+        "correct": false
+      },
+      {
+        "text": "মাইকেল মধুসূদন দত্ত",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সাঁওতাল বিদ্রোহের নেতা কারা ছিলেন?",
+    "options": [
+      {
+        "text": "সিধু ও কানু",
+        "correct": true
+      },
+      {
+        "text": "তিতুমীর ও দুদু মিয়া",
+        "correct": false
+      },
+      {
+        "text": "নানা সাহেব ও তাঁতিয়া টোপি",
+        "correct": false
+      },
+      {
+        "text": "বিরসা ও গয়া মুন্ডা",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "নীল বিদ্রোহে কৃষকেরা কোন ফসল চাষে বাধ্য হওয়ার প্রতিবাদ করে?",
+    "options": [
+      {
+        "text": "নীল",
+        "correct": true
+      },
+      {
+        "text": "চা",
+        "correct": false
+      },
+      {
+        "text": "পাট",
+        "correct": false
+      },
+      {
+        "text": "আখ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "১৮৫৭ সালের বিদ্রোহের সূচনা কোথায় হয়?",
+    "options": [
+      {
+        "text": "মিরাট",
+        "correct": true
+      },
+      {
+        "text": "কলকাতা",
+        "correct": false
+      },
+      {
+        "text": "বোম্বাই",
+        "correct": false
+      },
+      {
+        "text": "মাদ्रাজ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতীয় জাতীয় কংগ্রেস প্রতিষ্ঠিত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৮৮৫",
+        "correct": true
+      },
+      {
+        "text": "১৮৫৭",
+        "correct": false
+      },
+      {
+        "text": "১৯০৫",
+        "correct": false
+      },
+      {
+        "text": "১৯১৯",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বঙ্গভঙ্গ কার্যকর হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯০৫",
+        "correct": true
+      },
+      {
+        "text": "১৯১১",
+        "correct": false
+      },
+      {
+        "text": "১৮৮৫",
+        "correct": false
+      },
+      {
+        "text": "১৯৪২",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বঙ্গভঙ্গ বিরোধী আন্দোলনে কোন কর্মসূচি গুরুত্বপূর্ণ হয়?",
+    "options": [
+      {
+        "text": "স্বদেশি ও বয়কট",
+        "correct": true
+      },
+      {
+        "text": "চৌরিচৌরা",
+        "correct": false
+      },
+      {
+        "text": "ভারত ছাড়ো",
+        "correct": false
+      },
+      {
+        "text": "খিলাফত",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "মুন্ডা বিদ্রোহের নেতা কে ছিলেন?",
+    "options": [
+      {
+        "text": "বিরসা মুন্ডা",
+        "correct": true
+      },
+      {
+        "text": "সিধু",
+        "correct": false
+      },
+      {
+        "text": "কানু",
+        "correct": false
+      },
+      {
+        "text": "তিতুমীর",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "রাওলাট আইন প্রণীত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯১৯",
+        "correct": true
+      },
+      {
+        "text": "১৯০৫",
+        "correct": false
+      },
+      {
+        "text": "১৯৩০",
+        "correct": false
+      },
+      {
+        "text": "১৯৪২",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "জালিয়ানওয়ালাবাগ হত্যাকাণ্ড কোথায় ঘটে?",
+    "options": [
+      {
+        "text": "অমৃতসর",
+        "correct": true
+      },
+      {
+        "text": "লাহোর",
+        "correct": false
+      },
+      {
+        "text": "দিল্লি",
+        "correct": false
+      },
+      {
+        "text": "কানপুর",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "অসহযোগ আন্দোলন প্রত্যাহার করা হয় কোন ঘটনার পর?",
+    "options": [
+      {
+        "text": "চৌরিচৌরা ঘটনা",
+        "correct": true
+      },
+      {
+        "text": "জালিয়ানওয়ালাবাগ",
+        "correct": false
+      },
+      {
+        "text": "দান্ডি অভিযান",
+        "correct": false
+      },
+      {
+        "text": "সাইমন কমিশন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "দান্ডি অভিযান কোন আন্দোলনের সঙ্গে যুক্ত?",
+    "options": [
+      {
+        "text": "আইন অমান্য আন্দোলন",
+        "correct": true
+      },
+      {
+        "text": "অসহযোগ আন্দোলন",
+        "correct": false
+      },
+      {
+        "text": "ভারত ছাড়ো আন্দোলন",
+        "correct": false
+      },
+      {
+        "text": "স্বদেশি আন্দোলন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারত ছাড়ো আন্দোলন শুরু হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯৪২",
+        "correct": true
+      },
+      {
+        "text": "১৯৩০",
+        "correct": false
+      },
+      {
+        "text": "১৯১৯",
+        "correct": false
+      },
+      {
+        "text": "১৯৪৬",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আজাদ হিন্দ ফৌজের সঙ্গে কোন নেতার নাম বিশেষভাবে যুক্ত?",
+    "options": [
+      {
+        "text": "সুভাষচন্দ্র বসু",
+        "correct": true
+      },
+      {
+        "text": "জওহরলাল নেহরু",
+        "correct": false
+      },
+      {
+        "text": "বল্লভভাই প্যাটেল",
+        "correct": false
+      },
+      {
+        "text": "মৌলানা আজাদ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আজাদ হিন্দ ফৌজের প্রাথমিক সংগঠক কে ছিলেন?",
+    "options": [
+      {
+        "text": "মোহন সিং",
+        "correct": true
+      },
+      {
+        "text": "সুভাষচন্দ্র বসু",
+        "correct": false
+      },
+      {
+        "text": "ভগৎ সিং",
+        "correct": false
+      },
+      {
+        "text": "চন্দ্রশেখর আজাদ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতীয় সংবিধান কার্যকর হয় কবে?",
+    "options": [
+      {
+        "text": "২৬ জানুয়ারি ১৯৫০",
+        "correct": true
+      },
+      {
+        "text": "১৫ আগস্ট ১৯৪৭",
+        "correct": false
+      },
+      {
+        "text": "২৬ নভেম্বর ১৯৪৯",
+        "correct": false
+      },
+      {
+        "text": "২ অক্টোবর ১৯৫০",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতের স্বাধীনতার সময় ব্রিটিশ প্রধানমন্ত্রী কে ছিলেন?",
+    "options": [
+      {
+        "text": "ক্লিমেন্ট অ্যাটলি",
+        "correct": true
+      },
+      {
+        "text": "উইনস্টন চার্চিল",
+        "correct": false
+      },
+      {
+        "text": "নেভিল চেম্বারলিন",
+        "correct": false
+      },
+      {
+        "text": "রামসে ম্যাকডোনাল্ড",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতীয় জাতীয় কংগ্রেসের প্রথম সভাপতি কে ছিলেন?",
+    "options": [
+      {
+        "text": "উমেশচন্দ্র বন্দ্যোপাধ্যায়",
+        "correct": true
+      },
+      {
+        "text": "দাদাভাই নওরোজি",
+        "correct": false
+      },
+      {
+        "text": "ফিরোজশাহ মেহতা",
+        "correct": false
+      },
+      {
+        "text": "গোপালকৃষ্ণ গোখলে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বংশগতির প্রধান উপাদান কোনটি?",
+    "options": [
+      {
+        "text": "DNA",
+        "correct": true
+      },
+      {
+        "text": "গ্লুকোজ",
+        "correct": false
+      },
+      {
+        "text": "হিমোগ্লোবিন",
+        "correct": false
+      },
+      {
+        "text": "স্টার্চ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "কোষের শক্তিঘর বলা হয় কোন অঙ্গাণুকে?",
+    "options": [
+      {
+        "text": "মাইটোকন্ড্রিয়া",
+        "correct": true
+      },
+      {
+        "text": "রাইবোজোম",
+        "correct": false
+      },
+      {
+        "text": "গলজি বস্তু",
+        "correct": false
+      },
+      {
+        "text": "লাইসোজোম",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "উদ্ভিদে সালোকসংশ্লেষ প্রধানত কোথায় ঘটে?",
+    "options": [
+      {
+        "text": "ক্লোরোপ্লাস্টে",
+        "correct": true
+      },
+      {
+        "text": "মাইটোকন্ড্রিয়ায়",
+        "correct": false
+      },
+      {
+        "text": "নিউক্লিয়াসে",
+        "correct": false
+      },
+      {
+        "text": "ভ্যাকুওলে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সালোকসংশ্লেষে উদ্ভিদ কোন গ্যাস গ্রহণ করে?",
+    "options": [
+      {
+        "text": "কার্বন ডাই-অক্সাইড",
+        "correct": true
+      },
+      {
+        "text": "অক্সিজেন",
+        "correct": false
+      },
+      {
+        "text": "নাইট্রোজেন",
+        "correct": false
+      },
+      {
+        "text": "হাইড্রোজেন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ইনসুলিন নিঃসৃত হয় কোন গ্রন্থি থেকে?",
+    "options": [
+      {
+        "text": "অগ্ন্যাশয়",
+        "correct": true
+      },
+      {
+        "text": "থাইরয়েড",
+        "correct": false
+      },
+      {
+        "text": "পিটুইটারি",
+        "correct": false
+      },
+      {
+        "text": "অ্যাড্রিনাল",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "থাইরক্সিন হরমোনে কোন মৌল থাকে?",
+    "options": [
+      {
+        "text": "আয়োডিন",
+        "correct": true
+      },
+      {
+        "text": "লোহা",
+        "correct": false
+      },
+      {
+        "text": "ক্যালসিয়াম",
+        "correct": false
+      },
+      {
+        "text": "সোডিয়াম",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "মানবদেহে রক্ত পরিশোধনে প্রধান ভূমিকা রাখে কোন অঙ্গ?",
+    "options": [
+      {
+        "text": "বৃক্ক",
+        "correct": true
+      },
+      {
+        "text": "ফুসফুস",
+        "correct": false
+      },
+      {
+        "text": "পাকস্থলী",
+        "correct": false
+      },
+      {
+        "text": "অগ্ন্যাশয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "মানবহৃদ্‌পিণ্ডে প্রকোষ্ঠের সংখ্যা কত?",
+    "options": [
+      {
+        "text": "চার",
+        "correct": true
+      },
+      {
+        "text": "দুই",
+        "correct": false
+      },
+      {
+        "text": "তিন",
+        "correct": false
+      },
+      {
+        "text": "পাঁচ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "রক্তে অক্সিজেন পরিবহন করে কোন উপাদান?",
+    "options": [
+      {
+        "text": "হিমোগ্লোবিন",
+        "correct": true
+      },
+      {
+        "text": "ইনসুলিন",
+        "correct": false
+      },
+      {
+        "text": "প্লাজমিন",
+        "correct": false
+      },
+      {
+        "text": "ফাইব্রিন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "স্নায়ুতন্ত্রের গঠনগত ও কার্যগত একক কী?",
+    "options": [
+      {
+        "text": "নিউরন",
+        "correct": true
+      },
+      {
+        "text": "নেফ্রন",
+        "correct": false
+      },
+      {
+        "text": "অ্যালভিওলাস",
+        "correct": false
+      },
+      {
+        "text": "অ্যাক্সন",
+        "correct": false
+      }
+    ]
+  }
+]

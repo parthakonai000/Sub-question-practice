@@ -1,0 +1,2102 @@
+[
+  {
+    "question": "নদীর ক্ষয়কার্যের ফলে সৃষ্ট গভীর ও সংকীর্ণ উপত্যকাকে কী বলে?",
+    "options": [
+      {
+        "text": "গিরিখাত",
+        "correct": true
+      },
+      {
+        "text": "ব-দ্বীপ",
+        "correct": false
+      },
+      {
+        "text": "পলল পাখা",
+        "correct": false
+      },
+      {
+        "text": "বন্যা সমভূমি",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "নদীর নিম্নগতিতে প্রধানত কোন কাজটি বেশি দেখা যায়?",
+    "options": [
+      {
+        "text": "পলি সঞ্চয়",
+        "correct": true
+      },
+      {
+        "text": "উল্লম্ব ক্ষয়",
+        "correct": false
+      },
+      {
+        "text": "হিমবাহ ক্ষয়",
+        "correct": false
+      },
+      {
+        "text": "বায়ু অপসারণ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "নদীর বাঁকের বাইরের পাড়ে প্রধানত কী ঘটে?",
+    "options": [
+      {
+        "text": "পার্শ্বক্ষয়",
+        "correct": true
+      },
+      {
+        "text": "পলি সঞ্চয়",
+        "correct": false
+      },
+      {
+        "text": "জোয়ারভাটা",
+        "correct": false
+      },
+      {
+        "text": "হিমসঞ্চয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "অশ্বক্ষুরাকৃতি হ্রদ সাধারণত কীভাবে সৃষ্টি হয়?",
+    "options": [
+      {
+        "text": "নদীর বাঁক মূল প্রবাহ থেকে বিচ্ছিন্ন হলে",
+        "correct": true
+      },
+      {
+        "text": "হিমবাহ গলে গর্তে জল জমলে",
+        "correct": false
+      },
+      {
+        "text": "সমুদ্রের ঢেউ উপকূল কেটে দিলে",
+        "correct": false
+      },
+      {
+        "text": "আগ্নেয়গিরির জ্বালামুখে জল জমলে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ব-দ্বীপ গঠনের জন্য কোন পরিবেশটি সবচেয়ে অনুকূল?",
+    "options": [
+      {
+        "text": "নদীমোহনায় স্রোতের বেগ কমে পলি জমা",
+        "correct": true
+      },
+      {
+        "text": "নদীর উৎসে প্রবল উল্লম্ব ক্ষয়",
+        "correct": false
+      },
+      {
+        "text": "উচ্চভূমিতে হিমবাহের সঞ্চয়",
+        "correct": false
+      },
+      {
+        "text": "মরুভূমিতে বায়ুর অপসারণ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "হিমবাহের সঞ্চয়কার্যে গঠিত দীর্ঘ, আঁকাবাঁকা নুড়ি-বালির স্তূপকে কী বলে?",
+    "options": [
+      {
+        "text": "এসকার",
+        "correct": true
+      },
+      {
+        "text": "ড্রামলিন",
+        "correct": false
+      },
+      {
+        "text": "সার্ক",
+        "correct": false
+      },
+      {
+        "text": "মোরেন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "হিমবাহের ক্ষয়কার্যে সৃষ্ট বাটি-আকৃতির অববাহিকাকে কী বলে?",
+    "options": [
+      {
+        "text": "সার্ক",
+        "correct": true
+      },
+      {
+        "text": "এসকার",
+        "correct": false
+      },
+      {
+        "text": "ডেল্টা",
+        "correct": false
+      },
+      {
+        "text": "ইয়ারদাং",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "মরু অঞ্চলে বায়ুর অপসারণে সৃষ্ট অবনমিত ভূমিরূপ কোনটি?",
+    "options": [
+      {
+        "text": "ডিফ্লেশন বেসিন",
+        "correct": true
+      },
+      {
+        "text": "বারখান",
+        "correct": false
+      },
+      {
+        "text": "লোয়েস",
+        "correct": false
+      },
+      {
+        "text": "ইয়ারদাং",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "অর্ধচন্দ্রাকার বালিয়াড়িকে কী বলা হয়?",
+    "options": [
+      {
+        "text": "বারখান",
+        "correct": true
+      },
+      {
+        "text": "লোয়েস",
+        "correct": false
+      },
+      {
+        "text": "মোরেন",
+        "correct": false
+      },
+      {
+        "text": "ড্রামলিন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বায়ুর ক্ষয়কার্যে গঠিত লম্বাটে খাঁজকাটা শিলাভূমির নাম কী?",
+    "options": [
+      {
+        "text": "ইয়ারদাং",
+        "correct": true
+      },
+      {
+        "text": "ব-দ্বীপ",
+        "correct": false
+      },
+      {
+        "text": "এসকার",
+        "correct": false
+      },
+      {
+        "text": "বন্যা সমভূমি",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "চুনাপাথর দ্রবীভূত হয়ে গঠিত ভূমিরূপ কোনটি?",
+    "options": [
+      {
+        "text": "কার্স্ট ভূমিরূপ",
+        "correct": true
+      },
+      {
+        "text": "আগ্নেয় শঙ্কু",
+        "correct": false
+      },
+      {
+        "text": "মোরেন",
+        "correct": false
+      },
+      {
+        "text": "বালিয়াড়ি",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "স্ট্যালাকটাইট সাধারণত কোথায় গঠিত হয়?",
+    "options": [
+      {
+        "text": "গুহার ছাদে",
+        "correct": true
+      },
+      {
+        "text": "গুহার মেঝেতে",
+        "correct": false
+      },
+      {
+        "text": "নদীর মোহনায়",
+        "correct": false
+      },
+      {
+        "text": "সমুদ্রতটে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সমুদ্রতরঙ্গের ক্ষয়কার্যে সৃষ্ট খাড়া উপকূলীয় ঢালকে কী বলে?",
+    "options": [
+      {
+        "text": "সী ক্লিফ",
+        "correct": true
+      },
+      {
+        "text": "স্পিট",
+        "correct": false
+      },
+      {
+        "text": "লেগুন",
+        "correct": false
+      },
+      {
+        "text": "ডেল্টা",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ঢেউয়ের সঞ্চয়ে উপকূলের সমান্তরালে গঠিত বালুর বাঁধকে কী বলে?",
+    "options": [
+      {
+        "text": "বার",
+        "correct": true
+      },
+      {
+        "text": "গিরিখাত",
+        "correct": false
+      },
+      {
+        "text": "সার্ক",
+        "correct": false
+      },
+      {
+        "text": "ড্রামলিন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভূপৃষ্ঠের নিচের গলিত শিলাকে কী বলা হয়?",
+    "options": [
+      {
+        "text": "ম্যাগমা",
+        "correct": true
+      },
+      {
+        "text": "লাভা",
+        "correct": false
+      },
+      {
+        "text": "ছাই",
+        "correct": false
+      },
+      {
+        "text": "পিউমিস",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভূমিকম্পের উৎপত্তিস্থলকে কী বলা হয়?",
+    "options": [
+      {
+        "text": "কেন্দ্র",
+        "correct": true
+      },
+      {
+        "text": "উপকেন্দ্র",
+        "correct": false
+      },
+      {
+        "text": "ফল্ট",
+        "correct": false
+      },
+      {
+        "text": "ক্রেটার",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভূমিকম্পের উপকেন্দ্র বলতে কী বোঝায়?",
+    "options": [
+      {
+        "text": "ভূমিকম্পকেন্দ্রের ঠিক উপরের ভূপৃষ্ঠের স্থান",
+        "correct": true
+      },
+      {
+        "text": "ভূমিকম্পের গভীরতম স্থান",
+        "correct": false
+      },
+      {
+        "text": "আগ্নেয়গিরির মুখ",
+        "correct": false
+      },
+      {
+        "text": "দুটি পাতের সীমানা",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আগ্নেয় শিলার একটি উদাহরণ কোনটি?",
+    "options": [
+      {
+        "text": "ব্যাসল্ট",
+        "correct": true
+      },
+      {
+        "text": "চুনাপাথর",
+        "correct": false
+      },
+      {
+        "text": "বেলেপাথর",
+        "correct": false
+      },
+      {
+        "text": "শেল",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পরিবর্তিত শিলার উদাহরণ কোনটি?",
+    "options": [
+      {
+        "text": "মার্বেল",
+        "correct": true
+      },
+      {
+        "text": "গ্রানাইট",
+        "correct": false
+      },
+      {
+        "text": "বেসাল্ট",
+        "correct": false
+      },
+      {
+        "text": "কংগ্লোমেরেট",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "শিলার ভৌত বিচূর্ণীকরণে কোন প্রক্রিয়াটি গুরুত্বপূর্ণ?",
+    "options": [
+      {
+        "text": "তাপমাত্রার ওঠানামা",
+        "correct": true
+      },
+      {
+        "text": "কার্বন সংযোজন",
+        "correct": false
+      },
+      {
+        "text": "বাষ্পীভবন",
+        "correct": false
+      },
+      {
+        "text": "জোয়ার",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বায়ুমণ্ডলের সর্বনিম্ন স্তর কোনটি?",
+    "options": [
+      {
+        "text": "ট্রপোস্ফিয়ার",
+        "correct": true
+      },
+      {
+        "text": "স্ট্র্যাটোস্ফিয়ার",
+        "correct": false
+      },
+      {
+        "text": "মেসোস্ফিয়ার",
+        "correct": false
+      },
+      {
+        "text": "থার্মোস্ফিয়ার",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আবহাওয়ার অধিকাংশ ঘটনা কোন স্তরে ঘটে?",
+    "options": [
+      {
+        "text": "ট্রপোস্ফিয়ার",
+        "correct": true
+      },
+      {
+        "text": "স্ট্র্যাটোস্ফিয়ার",
+        "correct": false
+      },
+      {
+        "text": "মেসোস্ফিয়ার",
+        "correct": false
+      },
+      {
+        "text": "এক্সোস্ফিয়ার",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ওজোন স্তর প্রধানত বায়ুমণ্ডলের কোন স্তরে অবস্থিত?",
+    "options": [
+      {
+        "text": "স্ট্র্যাটোস্ফিয়ার",
+        "correct": true
+      },
+      {
+        "text": "ট্রপোস্ফিয়ার",
+        "correct": false
+      },
+      {
+        "text": "মেসোস্ফিয়ার",
+        "correct": false
+      },
+      {
+        "text": "এক্সোস্ফিয়ার",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বায়ুমণ্ডলে সর্বাধিক পরিমাণে কোন গ্যাস রয়েছে?",
+    "options": [
+      {
+        "text": "নাইট্রোজেন",
+        "correct": true
+      },
+      {
+        "text": "অক্সিজেন",
+        "correct": false
+      },
+      {
+        "text": "আর্গন",
+        "correct": false
+      },
+      {
+        "text": "কার্বন ডাই-অক্সাইড",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বায়ুমণ্ডলের স্বাভাবিক উল্লম্ব তাপমাত্রা হ্রাসের হারকে কী বলে?",
+    "options": [
+      {
+        "text": "স্বাভাবিক তাপহ্রাস হার",
+        "correct": true
+      },
+      {
+        "text": "তাপীয় নিরক্ষরেখা",
+        "correct": false
+      },
+      {
+        "text": "বায়ুচাপ ঢাল",
+        "correct": false
+      },
+      {
+        "text": "আর্দ্রতা",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বায়ুচাপ মাপার যন্ত্র কোনটি?",
+    "options": [
+      {
+        "text": "ব্যারোমিটার",
+        "correct": true
+      },
+      {
+        "text": "অ্যানিমোমিটার",
+        "correct": false
+      },
+      {
+        "text": "হাইগ্রোমিটার",
+        "correct": false
+      },
+      {
+        "text": "রেইনগেজ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বায়ুর গতিবেগ মাপার যন্ত্র কোনটি?",
+    "options": [
+      {
+        "text": "অ্যানিমোমিটার",
+        "correct": true
+      },
+      {
+        "text": "ব্যারোমিটার",
+        "correct": false
+      },
+      {
+        "text": "থার্মোমিটার",
+        "correct": false
+      },
+      {
+        "text": "হাইগ্রোমিটার",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সমচাপরেখাকে কী বলা হয়?",
+    "options": [
+      {
+        "text": "আইসোবার",
+        "correct": true
+      },
+      {
+        "text": "আইসোথার্ম",
+        "correct": false
+      },
+      {
+        "text": "আইসোহাইট",
+        "correct": false
+      },
+      {
+        "text": "আইসোহ্যালাইন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সমতাপরেখাকে কী বলা হয়?",
+    "options": [
+      {
+        "text": "আইসোথার্ম",
+        "correct": true
+      },
+      {
+        "text": "আইসোবার",
+        "correct": false
+      },
+      {
+        "text": "আইসোহাইট",
+        "correct": false
+      },
+      {
+        "text": "আইসোবাথ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "নিরক্ষীয় নিম্নচাপ বলয়কে কোন নামে ডাকা হয়?",
+    "options": [
+      {
+        "text": "ডোলড্রাম",
+        "correct": true
+      },
+      {
+        "text": "অশ্ব অক্ষাংশ",
+        "correct": false
+      },
+      {
+        "text": "মেরু উচ্চচাপ",
+        "correct": false
+      },
+      {
+        "text": "পশ্চিমাবায়ু বলয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "উপক্রান্তীয় উচ্চচাপ বলয় থেকে নিরক্ষীয় নিম্নচাপ বলয়ের দিকে প্রবাহিত বায়ু কোনটি?",
+    "options": [
+      {
+        "text": "আয়ন বায়ু",
+        "correct": true
+      },
+      {
+        "text": "পশ্চিমাবায়ু",
+        "correct": false
+      },
+      {
+        "text": "মেরু পূবালি",
+        "correct": false
+      },
+      {
+        "text": "স্থানীয় বায়ু",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "উত্তর গোলার্ধে আয়ন বায়ু সাধারণত কোন দিক থেকে প্রবাহিত হয়?",
+    "options": [
+      {
+        "text": "উত্তর-পূর্ব",
+        "correct": true
+      },
+      {
+        "text": "দক্ষিণ-পূর্ব",
+        "correct": false
+      },
+      {
+        "text": "দক্ষিণ-পশ্চিম",
+        "correct": false
+      },
+      {
+        "text": "উত্তর-পশ্চিম",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "মৌসুমি বায়ুর প্রধান বৈশিষ্ট্য কী?",
+    "options": [
+      {
+        "text": "ঋতু অনুযায়ী দিক পরিবর্তন",
+        "correct": true
+      },
+      {
+        "text": "সারা বছর একই দিকে প্রবাহ",
+        "correct": false
+      },
+      {
+        "text": "কেবল মেরু অঞ্চলে প্রবাহ",
+        "correct": false
+      },
+      {
+        "text": "কেবল সমুদ্রের উপর সৃষ্টি",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বৃষ্টিচ্ছায় অঞ্চল সাধারণত পর্বতের কোন পাশে থাকে?",
+    "options": [
+      {
+        "text": "বায়ুর বিপরীত পাশে",
+        "correct": true
+      },
+      {
+        "text": "বায়ুমুখী পাশে",
+        "correct": false
+      },
+      {
+        "text": "শিখরে",
+        "correct": false
+      },
+      {
+        "text": "উপকূলে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বজ্রগর্ভ মেঘ থেকে স্বল্প সময়ে প্রবল বৃষ্টিকে কী বলে?",
+    "options": [
+      {
+        "text": "পরিচলন বৃষ্টি",
+        "correct": true
+      },
+      {
+        "text": "শৈলোৎক্ষেপ বৃষ্টি",
+        "correct": false
+      },
+      {
+        "text": "ঘূর্ণবৃষ্টি",
+        "correct": false
+      },
+      {
+        "text": "শিশিরপাত",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আর্দ্র বায়ু পর্বত বেয়ে ওপরে উঠলে যে বৃষ্টি হয় তা কী?",
+    "options": [
+      {
+        "text": "শৈলোৎক্ষেপ বৃষ্টি",
+        "correct": true
+      },
+      {
+        "text": "পরিচলন বৃষ্টি",
+        "correct": false
+      },
+      {
+        "text": "ঘূর্ণবৃষ্টি",
+        "correct": false
+      },
+      {
+        "text": "তুষারপাত",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "জলীয় বাষ্প ঘনীভূত হয়ে ভূপৃষ্ঠের কাছাকাছি ক্ষুদ্র জলকণা তৈরি করলে কী হয়?",
+    "options": [
+      {
+        "text": "কুয়াশা",
+        "correct": true
+      },
+      {
+        "text": "শিলাবৃষ্টি",
+        "correct": false
+      },
+      {
+        "text": "তুষারঝড়",
+        "correct": false
+      },
+      {
+        "text": "বজ্রপাত",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ক্রান্তীয় ঘূর্ণিঝড়ের কেন্দ্রীয় শান্ত অঞ্চলকে কী বলে?",
+    "options": [
+      {
+        "text": "চোখ",
+        "correct": true
+      },
+      {
+        "text": "প্রাচীর মেঘ",
+        "correct": false
+      },
+      {
+        "text": "অগ্রভাগ",
+        "correct": false
+      },
+      {
+        "text": "বায়ুচাপ রেখা",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সমুদ্রের জল নিয়মিত উত্থান-পতনের প্রধান কারণ কী?",
+    "options": [
+      {
+        "text": "চাঁদ ও সূর্যের আকর্ষণ",
+        "correct": true
+      },
+      {
+        "text": "সমুদ্রস্রোতের ঘর্ষণ",
+        "correct": false
+      },
+      {
+        "text": "বৃষ্টিপাত",
+        "correct": false
+      },
+      {
+        "text": "নদীর পলি",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সমুদ্রের জোয়ার-ভাটায় চাঁদের ভূমিকা সূর্যের তুলনায় কেন বেশি?",
+    "options": [
+      {
+        "text": "চাঁদ পৃথিবীর অনেক কাছে",
+        "correct": true
+      },
+      {
+        "text": "চাঁদ সূর্যের চেয়ে বড়",
+        "correct": false
+      },
+      {
+        "text": "চাঁদে আলো নেই",
+        "correct": false
+      },
+      {
+        "text": "সূর্য পৃথিবীকে প্রদক্ষিণ করে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বসন্ত জোয়ার কখন হয়?",
+    "options": [
+      {
+        "text": "সূর্য, চাঁদ ও পৃথিবী প্রায় একই সরলরেখায় থাকলে",
+        "correct": true
+      },
+      {
+        "text": "সূর্য ও চাঁদ সমকোণে থাকলে",
+        "correct": false
+      },
+      {
+        "text": "পূর্ণিমা ছাড়া প্রতিদিন",
+        "correct": false
+      },
+      {
+        "text": "চাঁদ দিগন্তের নিচে থাকলে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পৃথিবীর বৃহত্তম মহাসাগর কোনটি?",
+    "options": [
+      {
+        "text": "প্রশান্ত মহাসাগর",
+        "correct": true
+      },
+      {
+        "text": "আটলান্টিক মহাসাগর",
+        "correct": false
+      },
+      {
+        "text": "ভারত মহাসাগর",
+        "correct": false
+      },
+      {
+        "text": "দক্ষিণ মহাসাগর",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সমুদ্রের গভীরতা নির্দেশক রেখাকে কী বলে?",
+    "options": [
+      {
+        "text": "আইসোবাথ",
+        "correct": true
+      },
+      {
+        "text": "আইসোবার",
+        "correct": false
+      },
+      {
+        "text": "আইসোথার্ম",
+        "correct": false
+      },
+      {
+        "text": "আইসোহাইট",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "উষ্ণ সমুদ্রস্রোত সাধারণত উপকূলের জলবায়ুতে কী প্রভাব ফেলে?",
+    "options": [
+      {
+        "text": "উষ্ণতা ও আর্দ্রতা বাড়ায়",
+        "correct": true
+      },
+      {
+        "text": "তাপমাত্রা সর্বদা কমায়",
+        "correct": false
+      },
+      {
+        "text": "বৃষ্টিপাত সম্পূর্ণ বন্ধ করে",
+        "correct": false
+      },
+      {
+        "text": "লবণাক্ততা শূন্য করে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ঠান্ডা সমুদ্রস্রোতের প্রভাবে উপকূলীয় অঞ্চলে সাধারণত কী দেখা যায়?",
+    "options": [
+      {
+        "text": "তাপমাত্রা হ্রাস",
+        "correct": true
+      },
+      {
+        "text": "তাপমাত্রা সর্বদা বৃদ্ধি",
+        "correct": false
+      },
+      {
+        "text": "জোয়ার বন্ধ",
+        "correct": false
+      },
+      {
+        "text": "নদীর প্রবাহ উল্টো",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "নদীর জল সমুদ্রে মেশার মুখকে কী বলা হয়?",
+    "options": [
+      {
+        "text": "মোহনা",
+        "correct": true
+      },
+      {
+        "text": "জলবিভাজিকা",
+        "correct": false
+      },
+      {
+        "text": "উপনদী",
+        "correct": false
+      },
+      {
+        "text": "উৎস",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "নদীর জলবিভাজিকা বলতে কী বোঝায়?",
+    "options": [
+      {
+        "text": "দুটি নদী অববাহিকার সীমানা নির্দেশকারী উচ্চভূমি",
+        "correct": true
+      },
+      {
+        "text": "নদীর গভীরতম স্থান",
+        "correct": false
+      },
+      {
+        "text": "নদীর মোহনায় পলি জমা",
+        "correct": false
+      },
+      {
+        "text": "নদীর বাঁকের বাইরের পাড়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বৃষ্টির জল মাটির মধ্যে প্রবেশ করার প্রক্রিয়াকে কী বলে?",
+    "options": [
+      {
+        "text": "অনুপ্রবেশ",
+        "correct": true
+      },
+      {
+        "text": "বাষ্পীভবন",
+        "correct": false
+      },
+      {
+        "text": "ঘনীভবন",
+        "correct": false
+      },
+      {
+        "text": "প্রবাহ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "জলচক্রে বাষ্পীভবনের প্রধান শক্তির উৎস কী?",
+    "options": [
+      {
+        "text": "সূর্যতাপ",
+        "correct": true
+      },
+      {
+        "text": "জোয়ার",
+        "correct": false
+      },
+      {
+        "text": "ভূমিকম্প",
+        "correct": false
+      },
+      {
+        "text": "বায়ুচাপ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "নদী অববাহিকা বলতে কী বোঝায়?",
+    "options": [
+      {
+        "text": "নদী ও তার উপনদী দ্বারা নিষ্কাশিত সমগ্র অঞ্চল",
+        "correct": true
+      },
+      {
+        "text": "শুধু নদীর মোহনা",
+        "correct": false
+      },
+      {
+        "text": "নদীর দুপাশের বন্যা বাঁধ",
+        "correct": false
+      },
+      {
+        "text": "সমুদ্রতলের গর্ত",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতের উত্তর সীমান্তে বিস্তৃত নবীন ভঙ্গিল পর্বতমালা কোনটি?",
+    "options": [
+      {
+        "text": "হিমালয়",
+        "correct": true
+      },
+      {
+        "text": "আরাবল্লী",
+        "correct": false
+      },
+      {
+        "text": "পশ্চিমঘাট",
+        "correct": false
+      },
+      {
+        "text": "বিন্ধ্য",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "হিমালয়ের সর্বদক্ষিণের পর্বতশ্রেণি কোনটি?",
+    "options": [
+      {
+        "text": "শিবালিক",
+        "correct": true
+      },
+      {
+        "text": "হিমাদ্রি",
+        "correct": false
+      },
+      {
+        "text": "হিমাচল",
+        "correct": false
+      },
+      {
+        "text": "কারাকোরাম",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "হিমালয়ের সর্বোচ্চ ও উত্তরতম প্রধান শ্রেণির নাম কী?",
+    "options": [
+      {
+        "text": "হিমাদ্রি",
+        "correct": true
+      },
+      {
+        "text": "শিবালিক",
+        "correct": false
+      },
+      {
+        "text": "হিমাচল",
+        "correct": false
+      },
+      {
+        "text": "পূর্বঘাট",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতের প্রাচীন স্থিতিশীল ভূখণ্ডের প্রধান অংশ কোনটি?",
+    "options": [
+      {
+        "text": "উপদ্বীপীয় মালভূমি",
+        "correct": true
+      },
+      {
+        "text": "গঙ্গা সমভূমি",
+        "correct": false
+      },
+      {
+        "text": "উপকূলীয় সমভূমি",
+        "correct": false
+      },
+      {
+        "text": "হিমালয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "উত্তর ভারতের বিস্তৃত সমভূমি প্রধানত কীসের সঞ্চয়ে গঠিত?",
+    "options": [
+      {
+        "text": "নদীবাহিত পলি",
+        "correct": true
+      },
+      {
+        "text": "আগ্নেয় লাভা",
+        "correct": false
+      },
+      {
+        "text": "হিমবাহের বরফ",
+        "correct": false
+      },
+      {
+        "text": "বায়ুবাহিত লবণ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতের পশ্চিমে অবস্থিত মরুভূমির নাম কী?",
+    "options": [
+      {
+        "text": "থর মরুভূমি",
+        "correct": true
+      },
+      {
+        "text": "সাহারা",
+        "correct": false
+      },
+      {
+        "text": "গোবি",
+        "correct": false
+      },
+      {
+        "text": "কালাহারি",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতের পশ্চিমঘাট পর্বতশ্রেণি কোন উপকূলের সমান্তরালে অবস্থিত?",
+    "options": [
+      {
+        "text": "পশ্চিম উপকূল",
+        "correct": true
+      },
+      {
+        "text": "পূর্ব উপকূল",
+        "correct": false
+      },
+      {
+        "text": "উত্তর উপকূল",
+        "correct": false
+      },
+      {
+        "text": "গঙ্গা সমভূমি",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "দাক্ষিণাত্য মালভূমির সাধারণ ঢাল কোন দিকে?",
+    "options": [
+      {
+        "text": "পূর্ব দিকে",
+        "correct": true
+      },
+      {
+        "text": "পশ্চিম দিকে",
+        "correct": false
+      },
+      {
+        "text": "উত্তর দিকে",
+        "correct": false
+      },
+      {
+        "text": "দক্ষিণ-পশ্চিম দিকে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতের দীর্ঘতম নদী কোনটি?",
+    "options": [
+      {
+        "text": "গঙ্গা",
+        "correct": true
+      },
+      {
+        "text": "গোদাবরী",
+        "correct": false
+      },
+      {
+        "text": "কৃষ্ণা",
+        "correct": false
+      },
+      {
+        "text": "নর্মদা",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "গোদাবরী নদীকে প্রায়শই কী নামে অভিহিত করা হয়?",
+    "options": [
+      {
+        "text": "দক্ষিণ গঙ্গা",
+        "correct": true
+      },
+      {
+        "text": "বিহারের দুঃখ",
+        "correct": false
+      },
+      {
+        "text": "বাংলার দুঃখ",
+        "correct": false
+      },
+      {
+        "text": "পাঞ্জাবের জীবনরেখা",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "নর্মদা নদী কোন সাগরে পতিত হয়েছে?",
+    "options": [
+      {
+        "text": "আরব সাগর",
+        "correct": true
+      },
+      {
+        "text": "বঙ্গোপসাগর",
+        "correct": false
+      },
+      {
+        "text": "লাক্ষাদ্বীপ সাগর",
+        "correct": false
+      },
+      {
+        "text": "কাস্পিয়ান সাগর",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "গঙ্গা-ব্রহ্মপুত্রের মিলিত বদ্বীপ কোন নামে পরিচিত?",
+    "options": [
+      {
+        "text": "সুন্দরবন বদ্বীপ",
+        "correct": true
+      },
+      {
+        "text": "কচ্ছ বদ্বীপ",
+        "correct": false
+      },
+      {
+        "text": "কাবেরী বদ্বীপ",
+        "correct": false
+      },
+      {
+        "text": "মহানদী বদ্বীপ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতের সর্বাধিক বৃষ্টিপাতপ্রবণ মৌসুমি ঋতু কোনটি?",
+    "options": [
+      {
+        "text": "দক্ষিণ-পশ্চিম মৌসুমি ঋতু",
+        "correct": true
+      },
+      {
+        "text": "শীতকাল",
+        "correct": false
+      },
+      {
+        "text": "গ্রীষ্মকাল",
+        "correct": false
+      },
+      {
+        "text": "প্রত্যাবর্তী মৌসুমি ঋতু",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "দক্ষিণ-পশ্চিম মৌসুমি বায়ু ভারতে প্রথম কোন উপকূলে প্রবেশ করে?",
+    "options": [
+      {
+        "text": "কেরালা উপকূল",
+        "correct": true
+      },
+      {
+        "text": "গুজরাট উপকূল",
+        "correct": false
+      },
+      {
+        "text": "বঙ্গ উপকূল",
+        "correct": false
+      },
+      {
+        "text": "ওড়িশা উপকূল",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "উত্তর-পশ্চিম ভারতে শীতকালে বৃষ্টির একটি প্রধান কারণ কী?",
+    "options": [
+      {
+        "text": "পশ্চিমী ঝঞ্ঝা",
+        "correct": true
+      },
+      {
+        "text": "দক্ষিণ-পশ্চিম মৌসুমি বায়ু",
+        "correct": false
+      },
+      {
+        "text": "স্থানীয় লু",
+        "correct": false
+      },
+      {
+        "text": "সমুদ্রবায়ু",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতের অধিকাংশ অঞ্চলে শীতকাল কোন মাসগুলিতে পড়ে?",
+    "options": [
+      {
+        "text": "ডিসেম্বর থেকে ফেব্রুয়ারি",
+        "correct": true
+      },
+      {
+        "text": "মার্চ থেকে মে",
+        "correct": false
+      },
+      {
+        "text": "জুন থেকে সেপ্টেম্বর",
+        "correct": false
+      },
+      {
+        "text": "অক্টোবর থেকে নভেম্বর",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতের কৃষিতে মৌসুমি বৃষ্টির গুরুত্বের প্রধান কারণ কী?",
+    "options": [
+      {
+        "text": "কৃষির বড় অংশ বৃষ্টিনির্ভর",
+        "correct": true
+      },
+      {
+        "text": "সব জমি সারা বছর সেচ পায়",
+        "correct": false
+      },
+      {
+        "text": "বৃষ্টি শুধু শহরে হয়",
+        "correct": false
+      },
+      {
+        "text": "বৃষ্টিতে মাটির উর্বরতা নষ্ট হয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "কালো মাটি কোন ফসলের জন্য বিশেষ উপযোগী?",
+    "options": [
+      {
+        "text": "কার্পাস",
+        "correct": true
+      },
+      {
+        "text": "চা",
+        "correct": false
+      },
+      {
+        "text": "পাট",
+        "correct": false
+      },
+      {
+        "text": "রাবার",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পলিমাটি সাধারণত কোথায় বেশি বিস্তৃত?",
+    "options": [
+      {
+        "text": "উত্তর ভারতের নদী সমভূমিতে",
+        "correct": true
+      },
+      {
+        "text": "দাক্ষিণাত্য মালভূমির শীর্ষে",
+        "correct": false
+      },
+      {
+        "text": "থর মরুভূমির বালিয়াড়িতে",
+        "correct": false
+      },
+      {
+        "text": "হিমালয়ের তুষারশৃঙ্গে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "লাল মাটির লালচে রঙের কারণ কী?",
+    "options": [
+      {
+        "text": "লোহা অক্সাইড",
+        "correct": true
+      },
+      {
+        "text": "হিউমাস",
+        "correct": false
+      },
+      {
+        "text": "চুনাপাথর",
+        "correct": false
+      },
+      {
+        "text": "লবণ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "চা চাষের জন্য কোন পরিবেশটি বেশি উপযোগী?",
+    "options": [
+      {
+        "text": "উষ্ণ-আর্দ্র জলবায়ু ও ঢালু জমি",
+        "correct": true
+      },
+      {
+        "text": "শুষ্ক মরুভূমি ও লবণাক্ত মাটি",
+        "correct": false
+      },
+      {
+        "text": "অতিশীতল তুষারভূমি",
+        "correct": false
+      },
+      {
+        "text": "সমতল বালুকাময় উপকূল",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পাট চাষের জন্য কোন পরিবেশটি উপযোগী?",
+    "options": [
+      {
+        "text": "উষ্ণ আর্দ্র জলবায়ু ও পলিমাটি",
+        "correct": true
+      },
+      {
+        "text": "শীতল শুষ্ক জলবায়ু",
+        "correct": false
+      },
+      {
+        "text": "কালো মাটি ও অল্প বৃষ্টি",
+        "correct": false
+      },
+      {
+        "text": "পাহাড়ি তুষারভূমি",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ধান চাষে সাধারণত কোন শর্তটি বিশেষ গুরুত্বপূর্ণ?",
+    "options": [
+      {
+        "text": "উচ্চ তাপমাত্রা ও পর্যাপ্ত জল",
+        "correct": true
+      },
+      {
+        "text": "কম তাপমাত্রা ও শুষ্কতা",
+        "correct": false
+      },
+      {
+        "text": "চুনাপাথরের শুষ্ক ঢাল",
+        "correct": false
+      },
+      {
+        "text": "সারা বছর তুষারপাত",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতের একটি প্রধান লৌহ আকরিক উৎপাদক রাজ্য কোনটি?",
+    "options": [
+      {
+        "text": "ওড়িশা",
+        "correct": true
+      },
+      {
+        "text": "পাঞ্জাব",
+        "correct": false
+      },
+      {
+        "text": "হরিয়ানা",
+        "correct": false
+      },
+      {
+        "text": "গোয়া",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ঝাড়খণ্ডের ঝরিয়া অঞ্চল কোন খনিজের জন্য বিখ্যাত?",
+    "options": [
+      {
+        "text": "কয়লা",
+        "correct": true
+      },
+      {
+        "text": "পেট্রোলিয়াম",
+        "correct": false
+      },
+      {
+        "text": "বক্সাইট",
+        "correct": false
+      },
+      {
+        "text": "ম্যাঙ্গানিজ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতে পেট্রোলিয়াম উৎপাদনের একটি গুরুত্বপূর্ণ ক্ষেত্র কোনটি?",
+    "options": [
+      {
+        "text": "মুম্বই হাই",
+        "correct": true
+      },
+      {
+        "text": "রানিগঞ্জ",
+        "correct": false
+      },
+      {
+        "text": "সিংভূম",
+        "correct": false
+      },
+      {
+        "text": "কোরাপুট",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "জলবিদ্যুৎ উৎপাদনের জন্য কোন সম্পদটি সরাসরি ব্যবহৃত হয়?",
+    "options": [
+      {
+        "text": "প্রবহমান বা সঞ্চিত জল",
+        "correct": true
+      },
+      {
+        "text": "কয়লার ধোঁয়া",
+        "correct": false
+      },
+      {
+        "text": "বক্সাইট আকরিক",
+        "correct": false
+      },
+      {
+        "text": "বায়ুমণ্ডলীয় নাইট্রোজেন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতের তুলা বস্ত্রশিল্পের প্রাচীন কেন্দ্র কোনটি?",
+    "options": [
+      {
+        "text": "মুম্বই",
+        "correct": true
+      },
+      {
+        "text": "দুর্গাপুর",
+        "correct": false
+      },
+      {
+        "text": "রাউরকেলা",
+        "correct": false
+      },
+      {
+        "text": "ভিলাই",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "জুট শিল্পের প্রধান কাঁচামাল কোনটি?",
+    "options": [
+      {
+        "text": "পাট",
+        "correct": true
+      },
+      {
+        "text": "তুলা",
+        "correct": false
+      },
+      {
+        "text": "আখ",
+        "correct": false
+      },
+      {
+        "text": "রেশম",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "লোহা-ইস্পাত শিল্পের জন্য অপরিহার্য প্রধান কাঁচামাল কোন জোড়াটি?",
+    "options": [
+      {
+        "text": "লোহা আকরিক ও কয়লা",
+        "correct": true
+      },
+      {
+        "text": "চা ও পাট",
+        "correct": false
+      },
+      {
+        "text": "চুনাপাথর ও তুলা",
+        "correct": false
+      },
+      {
+        "text": "মাইকা ও লবণ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতের একটি প্রধান তথ্যপ্রযুক্তি শিল্পকেন্দ্র কোনটি?",
+    "options": [
+      {
+        "text": "বেঙ্গালুরু",
+        "correct": true
+      },
+      {
+        "text": "কানপুর",
+        "correct": false
+      },
+      {
+        "text": "কোচি",
+        "correct": false
+      },
+      {
+        "text": "শিলিগুড়ি",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "দামোদর উপত্যকা অঞ্চল কোন সম্পদের জন্য বিশেষভাবে পরিচিত?",
+    "options": [
+      {
+        "text": "কয়লা",
+        "correct": true
+      },
+      {
+        "text": "পেট্রোলিয়াম",
+        "correct": false
+      },
+      {
+        "text": "চা",
+        "correct": false
+      },
+      {
+        "text": "লবণ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পশ্চিমবঙ্গের সর্বোচ্চ শৃঙ্গ সান্দাকফু কোন পর্বতাঞ্চলে অবস্থিত?",
+    "options": [
+      {
+        "text": "সিঙ্গালিলা পর্বতশ্রেণি",
+        "correct": true
+      },
+      {
+        "text": "রাজমহল পাহাড়",
+        "correct": false
+      },
+      {
+        "text": "অযোধ্যা পাহাড়",
+        "correct": false
+      },
+      {
+        "text": "দার্জিলিং হিমালয়ের পূর্বাংশ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পশ্চিমবঙ্গের উত্তরের পার্বত্য অঞ্চলের প্রধান নদী কোনটি?",
+    "options": [
+      {
+        "text": "তিস্তা",
+        "correct": true
+      },
+      {
+        "text": "দামোদর",
+        "correct": false
+      },
+      {
+        "text": "রূপনারায়ণ",
+        "correct": false
+      },
+      {
+        "text": "কংসাবতী",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "উত্তরবঙ্গের তরাই অঞ্চল সাধারণত কী ধরনের ভূমি?",
+    "options": [
+      {
+        "text": "হিমালয়ের পাদদেশের স্যাঁতসেঁতে সমভূমি",
+        "correct": true
+      },
+      {
+        "text": "উপকূলীয় বালিয়াড়ি",
+        "correct": false
+      },
+      {
+        "text": "শুষ্ক লাভা মালভূমি",
+        "correct": false
+      },
+      {
+        "text": "বদ্বীপের জোয়ারভাটা অঞ্চল",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পশ্চিমবঙ্গের রাঢ় অঞ্চলের ভূপ্রকৃতি কেমন?",
+    "options": [
+      {
+        "text": "ঢেউখেলানো ল্যাটেরাইট উচ্চভূমি",
+        "correct": true
+      },
+      {
+        "text": "জোয়ারভাটার কাদাময় সমভূমি",
+        "correct": false
+      },
+      {
+        "text": "তুষারাবৃত পর্বত",
+        "correct": false
+      },
+      {
+        "text": "প্রবাল দ্বীপ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পশ্চিমবঙ্গের বৃহত্তম বদ্বীপীয় অঞ্চল কোনটি?",
+    "options": [
+      {
+        "text": "দক্ষিণবঙ্গের গঙ্গা-ব্রহ্মপুত্র বদ্বীপ",
+        "correct": true
+      },
+      {
+        "text": "দার্জিলিং পার্বত্য অঞ্চল",
+        "correct": false
+      },
+      {
+        "text": "পুরুলিয়ার মালভূমি",
+        "correct": false
+      },
+      {
+        "text": "তরাই অঞ্চল",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সুন্দরবনের প্রাকৃতিক উদ্ভিদের প্রধান বৈশিষ্ট্য কী?",
+    "options": [
+      {
+        "text": "ম্যানগ্রোভ অরণ্য",
+        "correct": true
+      },
+      {
+        "text": "শঙ্কুযুক্ত অরণ্য",
+        "correct": false
+      },
+      {
+        "text": "আল্পীয় তৃণভূমি",
+        "correct": false
+      },
+      {
+        "text": "কাঁটাঝোপ মরু অরণ্য",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "দামোদর নদী কোন নদীপ্রণালীর অংশ?",
+    "options": [
+      {
+        "text": "গঙ্গা নদীপ্রণালী",
+        "correct": true
+      },
+      {
+        "text": "ব্রহ্মপুত্র নদীপ্রণালী",
+        "correct": false
+      },
+      {
+        "text": "নর্মদা নদীপ্রণালী",
+        "correct": false
+      },
+      {
+        "text": "মহানদী নদীপ্রণালী",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "দামোদর উপত্যকার কয়লা ও শিল্পকেন্দ্রগুলোর একটি গুরুত্বপূর্ণ শহর কোনটি?",
+    "options": [
+      {
+        "text": "দুর্গাপুর",
+        "correct": true
+      },
+      {
+        "text": "দার্জিলিং",
+        "correct": false
+      },
+      {
+        "text": "কৃষ্ণনগর",
+        "correct": false
+      },
+      {
+        "text": "কোচবিহার",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পশ্চিমবঙ্গের প্রধান সমুদ্রবন্দর কোনটি?",
+    "options": [
+      {
+        "text": "কলকাতা-হলদিয়া বন্দর ব্যবস্থা",
+        "correct": true
+      },
+      {
+        "text": "দিঘা বন্দর",
+        "correct": false
+      },
+      {
+        "text": "ফ্রেজারগঞ্জ বন্দর",
+        "correct": false
+      },
+      {
+        "text": "তাজপুর বন্দর",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "এশিয়ার বৃহত্তম উপদ্বীপ কোনটি?",
+    "options": [
+      {
+        "text": "আরব উপদ্বীপ",
+        "correct": true
+      },
+      {
+        "text": "কোরীয় উপদ্বীপ",
+        "correct": false
+      },
+      {
+        "text": "মালয় উপদ্বীপ",
+        "correct": false
+      },
+      {
+        "text": "কামচাটকা উপদ্বীপ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "এশিয়ার সর্বোচ্চ পর্বতশৃঙ্গ কোনটি?",
+    "options": [
+      {
+        "text": "মাউন্ট এভারেস্ট",
+        "correct": true
+      },
+      {
+        "text": "কে২",
+        "correct": false
+      },
+      {
+        "text": "কাঞ্চনজঙ্ঘা",
+        "correct": false
+      },
+      {
+        "text": "লোৎসে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "এশিয়ার বৃহত্তম অভ্যন্তরীণ জলাশয় কোনটি?",
+    "options": [
+      {
+        "text": "কাস্পিয়ান সাগর",
+        "correct": true
+      },
+      {
+        "text": "বৈকাল হ্রদ",
+        "correct": false
+      },
+      {
+        "text": "আরব সাগর",
+        "correct": false
+      },
+      {
+        "text": "মৃত সাগর",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সাইবেরিয়া এশিয়ার কোন অংশে অবস্থিত?",
+    "options": [
+      {
+        "text": "উত্তর এশিয়া",
+        "correct": true
+      },
+      {
+        "text": "দক্ষিণ এশিয়া",
+        "correct": false
+      },
+      {
+        "text": "দক্ষিণ-পূর্ব এশিয়া",
+        "correct": false
+      },
+      {
+        "text": "পশ্চিম এশিয়া",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "এশিয়ার একটি প্রধান নদী যা চীনের মধ্য দিয়ে প্রবাহিত হয় কোনটি?",
+    "options": [
+      {
+        "text": "ইয়াংসি কিয়াং",
+        "correct": true
+      },
+      {
+        "text": "রাইন",
+        "correct": false
+      },
+      {
+        "text": "ডানিউব",
+        "correct": false
+      },
+      {
+        "text": "আমাজন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "জাপান কোন মহাদেশীয় প্রান্তে অবস্থিত দ্বীপরাষ্ট্র?",
+    "options": [
+      {
+        "text": "এশিয়া",
+        "correct": true
+      },
+      {
+        "text": "ইউরোপ",
+        "correct": false
+      },
+      {
+        "text": "আফ্রিকা",
+        "correct": false
+      },
+      {
+        "text": "দক্ষিণ আমেরিকা",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ব্রহ্মপুত্র নদী ভারতে প্রবেশের পর কোন নামে পরিচিত?",
+    "options": [
+      {
+        "text": "দিহং",
+        "correct": true
+      },
+      {
+        "text": "যমুনা",
+        "correct": false
+      },
+      {
+        "text": "তিস্তা",
+        "correct": false
+      },
+      {
+        "text": "কোসি",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পূর্ব ভারতের একটি প্রধান কয়লাখনি অঞ্চল কোনটি?",
+    "options": [
+      {
+        "text": "রানিগঞ্জ",
+        "correct": true
+      },
+      {
+        "text": "কোলার",
+        "correct": false
+      },
+      {
+        "text": "নেইভেলি",
+        "correct": false
+      },
+      {
+        "text": "জাদুগুড়া",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "চিলিকা হ্রদ ভারতের কোন রাজ্যে অবস্থিত?",
+    "options": [
+      {
+        "text": "ওড়িশা",
+        "correct": true
+      },
+      {
+        "text": "গুজরাট",
+        "correct": false
+      },
+      {
+        "text": "কেরালা",
+        "correct": false
+      },
+      {
+        "text": "পশ্চিমবঙ্গ",
+        "correct": false
+      }
+    ]
+  }
+]

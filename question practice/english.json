@@ -1,0 +1,2102 @@
+[
+  {
+    "question": "Who is the central schoolboy in ‘Father’s Help’?",
+    "options": [
+      {
+        "text": "Swaminathan",
+        "correct": true
+      },
+      {
+        "text": "Mani",
+        "correct": false
+      },
+      {
+        "text": "Rajam",
+        "correct": false
+      },
+      {
+        "text": "Somu",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who wrote ‘Father’s Help’?",
+    "options": [
+      {
+        "text": "R. K. Narayan",
+        "correct": true
+      },
+      {
+        "text": "Nayantara Sehgal",
+        "correct": false
+      },
+      {
+        "text": "Lucy Maud Montgomery",
+        "correct": false
+      },
+      {
+        "text": "Ralph Waldo Emerson",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "On which day does Swami dread going to school?",
+    "options": [
+      {
+        "text": "Monday",
+        "correct": true
+      },
+      {
+        "text": "Tuesday",
+        "correct": false
+      },
+      {
+        "text": "Friday",
+        "correct": false
+      },
+      {
+        "text": "Sunday",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What excuse does Swami first give for staying home?",
+    "options": [
+      {
+        "text": "A headache",
+        "correct": true
+      },
+      {
+        "text": "A toothache",
+        "correct": false
+      },
+      {
+        "text": "A fever",
+        "correct": false
+      },
+      {
+        "text": "A sprained ankle",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Where is Swami lying when he should be in the prayer hall?",
+    "options": [
+      {
+        "text": "On a bench in his mother’s room",
+        "correct": true
+      },
+      {
+        "text": "On the classroom floor",
+        "correct": false
+      },
+      {
+        "text": "On a bench in the prayer hall",
+        "correct": false
+      },
+      {
+        "text": "On the verandah",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who orders Swami to dress and go to school?",
+    "options": [
+      {
+        "text": "His father",
+        "correct": true
+      },
+      {
+        "text": "His mother",
+        "correct": false
+      },
+      {
+        "text": "His grandmother",
+        "correct": false
+      },
+      {
+        "text": "His headmaster",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the name of Swami’s teacher?",
+    "options": [
+      {
+        "text": "Samuel",
+        "correct": true
+      },
+      {
+        "text": "Rajam",
+        "correct": false
+      },
+      {
+        "text": "Somu",
+        "correct": false
+      },
+      {
+        "text": "Sankar",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "According to Swami, Samuel is especially angry with boys who are what?",
+    "options": [
+      {
+        "text": "Late",
+        "correct": true
+      },
+      {
+        "text": "Absent",
+        "correct": false
+      },
+      {
+        "text": "Quiet",
+        "correct": false
+      },
+      {
+        "text": "Well-prepared",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does Swami fear Samuel will do if he arrives late?",
+    "options": [
+      {
+        "text": "Scold him",
+        "correct": true
+      },
+      {
+        "text": "Send him home",
+        "correct": false
+      },
+      {
+        "text": "Give him a prize",
+        "correct": false
+      },
+      {
+        "text": "Ask him to lead the prayer",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘Father’s Help’ is an edited excerpt from which work?",
+    "options": [
+      {
+        "text": "Malgudi Days",
+        "correct": true
+      },
+      {
+        "text": "The Guide",
+        "correct": false
+      },
+      {
+        "text": "Swami and Friends",
+        "correct": false
+      },
+      {
+        "text": "The English Teacher",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is the poet of ‘Fable’?",
+    "options": [
+      {
+        "text": "Ralph Waldo Emerson",
+        "correct": true
+      },
+      {
+        "text": "Ted Hughes",
+        "correct": false
+      },
+      {
+        "text": "John Masefield",
+        "correct": false
+      },
+      {
+        "text": "William Cowper",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which two characters converse in Emerson’s ‘Fable’?",
+    "options": [
+      {
+        "text": "The mountain and the squirrel",
+        "correct": true
+      },
+      {
+        "text": "The lion and the mouse",
+        "correct": false
+      },
+      {
+        "text": "The fox and the crow",
+        "correct": false
+      },
+      {
+        "text": "The dog and the cat",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the squirrel’s name in ‘Fable’?",
+    "options": [
+      {
+        "text": "Bun",
+        "correct": true
+      },
+      {
+        "text": "Chatterer",
+        "correct": false
+      },
+      {
+        "text": "Nutkin",
+        "correct": false
+      },
+      {
+        "text": "Skip",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the mountain call the squirrel?",
+    "options": [
+      {
+        "text": "Little prig",
+        "correct": true
+      },
+      {
+        "text": "Brave sailor",
+        "correct": false
+      },
+      {
+        "text": "Wise king",
+        "correct": false
+      },
+      {
+        "text": "Merry wanderer",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the squirrel say it can do that the mountain cannot?",
+    "options": [
+      {
+        "text": "Crack a nut",
+        "correct": true
+      },
+      {
+        "text": "Carry a forest",
+        "correct": false
+      },
+      {
+        "text": "Make a river",
+        "correct": false
+      },
+      {
+        "text": "Grow taller",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "According to the squirrel, what is not a disgrace?",
+    "options": [
+      {
+        "text": "Being small",
+        "correct": true
+      },
+      {
+        "text": "Being active",
+        "correct": false
+      },
+      {
+        "text": "Being quick",
+        "correct": false
+      },
+      {
+        "text": "Living in the woods",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What makes up a year and a sphere, according to the squirrel?",
+    "options": [
+      {
+        "text": "All sorts of things",
+        "correct": true
+      },
+      {
+        "text": "Only mountains",
+        "correct": false
+      },
+      {
+        "text": "Only squirrels",
+        "correct": false
+      },
+      {
+        "text": "A single season",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the squirrel admit about the mountain?",
+    "options": [
+      {
+        "text": "It is very big",
+        "correct": true
+      },
+      {
+        "text": "It can crack nuts",
+        "correct": false
+      },
+      {
+        "text": "It can run fast",
+        "correct": false
+      },
+      {
+        "text": "It lives in a tree",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the central idea of ‘Fable’?",
+    "options": [
+      {
+        "text": "Different beings have different strengths and roles",
+        "correct": true
+      },
+      {
+        "text": "Small creatures should avoid mountains",
+        "correct": false
+      },
+      {
+        "text": "Size alone decides a creature’s worth",
+        "correct": false
+      },
+      {
+        "text": "Nature should be controlled by humans",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which quality does the squirrel claim for itself?",
+    "options": [
+      {
+        "text": "Agility",
+        "correct": true
+      },
+      {
+        "text": "Great height",
+        "correct": false
+      },
+      {
+        "text": "Heavy strength",
+        "correct": false
+      },
+      {
+        "text": "Stillness",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who wrote ‘The Passing Away of Bapu’?",
+    "options": [
+      {
+        "text": "Nayantara Sehgal",
+        "correct": true
+      },
+      {
+        "text": "R. K. Narayan",
+        "correct": false
+      },
+      {
+        "text": "Lucy Maud Montgomery",
+        "correct": false
+      },
+      {
+        "text": "Mathilde Blind",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is referred to as ‘Bapu’ in the lesson?",
+    "options": [
+      {
+        "text": "Mahatma Gandhi",
+        "correct": true
+      },
+      {
+        "text": "Jawaharlal Nehru",
+        "correct": false
+      },
+      {
+        "text": "Rabindranath Tagore",
+        "correct": false
+      },
+      {
+        "text": "Subhas Chandra Bose",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What event does the prose piece describe?",
+    "options": [
+      {
+        "text": "The death and funeral of Gandhi",
+        "correct": true
+      },
+      {
+        "text": "Gandhi’s first journey abroad",
+        "correct": false
+      },
+      {
+        "text": "The Dandi March",
+        "correct": false
+      },
+      {
+        "text": "The opening of a school",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Where was Gandhi when he was shot?",
+    "options": [
+      {
+        "text": "At Birla House in New Delhi",
+        "correct": true
+      },
+      {
+        "text": "At Sabarmati Ashram",
+        "correct": false
+      },
+      {
+        "text": "At the Red Fort",
+        "correct": false
+      },
+      {
+        "text": "At Sevagram railway station",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In which year did Gandhi die?",
+    "options": [
+      {
+        "text": "1948",
+        "correct": true
+      },
+      {
+        "text": "1947",
+        "correct": false
+      },
+      {
+        "text": "1930",
+        "correct": false
+      },
+      {
+        "text": "1950",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "On what date was Gandhi assassinated?",
+    "options": [
+      {
+        "text": "30 January 1948",
+        "correct": true
+      },
+      {
+        "text": "15 August 1947",
+        "correct": false
+      },
+      {
+        "text": "2 October 1948",
+        "correct": false
+      },
+      {
+        "text": "26 January 1950",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What feeling pervades the account after Gandhi’s death?",
+    "options": [
+      {
+        "text": "Grief and disbelief",
+        "correct": true
+      },
+      {
+        "text": "Amusement",
+        "correct": false
+      },
+      {
+        "text": "Excitement",
+        "correct": false
+      },
+      {
+        "text": "Indifference",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What did the vast gathering do during Gandhi’s funeral procession?",
+    "options": [
+      {
+        "text": "Followed the procession",
+        "correct": true
+      },
+      {
+        "text": "Left the city",
+        "correct": false
+      },
+      {
+        "text": "Prepared for a festival",
+        "correct": false
+      },
+      {
+        "text": "Gathered at a classroom",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the title ‘Bapu’ express?",
+    "options": [
+      {
+        "text": "An affectionate name for Gandhi",
+        "correct": true
+      },
+      {
+        "text": "A title for a soldier",
+        "correct": false
+      },
+      {
+        "text": "A name for a city",
+        "correct": false
+      },
+      {
+        "text": "A form of greeting a teacher",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the principal subject of Nayantara Sehgal’s account?",
+    "options": [
+      {
+        "text": "The nation’s response to Gandhi’s passing",
+        "correct": true
+      },
+      {
+        "text": "A village school’s annual day",
+        "correct": false
+      },
+      {
+        "text": "A sea voyage",
+        "correct": false
+      },
+      {
+        "text": "A court trial",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who wrote ‘My Own True Family’?",
+    "options": [
+      {
+        "text": "Ted Hughes",
+        "correct": true
+      },
+      {
+        "text": "John Masefield",
+        "correct": false
+      },
+      {
+        "text": "Ralph Waldo Emerson",
+        "correct": false
+      },
+      {
+        "text": "Andrew Barton Paterson",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the speaker see in the oak tree in the poem?",
+    "options": [
+      {
+        "text": "A crowd of people",
+        "correct": true
+      },
+      {
+        "text": "A sailing ship",
+        "correct": false
+      },
+      {
+        "text": "A classroom",
+        "correct": false
+      },
+      {
+        "text": "A flock of birds",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who confronts the speaker in the oak tree?",
+    "options": [
+      {
+        "text": "An old woman and the people of the trees",
+        "correct": true
+      },
+      {
+        "text": "A sailor and his crew",
+        "correct": false
+      },
+      {
+        "text": "A teacher and his pupils",
+        "correct": false
+      },
+      {
+        "text": "A king and his soldiers",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What promise does the old woman ask of the speaker?",
+    "options": [
+      {
+        "text": "To plant two trees for every one cut down",
+        "correct": true
+      },
+      {
+        "text": "To leave the forest forever",
+        "correct": false
+      },
+      {
+        "text": "To build a ship",
+        "correct": false
+      },
+      {
+        "text": "To cut more trees",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the speaker see in the oak tree’s hollow?",
+    "options": [
+      {
+        "text": "A vision of the future",
+        "correct": true
+      },
+      {
+        "text": "A hidden classroom",
+        "correct": false
+      },
+      {
+        "text": "A ship’s cabin",
+        "correct": false
+      },
+      {
+        "text": "A town market",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the main concern of the poem?",
+    "options": [
+      {
+        "text": "Protecting trees and nature",
+        "correct": true
+      },
+      {
+        "text": "Finding a lost boat",
+        "correct": false
+      },
+      {
+        "text": "Winning a school contest",
+        "correct": false
+      },
+      {
+        "text": "Building a city",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How does the speaker respond to the tree people’s appeal?",
+    "options": [
+      {
+        "text": "He promises to protect trees",
+        "correct": true
+      },
+      {
+        "text": "He decides to cut the oak",
+        "correct": false
+      },
+      {
+        "text": "He laughs at their warning",
+        "correct": false
+      },
+      {
+        "text": "He forgets what they said",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "The ‘true family’ in the poem refers mainly to whom?",
+    "options": [
+      {
+        "text": "The people connected with the trees",
+        "correct": true
+      },
+      {
+        "text": "The speaker’s classmates",
+        "correct": false
+      },
+      {
+        "text": "A sailor’s companions",
+        "correct": false
+      },
+      {
+        "text": "The old woman’s relatives",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which tree is central to the poem’s encounter?",
+    "options": [
+      {
+        "text": "An oak",
+        "correct": true
+      },
+      {
+        "text": "A pine",
+        "correct": false
+      },
+      {
+        "text": "A palm",
+        "correct": false
+      },
+      {
+        "text": "A willow",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the tree people’s warning encourage?",
+    "options": [
+      {
+        "text": "Responsible care for the natural world",
+        "correct": true
+      },
+      {
+        "text": "Wasteful cutting",
+        "correct": false
+      },
+      {
+        "text": "Leaving school early",
+        "correct": false
+      },
+      {
+        "text": "Sailing across the sea",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who wrote ‘Our Runaway Kite’?",
+    "options": [
+      {
+        "text": "Lucy Maud Montgomery",
+        "correct": true
+      },
+      {
+        "text": "Nayantara Sehgal",
+        "correct": false
+      },
+      {
+        "text": "Kate Chopin",
+        "correct": false
+      },
+      {
+        "text": "R. K. Narayan",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the names of the two children in the story?",
+    "options": [
+      {
+        "text": "Claude and Philippa",
+        "correct": true
+      },
+      {
+        "text": "Peter and Jane",
+        "correct": false
+      },
+      {
+        "text": "Swami and Vimala",
+        "correct": false
+      },
+      {
+        "text": "John and Mary",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Where do the children live?",
+    "options": [
+      {
+        "text": "On a small island",
+        "correct": true
+      },
+      {
+        "text": "In a city apartment",
+        "correct": false
+      },
+      {
+        "text": "On a mountain farm",
+        "correct": false
+      },
+      {
+        "text": "In a desert camp",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the name of the island where the story is set?",
+    "options": [
+      {
+        "text": "Big Half Moon",
+        "correct": true
+      },
+      {
+        "text": "Treasure Island",
+        "correct": false
+      },
+      {
+        "text": "Coral Island",
+        "correct": false
+      },
+      {
+        "text": "Eagle Island",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What causes the kite to become important to the family?",
+    "options": [
+      {
+        "text": "It brings the children’s separated family together",
+        "correct": true
+      },
+      {
+        "text": "It wins a race",
+        "correct": false
+      },
+      {
+        "text": "It predicts a storm",
+        "correct": false
+      },
+      {
+        "text": "It frightens away birds",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the relationship between Claude and Philippa?",
+    "options": [
+      {
+        "text": "They are brother and sister",
+        "correct": true
+      },
+      {
+        "text": "They are teacher and pupil",
+        "correct": false
+      },
+      {
+        "text": "They are cousins",
+        "correct": false
+      },
+      {
+        "text": "They are neighbours",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the kite carry away from the island?",
+    "options": [
+      {
+        "text": "A message revealing the family’s past",
+        "correct": true
+      },
+      {
+        "text": "A map to a buried treasure",
+        "correct": false
+      },
+      {
+        "text": "A school timetable",
+        "correct": false
+      },
+      {
+        "text": "A ship’s ticket",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is Mr. D., the man found through the kite?",
+    "options": [
+      {
+        "text": "Their father’s brother",
+        "correct": true
+      },
+      {
+        "text": "Their schoolmaster",
+        "correct": false
+      },
+      {
+        "text": "Their boatman",
+        "correct": false
+      },
+      {
+        "text": "Their doctor",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What family relationship is eventually revealed?",
+    "options": [
+      {
+        "text": "The children discover their uncle is their father’s brother",
+        "correct": true
+      },
+      {
+        "text": "The children are secretly twins",
+        "correct": false
+      },
+      {
+        "text": "Their mother is the island’s owner",
+        "correct": false
+      },
+      {
+        "text": "Their father is the village teacher",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is a central theme of ‘Our Runaway Kite’?",
+    "options": [
+      {
+        "text": "Family reunion and forgiveness",
+        "correct": true
+      },
+      {
+        "text": "War and conquest",
+        "correct": false
+      },
+      {
+        "text": "City politics",
+        "correct": false
+      },
+      {
+        "text": "A scientific experiment",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who wrote ‘Sea Fever’?",
+    "options": [
+      {
+        "text": "John Masefield",
+        "correct": true
+      },
+      {
+        "text": "William Cowper",
+        "correct": false
+      },
+      {
+        "text": "Ted Hughes",
+        "correct": false
+      },
+      {
+        "text": "Ralph Waldo Emerson",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the speaker long to do?",
+    "options": [
+      {
+        "text": "Go to sea",
+        "correct": true
+      },
+      {
+        "text": "Climb a mountain",
+        "correct": false
+      },
+      {
+        "text": "Return to school",
+        "correct": false
+      },
+      {
+        "text": "Live in a city",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the speaker ask for besides a ship?",
+    "options": [
+      {
+        "text": "A tall ship and a star to steer her by",
+        "correct": true
+      },
+      {
+        "text": "A cottage and a garden",
+        "correct": false
+      },
+      {
+        "text": "A horse and a road",
+        "correct": false
+      },
+      {
+        "text": "A book and a lamp",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which kind of sky does the speaker desire?",
+    "options": [
+      {
+        "text": "A grey misty morning",
+        "correct": true
+      },
+      {
+        "text": "A cloudless noon",
+        "correct": false
+      },
+      {
+        "text": "A stormless night",
+        "correct": false
+      },
+      {
+        "text": "A snowy dawn",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the ‘wind’s song’ suggest?",
+    "options": [
+      {
+        "text": "The call and attraction of the sea",
+        "correct": true
+      },
+      {
+        "text": "A warning from a teacher",
+        "correct": false
+      },
+      {
+        "text": "A city market’s noise",
+        "correct": false
+      },
+      {
+        "text": "A forest’s silence",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the speaker want to hear at the end of the day?",
+    "options": [
+      {
+        "text": "The wheel’s kick, the wind’s song and the white sail shaking",
+        "correct": true
+      },
+      {
+        "text": "A church bell and a choir",
+        "correct": false
+      },
+      {
+        "text": "A train whistle",
+        "correct": false
+      },
+      {
+        "text": "A clock striking twelve",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the phrase ‘the vagrant gypsy life’ evoke?",
+    "options": [
+      {
+        "text": "A free, wandering life",
+        "correct": true
+      },
+      {
+        "text": "A settled life indoors",
+        "correct": false
+      },
+      {
+        "text": "A military parade",
+        "correct": false
+      },
+      {
+        "text": "A strict school routine",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the speaker wish for from the sea?",
+    "options": [
+      {
+        "text": "A quiet sleep and a sweet dream",
+        "correct": true
+      },
+      {
+        "text": "A city home",
+        "correct": false
+      },
+      {
+        "text": "A crowded station",
+        "correct": false
+      },
+      {
+        "text": "A mountain path",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the mood of ‘Sea Fever’?",
+    "options": [
+      {
+        "text": "Yearning and adventurous",
+        "correct": true
+      },
+      {
+        "text": "Angry and vengeful",
+        "correct": false
+      },
+      {
+        "text": "Comic and mocking",
+        "correct": false
+      },
+      {
+        "text": "Fearful and hopeless",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which literary form is ‘Sea Fever’ primarily?",
+    "options": [
+      {
+        "text": "A lyric poem",
+        "correct": true
+      },
+      {
+        "text": "A play",
+        "correct": false
+      },
+      {
+        "text": "A short story",
+        "correct": false
+      },
+      {
+        "text": "An essay",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who wrote ‘The Cat’?",
+    "options": [
+      {
+        "text": "Andrew Barton Paterson",
+        "correct": true
+      },
+      {
+        "text": "William Cowper",
+        "correct": false
+      },
+      {
+        "text": "John Masefield",
+        "correct": false
+      },
+      {
+        "text": "Ted Hughes",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the cat’s name in the poem?",
+    "options": [
+      {
+        "text": "Puss",
+        "correct": true
+      },
+      {
+        "text": "Puss",
+        "correct": false
+      },
+      {
+        "text": "Bun",
+        "correct": false
+      },
+      {
+        "text": "Samuel",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Where does the cat sit?",
+    "options": [
+      {
+        "text": "On the hearthrug",
+        "correct": true
+      },
+      {
+        "text": "On the school desk",
+        "correct": false
+      },
+      {
+        "text": "On a ship’s deck",
+        "correct": false
+      },
+      {
+        "text": "In an oak hollow",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the cat do when it sees its own image?",
+    "options": [
+      {
+        "text": "It arches its back and spits",
+        "correct": true
+      },
+      {
+        "text": "It begins to sing",
+        "correct": false
+      },
+      {
+        "text": "It runs to the sea",
+        "correct": false
+      },
+      {
+        "text": "It falls asleep at once",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How does the cat behave while it is watched?",
+    "options": [
+      {
+        "text": "It appears timid and cautious",
+        "correct": true
+      },
+      {
+        "text": "It dances openly",
+        "correct": false
+      },
+      {
+        "text": "It chases the moon",
+        "correct": false
+      },
+      {
+        "text": "It speaks to the visitors",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What happens when the onlookers leave?",
+    "options": [
+      {
+        "text": "It moves about confidently",
+        "correct": true
+      },
+      {
+        "text": "It remains frozen",
+        "correct": false
+      },
+      {
+        "text": "It cries for help",
+        "correct": false
+      },
+      {
+        "text": "It leaves the house",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the cat do in the moonlight?",
+    "options": [
+      {
+        "text": "It prowls and hunts",
+        "correct": true
+      },
+      {
+        "text": "It builds a nest",
+        "correct": false
+      },
+      {
+        "text": "It sails away",
+        "correct": false
+      },
+      {
+        "text": "It plants an oak",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What do the poem’s changing scenes show about the cat?",
+    "options": [
+      {
+        "text": "It is cautious when observed and bold when alone",
+        "correct": true
+      },
+      {
+        "text": "It is always friendly to strangers",
+        "correct": false
+      },
+      {
+        "text": "It cannot move in darkness",
+        "correct": false
+      },
+      {
+        "text": "It is frightened of its own shadow at all times",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What kind of creature is the cat portrayed as?",
+    "options": [
+      {
+        "text": "A watchful and independent animal",
+        "correct": true
+      },
+      {
+        "text": "A loyal farm horse",
+        "correct": false
+      },
+      {
+        "text": "A frightened bird",
+        "correct": false
+      },
+      {
+        "text": "A tame fish",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is a notable contrast in ‘The Cat’?",
+    "options": [
+      {
+        "text": "Its apparent fearfulness and its secret confidence",
+        "correct": true
+      },
+      {
+        "text": "Its love of sailing and dislike of land",
+        "correct": false
+      },
+      {
+        "text": "Its size and inability to move",
+        "correct": false
+      },
+      {
+        "text": "Its hunger and love of sweets",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who wrote ‘The Snail’?",
+    "options": [
+      {
+        "text": "William Cowper",
+        "correct": true
+      },
+      {
+        "text": "Andrew Barton Paterson",
+        "correct": false
+      },
+      {
+        "text": "Ralph Waldo Emerson",
+        "correct": false
+      },
+      {
+        "text": "John Masefield",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the snail carry on its back?",
+    "options": [
+      {
+        "text": "Its own shell",
+        "correct": true
+      },
+      {
+        "text": "A leaf umbrella",
+        "correct": false
+      },
+      {
+        "text": "A tiny boat",
+        "correct": false
+      },
+      {
+        "text": "A flower",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How does the snail respond to a touch?",
+    "options": [
+      {
+        "text": "It withdraws into its shell",
+        "correct": true
+      },
+      {
+        "text": "It leaps into the air",
+        "correct": false
+      },
+      {
+        "text": "It sings loudly",
+        "correct": false
+      },
+      {
+        "text": "It runs toward the touch",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the snail cling to?",
+    "options": [
+      {
+        "text": "To the grass or a plant",
+        "correct": true
+      },
+      {
+        "text": "To a ship’s mast",
+        "correct": false
+      },
+      {
+        "text": "To an oak’s branch",
+        "correct": false
+      },
+      {
+        "text": "To a school window",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which quality is emphasized in Cowper’s description of the snail?",
+    "options": [
+      {
+        "text": "Self-sufficiency",
+        "correct": true
+      },
+      {
+        "text": "Recklessness",
+        "correct": false
+      },
+      {
+        "text": "Pride in wealth",
+        "correct": false
+      },
+      {
+        "text": "Love of crowds",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the snail do when danger appears?",
+    "options": [
+      {
+        "text": "It retreats into its shell",
+        "correct": true
+      },
+      {
+        "text": "It attacks the danger",
+        "correct": false
+      },
+      {
+        "text": "It flies away",
+        "correct": false
+      },
+      {
+        "text": "It calls for help",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the snail’s shell provide?",
+    "options": [
+      {
+        "text": "Protection",
+        "correct": true
+      },
+      {
+        "text": "A means to fly",
+        "correct": false
+      },
+      {
+        "text": "A food store",
+        "correct": false
+      },
+      {
+        "text": "A musical instrument",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the snail do when it is safe?",
+    "options": [
+      {
+        "text": "It comes out and resumes moving",
+        "correct": true
+      },
+      {
+        "text": "It abandons its shell",
+        "correct": false
+      },
+      {
+        "text": "It runs to the sea",
+        "correct": false
+      },
+      {
+        "text": "It hides forever",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the poem suggest about the snail’s nature?",
+    "options": [
+      {
+        "text": "It is cautious and self-contained",
+        "correct": true
+      },
+      {
+        "text": "It is noisy and sociable",
+        "correct": false
+      },
+      {
+        "text": "It is fierce and aggressive",
+        "correct": false
+      },
+      {
+        "text": "It depends on other animals for shelter",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which word best describes the snail’s movement?",
+    "options": [
+      {
+        "text": "Slow",
+        "correct": true
+      },
+      {
+        "text": "Swift",
+        "correct": false
+      },
+      {
+        "text": "Erratic",
+        "correct": false
+      },
+      {
+        "text": "Weightless",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct article: Swami saw ___ teacher near the classroom.",
+    "options": [
+      {
+        "text": "a",
+        "correct": true
+      },
+      {
+        "text": "an",
+        "correct": false
+      },
+      {
+        "text": "the",
+        "correct": false
+      },
+      {
+        "text": "no article",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct preposition: Swami was lying ___ a bench.",
+    "options": [
+      {
+        "text": "on",
+        "correct": true
+      },
+      {
+        "text": "at",
+        "correct": false
+      },
+      {
+        "text": "by",
+        "correct": false
+      },
+      {
+        "text": "into",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct tense: Yesterday Swami ___ to school late.",
+    "options": [
+      {
+        "text": "went",
+        "correct": true
+      },
+      {
+        "text": "goes",
+        "correct": false
+      },
+      {
+        "text": "will go",
+        "correct": false
+      },
+      {
+        "text": "has gone",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct passive form: ‘The children flew the kite.’",
+    "options": [
+      {
+        "text": "The kite was flown by the children.",
+        "correct": true
+      },
+      {
+        "text": "The kite is flown by the children.",
+        "correct": false
+      },
+      {
+        "text": "The children were flown by the kite.",
+        "correct": false
+      },
+      {
+        "text": "The kite had fly by the children.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct active form: ‘The poem was written by Ted Hughes.’",
+    "options": [
+      {
+        "text": "Ted Hughes wrote the poem.",
+        "correct": true
+      },
+      {
+        "text": "Ted Hughes writes the poem by.",
+        "correct": false
+      },
+      {
+        "text": "The poem wrote Ted Hughes.",
+        "correct": false
+      },
+      {
+        "text": "Ted Hughes was written the poem.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct phrasal verb: The meeting was ___ because of the rain. (postponed)",
+    "options": [
+      {
+        "text": "called off",
+        "correct": true
+      },
+      {
+        "text": "looked after",
+        "correct": false
+      },
+      {
+        "text": "put on",
+        "correct": false
+      },
+      {
+        "text": "turned up",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct conjunction: Swami was unwilling to go to school, ___ his father made him go.",
+    "options": [
+      {
+        "text": "but",
+        "correct": true
+      },
+      {
+        "text": "because",
+        "correct": false
+      },
+      {
+        "text": "unless",
+        "correct": false
+      },
+      {
+        "text": "so that",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct indirect speech: He said, ‘I have a headache.’",
+    "options": [
+      {
+        "text": "He said that he had a headache.",
+        "correct": true
+      },
+      {
+        "text": "He said that I have a headache.",
+        "correct": false
+      },
+      {
+        "text": "He says he had a headache.",
+        "correct": false
+      },
+      {
+        "text": "He said that he has a headache yesterday.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct question tag: Swami is a schoolboy, ___?",
+    "options": [
+      {
+        "text": "isn’t he",
+        "correct": true
+      },
+      {
+        "text": "doesn’t he",
+        "correct": false
+      },
+      {
+        "text": "wasn’t he",
+        "correct": false
+      },
+      {
+        "text": "aren’t they",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct form: If I ___ a kite, I would fly it.",
+    "options": [
+      {
+        "text": "had",
+        "correct": true
+      },
+      {
+        "text": "have",
+        "correct": false
+      },
+      {
+        "text": "will have",
+        "correct": false
+      },
+      {
+        "text": "has",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the synonym of ‘vagrant’ as used in ‘Sea Fever’. ",
+    "options": [
+      {
+        "text": "wandering",
+        "correct": true
+      },
+      {
+        "text": "stationary",
+        "correct": false
+      },
+      {
+        "text": "obedient",
+        "correct": false
+      },
+      {
+        "text": "crowded",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the antonym of ‘late’. ",
+    "options": [
+      {
+        "text": "early",
+        "correct": true
+      },
+      {
+        "text": "slow",
+        "correct": false
+      },
+      {
+        "text": "absent",
+        "correct": false
+      },
+      {
+        "text": "angry",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct plural of ‘child’. ",
+    "options": [
+      {
+        "text": "children",
+        "correct": true
+      },
+      {
+        "text": "childs",
+        "correct": false
+      },
+      {
+        "text": "childes",
+        "correct": false
+      },
+      {
+        "text": "childrens",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct spelling. ",
+    "options": [
+      {
+        "text": "procession",
+        "correct": true
+      },
+      {
+        "text": "procesion",
+        "correct": false
+      },
+      {
+        "text": "processsion",
+        "correct": false
+      },
+      {
+        "text": "prosession",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct sentence. ",
+    "options": [
+      {
+        "text": "Swami did not want to go to school.",
+        "correct": true
+      },
+      {
+        "text": "Swami do not wanted to go school.",
+        "correct": false
+      },
+      {
+        "text": "Swami not want going school.",
+        "correct": false
+      },
+      {
+        "text": "Swami did not wanted to go to school.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct joining: ‘He was tired. He continued working.’",
+    "options": [
+      {
+        "text": "Although he was tired, he continued working.",
+        "correct": true
+      },
+      {
+        "text": "Because he was tired, but he continued working.",
+        "correct": false
+      },
+      {
+        "text": "He was tired unless he continued working.",
+        "correct": false
+      },
+      {
+        "text": "He continued working because tired.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct passive voice: ‘The boy opened the door.’",
+    "options": [
+      {
+        "text": "The door was opened by the boy.",
+        "correct": true
+      },
+      {
+        "text": "The door is open by the boy.",
+        "correct": false
+      },
+      {
+        "text": "The boy was opened by the door.",
+        "correct": false
+      },
+      {
+        "text": "The door has open by boy.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct reported question: She said to me, ‘Where do you live?’",
+    "options": [
+      {
+        "text": "She asked me where I lived.",
+        "correct": true
+      },
+      {
+        "text": "She asked me where do I live.",
+        "correct": false
+      },
+      {
+        "text": "She said me where I lived.",
+        "correct": false
+      },
+      {
+        "text": "She asked where did I lived.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the appropriate word: The ___ of Gandhi deeply saddened the nation. (pass away)",
+    "options": [
+      {
+        "text": "passing away",
+        "correct": true
+      },
+      {
+        "text": "passed away",
+        "correct": false
+      },
+      {
+        "text": "pass awaying",
+        "correct": false
+      },
+      {
+        "text": "passage away",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct comparative form of ‘good’.",
+    "options": [
+      {
+        "text": "better",
+        "correct": true
+      },
+      {
+        "text": "best",
+        "correct": false
+      },
+      {
+        "text": "more good",
+        "correct": false
+      },
+      {
+        "text": "gooder",
+        "correct": false
+      }
+    ]
+  }
+]

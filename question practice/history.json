@@ -1,0 +1,2102 @@
+[
+  {
+    "question": "ইতিহাসের উপাদান বলতে কী বোঝায়?",
+    "options": [
+      {
+        "text": "শুধু বর্তমানের সংবাদ",
+        "correct": false
+      },
+      {
+        "text": "কেবল ভবিষ্যৎ পরিকল্পনা",
+        "correct": false
+      },
+      {
+        "text": "শুধু কল্পকাহিনি",
+        "correct": false
+      },
+      {
+        "text": "অতীত সম্পর্কে তথ্যদাতা নিদর্শন ও দলিল",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "আত্মজীবনী ইতিহাসের কোন ধরনের উপাদান?",
+    "options": [
+      {
+        "text": "মৌখিক উপাদান",
+        "correct": false
+      },
+      {
+        "text": "প্রাকৃতিক উপাদান",
+        "correct": false
+      },
+      {
+        "text": "প্রত্নতাত্ত্বিক উপাদান",
+        "correct": false
+      },
+      {
+        "text": "লিখিত উপাদান",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "লোকগাথা ইতিহাসের কোন ধরনের উপাদান?",
+    "options": [
+      {
+        "text": "সরকারি দলিল",
+        "correct": false
+      },
+      {
+        "text": "মৌখিক উপাদান",
+        "correct": true
+      },
+      {
+        "text": "মুদ্রিত সংবাদপত্র",
+        "correct": false
+      },
+      {
+        "text": "শিলালিপি",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "দৈনন্দিন জীবন ও সমাজের পরিবর্তন নিয়ে ইতিহাসকে কী বলে?",
+    "options": [
+      {
+        "text": "সামরিক ইতিহাস",
+        "correct": false
+      },
+      {
+        "text": "রাজনৈতিক জীবনী",
+        "correct": false
+      },
+      {
+        "text": "সামাজিক ইতিহাস",
+        "correct": true
+      },
+      {
+        "text": "কূটনৈতিক ইতিহাস",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "নারীদের অতীত অভিজ্ঞতা আলোচনার ইতিহাস কোনটি?",
+    "options": [
+      {
+        "text": "নারীবাদী ইতিহাস",
+        "correct": true
+      },
+      {
+        "text": "রাজবংশের ইতিহাস",
+        "correct": false
+      },
+      {
+        "text": "প্রশাসনিক ইতিহাস",
+        "correct": false
+      },
+      {
+        "text": "সামরিক ইতিহাস",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "স্থানীয় ইতিহাসে কী আলোচিত হয়?",
+    "options": [
+      {
+        "text": "নির্দিষ্ট এলাকার অতীত",
+        "correct": true
+      },
+      {
+        "text": "সমগ্র পৃথিবীর ভূতত্ত্ব",
+        "correct": false
+      },
+      {
+        "text": "শুধু রাজাদের বংশ",
+        "correct": false
+      },
+      {
+        "text": "ভবিষ্যতের অর্থনীতি",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ঔপনিবেশিক শাসনের সমালোচনায় গুরুত্ব দেয় কোন ইতিহাসচর্চা?",
+    "options": [
+      {
+        "text": "উপনিবেশ-বিরোধী ইতিহাসচর্চা",
+        "correct": true
+      },
+      {
+        "text": "প্রাকৃতিক ইতিহাস",
+        "correct": false
+      },
+      {
+        "text": "কেবল সামরিক ইতিহাস",
+        "correct": false
+      },
+      {
+        "text": "রাজদরবারি ইতিহাস",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "মৌখিক সাক্ষ্যের একটি গুরুত্ব কী?",
+    "options": [
+      {
+        "text": "তারিখ সবসময় জানা যায়",
+        "correct": false
+      },
+      {
+        "text": "সব সাক্ষ্য নির্ভুল হয়",
+        "correct": false
+      },
+      {
+        "text": "সাধারণ মানুষের অভিজ্ঞতা জানা যায়",
+        "correct": true
+      },
+      {
+        "text": "লিখিত দলিল অপ্রয়োজনীয় হয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সংবাদপত্র ইতিহাসের কী ধরনের উৎস?",
+    "options": [
+      {
+        "text": "প্রাগৈতিহাসিক জীবাশ্ম",
+        "correct": false
+      },
+      {
+        "text": "সমকালীন লিখিত উৎস",
+        "correct": true
+      },
+      {
+        "text": "মৌখিক লোকসংস্কৃতি",
+        "correct": false
+      },
+      {
+        "text": "প্রাকৃতিক সম্পদ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ঐতিহাসিক তথ্য যাচাইয়ে কী জরুরি?",
+    "options": [
+      {
+        "text": "বিভিন্ন উৎসের তুলনামূলক বিচার",
+        "correct": true
+      },
+      {
+        "text": "সব উৎসকে সমান নির্ভুল ধরা",
+        "correct": false
+      },
+      {
+        "text": "একটি গুজবের ওপর নির্ভরতা",
+        "correct": false
+      },
+      {
+        "text": "কল্পনা দিয়ে শূন্যস্থান পূরণ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ব্রাহ্মসমাজ প্রতিষ্ঠা করেন কে?",
+    "options": [
+      {
+        "text": "কেশবচন্দ্র সেন",
+        "correct": false
+      },
+      {
+        "text": "ঈশ্বরচন্দ্র বিদ্যাসাগর",
+        "correct": false
+      },
+      {
+        "text": "রাজা রামমোহন রায়",
+        "correct": true
+      },
+      {
+        "text": "দেবেন্দ্রনাথ ঠাকুর",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ব্রাহ্মসমাজ প্রতিষ্ঠিত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৮৫৭",
+        "correct": false
+      },
+      {
+        "text": "১৮২৮",
+        "correct": true
+      },
+      {
+        "text": "১৮১৮",
+        "correct": false
+      },
+      {
+        "text": "১৮৭৫",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সতীদাহ প্রথা নিষিদ্ধ হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৮৭২",
+        "correct": false
+      },
+      {
+        "text": "১৮২৯",
+        "correct": true
+      },
+      {
+        "text": "১৮২৮",
+        "correct": false
+      },
+      {
+        "text": "১৮৫৬",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সতীদাহ প্রথা বিলোপের সময় গভর্নর-জেনারেল কে ছিলেন?",
+    "options": [
+      {
+        "text": "লর্ড উইলিয়াম বেন্টিঙ্ক",
+        "correct": true
+      },
+      {
+        "text": "লর্ড কার্জন",
+        "correct": false
+      },
+      {
+        "text": "লর্ড ডালহৌসি",
+        "correct": false
+      },
+      {
+        "text": "লর্ড ক্যানিং",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বিধবা বিবাহ আইন প্রবর্তনে প্রধান ভূমিকা নেন কে?",
+    "options": [
+      {
+        "text": "ঈশ্বরচন্দ্র বিদ্যাসাগর",
+        "correct": true
+      },
+      {
+        "text": "স্বামী বিবেকানন্দ",
+        "correct": false
+      },
+      {
+        "text": "দ্বারকানাথ ঠাকুর",
+        "correct": false
+      },
+      {
+        "text": "হেনরি ডিরোজিও",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "হিন্দু বিধবা পুনর্বিবাহ আইন প্রণীত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৮২৯",
+        "correct": false
+      },
+      {
+        "text": "১৮৫৬",
+        "correct": true
+      },
+      {
+        "text": "১৮৯১",
+        "correct": false
+      },
+      {
+        "text": "১৮৭২",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "তত্ত্ববোধিনী সভা প্রতিষ্ঠা করেন কে?",
+    "options": [
+      {
+        "text": "বিদ্যাসাগর",
+        "correct": false
+      },
+      {
+        "text": "দেবেন্দ্রনাথ ঠাকুর",
+        "correct": true
+      },
+      {
+        "text": "কেশবচন্দ্র সেন",
+        "correct": false
+      },
+      {
+        "text": "রাজা রামমোহন রায়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ইয়ং বেঙ্গল আন্দোলনের নেতা কে?",
+    "options": [
+      {
+        "text": "স্বামী দয়ানন্দ",
+        "correct": false
+      },
+      {
+        "text": "হেনরি লুই ভিভিয়ান ডিরোজিও",
+        "correct": true
+      },
+      {
+        "text": "দেবেন্দ্রনাথ ঠাকুর",
+        "correct": false
+      },
+      {
+        "text": "রাজা রামমোহন রায়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আর্যসমাজ প্রতিষ্ঠা করেন কে?",
+    "options": [
+      {
+        "text": "রামকৃষ্ণ পরমহংস",
+        "correct": false
+      },
+      {
+        "text": "স্বামী দয়ানন্দ সরস্বতী",
+        "correct": true
+      },
+      {
+        "text": "কেশবচন্দ্র সেন",
+        "correct": false
+      },
+      {
+        "text": "স্বামী বিবেকানন্দ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আর্যসমাজ প্রতিষ্ঠিত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৮২৮",
+        "correct": false
+      },
+      {
+        "text": "১৮৬৭",
+        "correct": false
+      },
+      {
+        "text": "১৮৭৫",
+        "correct": true
+      },
+      {
+        "text": "১৮৯৭",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "প্রার্থনা সমাজ প্রতিষ্ঠার সঙ্গে কার নাম যুক্ত?",
+    "options": [
+      {
+        "text": "নারায়ণ গুরু",
+        "correct": false
+      },
+      {
+        "text": "জ্যোতিবা ফুলে",
+        "correct": false
+      },
+      {
+        "text": "আত্মারাম পাণ্ডুরঙ্গ",
+        "correct": true
+      },
+      {
+        "text": "বাল গঙ্গাধর তিলক",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "রামকৃষ্ণ মিশন প্রতিষ্ঠা করেন কে?",
+    "options": [
+      {
+        "text": "রামকৃষ্ণ পরমহংস",
+        "correct": false
+      },
+      {
+        "text": "দয়ানন্দ সরস্বতী",
+        "correct": false
+      },
+      {
+        "text": "স্বামী বিবেকানন্দ",
+        "correct": true
+      },
+      {
+        "text": "দেবেন্দ্রনাথ ঠাকুর",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "রামকৃষ্ণ মিশন প্রতিষ্ঠিত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯০৫",
+        "correct": false
+      },
+      {
+        "text": "১৮৮৫",
+        "correct": false
+      },
+      {
+        "text": "১৮৯৭",
+        "correct": true
+      },
+      {
+        "text": "১৮৭৫",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "গুলামগিরি গ্রন্থের রচয়িতা কে?",
+    "options": [
+      {
+        "text": "পেরিয়ার",
+        "correct": false
+      },
+      {
+        "text": "বীরসা মুন্ডা",
+        "correct": false
+      },
+      {
+        "text": "জ্যোতিবা ফুলে",
+        "correct": true
+      },
+      {
+        "text": "নারায়ণ গুরু",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সত্যশোধক সমাজ প্রতিষ্ঠা করেন কে?",
+    "options": [
+      {
+        "text": "বিদ্যাসাগর",
+        "correct": false
+      },
+      {
+        "text": "রাজা রামমোহন রায়",
+        "correct": false
+      },
+      {
+        "text": "গোপালকৃষ্ণ গোখলে",
+        "correct": false
+      },
+      {
+        "text": "জ্যোতিবা ফুলে",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "বিধবা বিবাহ প্রচার ও বাল্যবিবাহ বিরোধিতায় বাংলায় ভূমিকা নেন কে?",
+    "options": [
+      {
+        "text": "বঙ্কিমচন্দ্র",
+        "correct": false
+      },
+      {
+        "text": "সুরেন্দ্রনাথ বন্দ্যোপাধ্যায়",
+        "correct": false
+      },
+      {
+        "text": "লর্ড কার্জন",
+        "correct": false
+      },
+      {
+        "text": "ঈশ্বরচন্দ্র বিদ্যাসাগর",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "ভারতীয় জাতীয় কংগ্রেস প্রতিষ্ঠিত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৮৮৫",
+        "correct": true
+      },
+      {
+        "text": "১৮৫৭",
+        "correct": false
+      },
+      {
+        "text": "১৯০৫",
+        "correct": false
+      },
+      {
+        "text": "১৯১৯",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "কংগ্রেসের প্রথম অধিবেশন কোথায় হয়?",
+    "options": [
+      {
+        "text": "বোম্বাই",
+        "correct": true
+      },
+      {
+        "text": "মাদ্রাজ",
+        "correct": false
+      },
+      {
+        "text": "কলকাতা",
+        "correct": false
+      },
+      {
+        "text": "লাহোর",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "কংগ্রেসের প্রথম সভাপতি কে ছিলেন?",
+    "options": [
+      {
+        "text": "গোখলে",
+        "correct": false
+      },
+      {
+        "text": "ফিরোজশাহ মেহতা",
+        "correct": false
+      },
+      {
+        "text": "দাদাভাই নওরোজি",
+        "correct": false
+      },
+      {
+        "text": "উমেশচন্দ্র বন্দ্যোপাধ্যায়",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "কংগ্রেস প্রতিষ্ঠায় উদ্যোগী অবসরপ্রাপ্ত ব্রিটিশ কর্মকর্তা কে?",
+    "options": [
+      {
+        "text": "অ্যালান অক্টাভিয়ান হিউম",
+        "correct": true
+      },
+      {
+        "text": "লর্ড কার্জন",
+        "correct": false
+      },
+      {
+        "text": "লর্ড রিপন",
+        "correct": false
+      },
+      {
+        "text": "জন সাইমন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সম্পদের নিষ্কাশন তত্ত্ব ব্যাখ্যা করেন কে?",
+    "options": [
+      {
+        "text": "লালা লাজপত রায়",
+        "correct": false
+      },
+      {
+        "text": "দাদাভাই নওরোজি",
+        "correct": true
+      },
+      {
+        "text": "চিত্তরঞ্জন দাশ",
+        "correct": false
+      },
+      {
+        "text": "বাল গঙ্গাধর তিলক",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বঙ্গভঙ্গ কার্যকর হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯০৫",
+        "correct": true
+      },
+      {
+        "text": "১৯১১",
+        "correct": false
+      },
+      {
+        "text": "১৯০৩",
+        "correct": false
+      },
+      {
+        "text": "১৯০৬",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বঙ্গভঙ্গ করেন কোন ভাইসরয়?",
+    "options": [
+      {
+        "text": "লর্ড রিপন",
+        "correct": false
+      },
+      {
+        "text": "লর্ড হার্ডিঞ্জ",
+        "correct": false
+      },
+      {
+        "text": "লর্ড কার্জন",
+        "correct": true
+      },
+      {
+        "text": "লর্ড মিন্টো",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বঙ্গভঙ্গ-বিরোধী আন্দোলনের কর্মসূচি কী?",
+    "options": [
+      {
+        "text": "খিলাফত",
+        "correct": false
+      },
+      {
+        "text": "ব্যক্তিগত সত্যাগ্রহ",
+        "correct": false
+      },
+      {
+        "text": "ভারত ছাড়ো",
+        "correct": false
+      },
+      {
+        "text": "স্বদেশি ও বয়কট",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "বঙ্গভঙ্গ-বিরোধী রাখিবন্ধন উৎসবের আহ্বান জানান কে?",
+    "options": [
+      {
+        "text": "অরবিন্দ ঘোষ",
+        "correct": false
+      },
+      {
+        "text": "রবীন্দ্রনাথ ঠাকুর",
+        "correct": true
+      },
+      {
+        "text": "সুরেন্দ্রনাথ বন্দ্যোপাধ্যায়",
+        "correct": false
+      },
+      {
+        "text": "বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বঙ্গভঙ্গ রদ হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯১১",
+        "correct": true
+      },
+      {
+        "text": "১৯২০",
+        "correct": false
+      },
+      {
+        "text": "১৯১৯",
+        "correct": false
+      },
+      {
+        "text": "১৯০৫",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "মুসলিম লিগ প্রতিষ্ঠিত হয় কোথায়?",
+    "options": [
+      {
+        "text": "লাহোর",
+        "correct": false
+      },
+      {
+        "text": "ঢাকা",
+        "correct": true
+      },
+      {
+        "text": "করাচি",
+        "correct": false
+      },
+      {
+        "text": "আলিগড়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "মুসলিম লিগ প্রতিষ্ঠিত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯০৫",
+        "correct": false
+      },
+      {
+        "text": "১৯১১",
+        "correct": false
+      },
+      {
+        "text": "১৯০৬",
+        "correct": true
+      },
+      {
+        "text": "১৯১৬",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "গদর পার্টির প্রতিষ্ঠার সঙ্গে কোন শহরের নাম যুক্ত?",
+    "options": [
+      {
+        "text": "বার্লিন",
+        "correct": false
+      },
+      {
+        "text": "সান ফ্রান্সিসকো",
+        "correct": true
+      },
+      {
+        "text": "টোকিও",
+        "correct": false
+      },
+      {
+        "text": "লন্ডন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "হোমরুল আন্দোলনের সঙ্গে কোন দুই নেতার নাম যুক্ত?",
+    "options": [
+      {
+        "text": "গান্ধী ও নেহরু",
+        "correct": false
+      },
+      {
+        "text": "তিলক ও অ্যানি বেসান্ত",
+        "correct": true
+      },
+      {
+        "text": "সুভাষচন্দ্র ও রাসবিহারী বসু",
+        "correct": false
+      },
+      {
+        "text": "গোখলে ও নওরোজি",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "লখনউ চুক্তি স্বাক্ষরিত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯০৬",
+        "correct": false
+      },
+      {
+        "text": "১৯২২",
+        "correct": false
+      },
+      {
+        "text": "১৯১৯",
+        "correct": false
+      },
+      {
+        "text": "১৯১৬",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "রাওলাট আইন প্রণীত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯১৯",
+        "correct": true
+      },
+      {
+        "text": "১৯২০",
+        "correct": false
+      },
+      {
+        "text": "১৯১৭",
+        "correct": false
+      },
+      {
+        "text": "১৯৩০",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "জালিয়ানওয়ালাবাগ হত্যাকাণ্ড ঘটে কবে?",
+    "options": [
+      {
+        "text": "১৫ আগস্ট ১৯১৯",
+        "correct": false
+      },
+      {
+        "text": "১৩ এপ্রিল ১৯১৯",
+        "correct": true
+      },
+      {
+        "text": "২৬ জানুয়ারি ১৯২০",
+        "correct": false
+      },
+      {
+        "text": "১৩ এপ্রিল ১৯২০",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "জালিয়ানওয়ালাবাগে গুলি চালানোর নির্দেশ দেন কে?",
+    "options": [
+      {
+        "text": "জেনারেল ডায়ার",
+        "correct": true
+      },
+      {
+        "text": "মাইকেল ও’ডায়ার",
+        "correct": false
+      },
+      {
+        "text": "লর্ড চেমসফোর্ড",
+        "correct": false
+      },
+      {
+        "text": "লর্ড কার্জন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "অসহযোগ আন্দোলন প্রত্যাহার করা হয় কোন ঘটনার পর?",
+    "options": [
+      {
+        "text": "চৌরিচৌরা ঘটনা",
+        "correct": true
+      },
+      {
+        "text": "বারদৌলি সত্যাগ্রহ",
+        "correct": false
+      },
+      {
+        "text": "জালিয়ানওয়ালাবাগ হত্যাকাণ্ড",
+        "correct": false
+      },
+      {
+        "text": "দাণ্ডি অভিযান",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "চৌরিচৌরা ঘটনা ঘটে কোন সালে?",
+    "options": [
+      {
+        "text": "১৯৩০",
+        "correct": false
+      },
+      {
+        "text": "১৯২০",
+        "correct": false
+      },
+      {
+        "text": "১৯২২",
+        "correct": true
+      },
+      {
+        "text": "১৯১৯",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "খিলাফত আন্দোলনের নেতৃত্বে ছিলেন কারা?",
+    "options": [
+      {
+        "text": "তিলক ও গোখলে",
+        "correct": false
+      },
+      {
+        "text": "মোতিলাল ও নেহরু",
+        "correct": false
+      },
+      {
+        "text": "সুভাষচন্দ্র ও শরৎচন্দ্র",
+        "correct": false
+      },
+      {
+        "text": "মৌলানা মোহাম্মদ আলি ও শওকত আলি",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "সাইমন কমিশন ভারতে আসে কোন সালে?",
+    "options": [
+      {
+        "text": "১৯৩০",
+        "correct": false
+      },
+      {
+        "text": "১৯২৭",
+        "correct": false
+      },
+      {
+        "text": "১৯২৮",
+        "correct": true
+      },
+      {
+        "text": "১৯১৯",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সাইমন কমিশন বয়কটের কারণ কী?",
+    "options": [
+      {
+        "text": "বঙ্গভঙ্গ পুনরায় চালু",
+        "correct": false
+      },
+      {
+        "text": "কর বাড়ানোর সুপারিশ",
+        "correct": false
+      },
+      {
+        "text": "কমিশনে কোনো ভারতীয় সদস্য ছিল না",
+        "correct": true
+      },
+      {
+        "text": "কংগ্রেস নিষিদ্ধ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পূর্ণ স্বরাজের প্রস্তাব কংগ্রেসের কোন অধিবেশনে গৃহীত হয়?",
+    "options": [
+      {
+        "text": "সুরাট",
+        "correct": false
+      },
+      {
+        "text": "লাহোর",
+        "correct": true
+      },
+      {
+        "text": "লখনউ",
+        "correct": false
+      },
+      {
+        "text": "বোম্বাই",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "লাহোর অধিবেশনে কংগ্রেসের সভাপতি কে ছিলেন?",
+    "options": [
+      {
+        "text": "মোতিলাল নেহরু",
+        "correct": false
+      },
+      {
+        "text": "জওহরলাল নেহরু",
+        "correct": true
+      },
+      {
+        "text": "মহাত্মা গান্ধী",
+        "correct": false
+      },
+      {
+        "text": "সুভাষচন্দ্র বসু",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "দাণ্ডি অভিযান শুরু হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯৩১",
+        "correct": false
+      },
+      {
+        "text": "১৯২৮",
+        "correct": false
+      },
+      {
+        "text": "১৯৩০",
+        "correct": true
+      },
+      {
+        "text": "১৯৪২",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "দাণ্ডি অভিযান কোন আইনের প্রতিবাদে?",
+    "options": [
+      {
+        "text": "রাওলাট আইন",
+        "correct": false
+      },
+      {
+        "text": "বন আইন",
+        "correct": false
+      },
+      {
+        "text": "অস্ত্র আইন",
+        "correct": false
+      },
+      {
+        "text": "লবণ আইন",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "গান্ধী-আরউইন চুক্তি স্বাক্ষরিত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯৩১",
+        "correct": true
+      },
+      {
+        "text": "১৯৩০",
+        "correct": false
+      },
+      {
+        "text": "১৯৩২",
+        "correct": false
+      },
+      {
+        "text": "১৯৩৫",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পুনা চুক্তি স্বাক্ষরিত হয় কার মধ্যে?",
+    "options": [
+      {
+        "text": "তিলক ও গোখলে",
+        "correct": false
+      },
+      {
+        "text": "গান্ধী ও জিন্নাহ",
+        "correct": false
+      },
+      {
+        "text": "নেহরু ও সুভাষচন্দ্র",
+        "correct": false
+      },
+      {
+        "text": "গান্ধী ও আম্বেদকর",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "ভারত ছাড়ো আন্দোলনের প্রস্তাব গৃহীত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯৩০",
+        "correct": false
+      },
+      {
+        "text": "১৯৩৫",
+        "correct": false
+      },
+      {
+        "text": "১৯৪২",
+        "correct": true
+      },
+      {
+        "text": "১৯৪০",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "‘করেঙ্গে ইয়া মরেঙ্গে’ আহ্বান কোন আন্দোলনের?",
+    "options": [
+      {
+        "text": "ভারত ছাড়ো আন্দোলন",
+        "correct": true
+      },
+      {
+        "text": "স্বদেশি আন্দোলন",
+        "correct": false
+      },
+      {
+        "text": "অসহযোগ আন্দোলন",
+        "correct": false
+      },
+      {
+        "text": "খিলাফত আন্দোলন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আজাদ হিন্দ সরকার প্রতিষ্ঠা করেন কে?",
+    "options": [
+      {
+        "text": "জওহরলাল নেহরু",
+        "correct": false
+      },
+      {
+        "text": "গান্ধী",
+        "correct": false
+      },
+      {
+        "text": "রাসবিহারী বসু",
+        "correct": false
+      },
+      {
+        "text": "সুভাষচন্দ্র বসু",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "আজাদ হিন্দ ফৌজের প্রথম সংগঠক হিসেবে কে উল্লেখযোগ্য?",
+    "options": [
+      {
+        "text": "ভগৎ সিং",
+        "correct": false
+      },
+      {
+        "text": "উধম সিং",
+        "correct": false
+      },
+      {
+        "text": "চন্দ্রশেখর আজাদ",
+        "correct": false
+      },
+      {
+        "text": "মোহন সিং",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "ফরওয়ার্ড ব্লক প্রতিষ্ঠা করেন কে?",
+    "options": [
+      {
+        "text": "জওহরলাল নেহরু",
+        "correct": false
+      },
+      {
+        "text": "বিপিনচন্দ্র পাল",
+        "correct": false
+      },
+      {
+        "text": "চিত্তরঞ্জন দাশ",
+        "correct": false
+      },
+      {
+        "text": "সুভাষচন্দ্র বসু",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "ভারতীয় জাতীয় সেনার বিচার কোথায় অনুষ্ঠিত হয়?",
+    "options": [
+      {
+        "text": "আলিপুর জেল",
+        "correct": false
+      },
+      {
+        "text": "ফোর্ট উইলিয়াম",
+        "correct": false
+      },
+      {
+        "text": "লালকেল্লা",
+        "correct": true
+      },
+      {
+        "text": "যেরওয়াড়া জেল",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "মুন্ডা বিদ্রোহের নেতা কে ছিলেন?",
+    "options": [
+      {
+        "text": "তিতুমির",
+        "correct": false
+      },
+      {
+        "text": "কানু",
+        "correct": false
+      },
+      {
+        "text": "সিধু",
+        "correct": false
+      },
+      {
+        "text": "বীরসা মুন্ডা",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "সাঁওতাল বিদ্রোহের নেতৃত্ব দেন কারা?",
+    "options": [
+      {
+        "text": "সিধু ও কানু",
+        "correct": true
+      },
+      {
+        "text": "ফকির ও সন্ন্যাসী",
+        "correct": false
+      },
+      {
+        "text": "তিতুমির ও দুদু মিঞা",
+        "correct": false
+      },
+      {
+        "text": "বীরসা ও গয়া",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সাঁওতাল বিদ্রোহ সংঘটিত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৮২০–২১",
+        "correct": false
+      },
+      {
+        "text": "১৭৭০–৭১",
+        "correct": false
+      },
+      {
+        "text": "১৮৫৫–৫৬",
+        "correct": true
+      },
+      {
+        "text": "১৮৭৫–৭৬",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "নীল বিদ্রোহের প্রধান কারণ কী?",
+    "options": [
+      {
+        "text": "লবণ কর বৃদ্ধি",
+        "correct": false
+      },
+      {
+        "text": "নীলকরদের জোর করে নীলচাষ করানো",
+        "correct": true
+      },
+      {
+        "text": "জমিদারি বিলোপ",
+        "correct": false
+      },
+      {
+        "text": "চা-বাগানে শ্রমিক নিয়োগ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "নীল বিদ্রোহের পক্ষে লেখা নাটক কোনটি?",
+    "options": [
+      {
+        "text": "আনন্দমঠ",
+        "correct": false
+      },
+      {
+        "text": "দুর্গেশনন্দিনী",
+        "correct": false
+      },
+      {
+        "text": "সধবার একাদশী",
+        "correct": false
+      },
+      {
+        "text": "নীলদর্পণ",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "নীলদর্পণ নাটকের রচয়িতা কে?",
+    "options": [
+      {
+        "text": "দীনবন্ধু মিত্র",
+        "correct": true
+      },
+      {
+        "text": "মাইকেল মধুসূদন দত্ত",
+        "correct": false
+      },
+      {
+        "text": "গিরিশচন্দ্র ঘোষ",
+        "correct": false
+      },
+      {
+        "text": "বঙ্কিমচন্দ্র",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পাবনা কৃষক আন্দোলন প্রধানত কোন বিরোধিতায় গড়ে ওঠে?",
+    "options": [
+      {
+        "text": "বাধ্যতামূলক নীলচাষ",
+        "correct": false
+      },
+      {
+        "text": "বনজ সম্পদের অধিকার",
+        "correct": false
+      },
+      {
+        "text": "অবৈধ খাজনা ও জমিদারি অত্যাচার",
+        "correct": true
+      },
+      {
+        "text": "সৈন্যদের বেতন বৃদ্ধি",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "চম্পারণ সত্যাগ্রহ কোন ফসলচাষিদের সমস্যা নিয়ে?",
+    "options": [
+      {
+        "text": "চা",
+        "correct": false
+      },
+      {
+        "text": "তুলা",
+        "correct": false
+      },
+      {
+        "text": "পাট",
+        "correct": false
+      },
+      {
+        "text": "নীল",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "বারদৌলি সত্যাগ্রহের নেতৃত্ব দেন কে?",
+    "options": [
+      {
+        "text": "ജവाहरলাল নেহরু",
+        "correct": false
+      },
+      {
+        "text": "বল্লভভাই প্যাটেল",
+        "correct": true
+      },
+      {
+        "text": "মহাদেব দেশাই",
+        "correct": false
+      },
+      {
+        "text": "রাজেন্দ্র প্রসাদ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "অল ইন্ডিয়া ট্রেড ইউনিয়ন কংগ্রেস প্রতিষ্ঠিত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯২০",
+        "correct": true
+      },
+      {
+        "text": "১৯২৫",
+        "correct": false
+      },
+      {
+        "text": "১৯১৬",
+        "correct": false
+      },
+      {
+        "text": "১৯৩০",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতের কমিউনিস্ট পার্টি প্রতিষ্ঠার বছর হিসেবে সাধারণত কোনটি ধরা হয়?",
+    "options": [
+      {
+        "text": "১৯২০",
+        "correct": false
+      },
+      {
+        "text": "১৯২৫",
+        "correct": true
+      },
+      {
+        "text": "১৯৩৫",
+        "correct": false
+      },
+      {
+        "text": "১৯১৭",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "কংগ্রেস সোশ্যালিস্ট পার্টি প্রতিষ্ঠিত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯৩৪",
+        "correct": true
+      },
+      {
+        "text": "১৯২০",
+        "correct": false
+      },
+      {
+        "text": "১৯৪২",
+        "correct": false
+      },
+      {
+        "text": "১৯২৫",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "কৃষক প্রজা পার্টি কোন প্রদেশে সক্রিয় ছিল?",
+    "options": [
+      {
+        "text": "পাঞ্জাব",
+        "correct": false
+      },
+      {
+        "text": "বাংলা",
+        "correct": true
+      },
+      {
+        "text": "মাদ্রাজ",
+        "correct": false
+      },
+      {
+        "text": "বোম্বাই",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "মহিলা আত্মরক্ষা সমিতি কোন দশকে বিশেষভাবে সক্রিয় হয়?",
+    "options": [
+      {
+        "text": "১৮২০-এর দশকে",
+        "correct": false
+      },
+      {
+        "text": "১৯৪০-এর দশকে",
+        "correct": true
+      },
+      {
+        "text": "১৮৫০-এর দশকে",
+        "correct": false
+      },
+      {
+        "text": "১৯০০-এর দশকে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "তমলুক অঞ্চলে ভারত ছাড়ো আন্দোলনে গঠিত সরকারের নাম কী?",
+    "options": [
+      {
+        "text": "আজাদ হিন্দ সরকার",
+        "correct": false
+      },
+      {
+        "text": "তাম্রলিপ্ত জাতীয় সরকার",
+        "correct": true
+      },
+      {
+        "text": "প্রাদেশিক পরিষদ",
+        "correct": false
+      },
+      {
+        "text": "জাতীয় কংগ্রেস সরকার",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "তাম্রলিপ্ত জাতীয় সরকার প্রতিষ্ঠিত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯৩০",
+        "correct": false
+      },
+      {
+        "text": "১৯৩৫",
+        "correct": false
+      },
+      {
+        "text": "১৯৪৭",
+        "correct": false
+      },
+      {
+        "text": "১৯৪২",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "মাতঙ্গিনী হাজরা কোন আন্দোলনে শহিদ হন?",
+    "options": [
+      {
+        "text": "স্বদেশি আন্দোলন",
+        "correct": false
+      },
+      {
+        "text": "নীল বিদ্রোহ",
+        "correct": false
+      },
+      {
+        "text": "অসহযোগ আন্দোলন",
+        "correct": false
+      },
+      {
+        "text": "ভারত ছাড়ো আন্দোলন",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "দীপালি সংঘ প্রতিষ্ঠার সঙ্গে কার নাম যুক্ত?",
+    "options": [
+      {
+        "text": "সরোজিনী নাইডু",
+        "correct": false
+      },
+      {
+        "text": "বীণা দাস",
+        "correct": false
+      },
+      {
+        "text": "কল্পনা দত্ত",
+        "correct": false
+      },
+      {
+        "text": "লীলা নাগ",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "চট্টগ্রাম অস্ত্রাগার লুণ্ঠনের নেতৃত্ব দেন কে?",
+    "options": [
+      {
+        "text": "রাসবিহারী বসু",
+        "correct": false
+      },
+      {
+        "text": "ক্ষুদিরাম বসু",
+        "correct": false
+      },
+      {
+        "text": "বাঘা যতীন",
+        "correct": false
+      },
+      {
+        "text": "সূর্য সেন",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "চট্টগ্রাম অস্ত্রাগার লুণ্ঠন হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯৩২",
+        "correct": false
+      },
+      {
+        "text": "১৯২৮",
+        "correct": false
+      },
+      {
+        "text": "১৯৪২",
+        "correct": false
+      },
+      {
+        "text": "১৯৩০",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "পাহাড়তলী ইউরোপীয় ক্লাব আক্রমণে যুক্ত ছিলেন কে?",
+    "options": [
+      {
+        "text": "লীলা নাগ",
+        "correct": false
+      },
+      {
+        "text": "সরোজিনী নাইডু",
+        "correct": false
+      },
+      {
+        "text": "মাতঙ্গিনী হাজরা",
+        "correct": false
+      },
+      {
+        "text": "প্রীতিলতা ওয়াদ্দেদার",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "দলিত আন্দোলনের প্রধান নেতা কে ছিলেন?",
+    "options": [
+      {
+        "text": "দাদাভাই নওরোজি",
+        "correct": false
+      },
+      {
+        "text": "বিপিনচন্দ্র পাল",
+        "correct": false
+      },
+      {
+        "text": "বি. আর. আম্বেদকর",
+        "correct": true
+      },
+      {
+        "text": "লালা লাজপত রায়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বহিষ্কৃত হিতকরিণী সভা প্রতিষ্ঠা করেন কে?",
+    "options": [
+      {
+        "text": "বি. আর. আম্বেদকর",
+        "correct": true
+      },
+      {
+        "text": "জ্যোতিবা ফুলে",
+        "correct": false
+      },
+      {
+        "text": "নারায়ণ গুরু",
+        "correct": false
+      },
+      {
+        "text": "পেরিয়ার",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "কেরলে মন্দির-প্রবেশ আন্দোলনে ভূমিকা নেন কে?",
+    "options": [
+      {
+        "text": "বীরসা মুন্ডা",
+        "correct": false
+      },
+      {
+        "text": "গোখলে",
+        "correct": false
+      },
+      {
+        "text": "টি. কে. মাধবন",
+        "correct": true
+      },
+      {
+        "text": "সুভাষচন্দ্র বসু",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বৈকম সত্যাগ্রহ কোন অধিকারের দাবিতে হয়?",
+    "options": [
+      {
+        "text": "অবর্ণদের মন্দিরসংলগ্ন পথে চলাচলের অধিকার",
+        "correct": true
+      },
+      {
+        "text": "খাজনা মকুব",
+        "correct": false
+      },
+      {
+        "text": "শ্রমিকদের আট ঘণ্টা কাজ",
+        "correct": false
+      },
+      {
+        "text": "নারীদের ভোটাধিকার",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভারতীয় সংবিধান সভার সভাপতি কে ছিলেন?",
+    "options": [
+      {
+        "text": "ড. আম্বেদকর",
+        "correct": false
+      },
+      {
+        "text": "জওহরলাল নেহরু",
+        "correct": false
+      },
+      {
+        "text": "সর্দার প্যাটেল",
+        "correct": false
+      },
+      {
+        "text": "ড. রাজেন্দ্র প্রসাদ",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "সংবিধানের খসড়া কমিটির সভাপতি কে ছিলেন?",
+    "options": [
+      {
+        "text": "জওহরলাল নেহরু",
+        "correct": false
+      },
+      {
+        "text": "ড. রাজেন্দ্র প্রসাদ",
+        "correct": false
+      },
+      {
+        "text": "কে. এম. মুন্সি",
+        "correct": false
+      },
+      {
+        "text": "ড. বি. আর. আম্বেদকর",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "ভারতের সংবিধান গৃহীত হয় কবে?",
+    "options": [
+      {
+        "text": "৯ ডিসেম্বর ১৯৪৬",
+        "correct": false
+      },
+      {
+        "text": "১৫ আগস্ট ১৯৪৭",
+        "correct": false
+      },
+      {
+        "text": "২৬ জানুয়ারি ১৯৫০",
+        "correct": false
+      },
+      {
+        "text": "২৬ নভেম্বর ১৯৪৯",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "ভারতের সংবিধান কার্যকর হয় কবে?",
+    "options": [
+      {
+        "text": "১৫ আগস্ট ১৯৪৭",
+        "correct": false
+      },
+      {
+        "text": "২ অক্টোবর ১৯৫০",
+        "correct": false
+      },
+      {
+        "text": "২৬ নভেম্বর ১৯৪৯",
+        "correct": false
+      },
+      {
+        "text": "২৬ জানুয়ারি ১৯৫০",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "দেশীয় রাজ্যগুলির সংযুক্তিতে প্রধান ভূমিকা নেন কে?",
+    "options": [
+      {
+        "text": "মৌলানা আজাদ",
+        "correct": false
+      },
+      {
+        "text": "ড. রাজেন্দ্র প্রসাদ",
+        "correct": false
+      },
+      {
+        "text": "সি. রাজাগোপালাচারী",
+        "correct": false
+      },
+      {
+        "text": "সর্দার বল্লভভাই প্যাটেল",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "ভারতের প্রথম সাধারণ নির্বাচন অনুষ্ঠিত হয় কোন সময়ে?",
+    "options": [
+      {
+        "text": "১৯৫৫–৫৬",
+        "correct": false
+      },
+      {
+        "text": "১৯৪৭–৪৮",
+        "correct": false
+      },
+      {
+        "text": "১৯৫১–৫২",
+        "correct": true
+      },
+      {
+        "text": "১৯৬০–৬১",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ভাষাভিত্তিক প্রথম রাজ্য হিসেবে অন্ধ্র রাজ্য গঠিত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯৫৩",
+        "correct": true
+      },
+      {
+        "text": "১৯৫৬",
+        "correct": false
+      },
+      {
+        "text": "১৯৪৮",
+        "correct": false
+      },
+      {
+        "text": "১৯৬০",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "রাষ্ট্র পুনর্গঠন আইন প্রণীত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯৫৩",
+        "correct": false
+      },
+      {
+        "text": "১৯৬২",
+        "correct": false
+      },
+      {
+        "text": "১৯৫৬",
+        "correct": true
+      },
+      {
+        "text": "১৯৫০",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "জাতিসংঘ প্রতিষ্ঠিত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯৪২",
+        "correct": false
+      },
+      {
+        "text": "১৯৪৫",
+        "correct": true
+      },
+      {
+        "text": "১৯৪৮",
+        "correct": false
+      },
+      {
+        "text": "১৯১৯",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "জোটনিরপেক্ষ আন্দোলনের প্রথম শীর্ষ সম্মেলন কোথায়?",
+    "options": [
+      {
+        "text": "বেলগ্রেড",
+        "correct": true
+      },
+      {
+        "text": "কায়রো",
+        "correct": false
+      },
+      {
+        "text": "বান্দুং",
+        "correct": false
+      },
+      {
+        "text": "দিল্লি",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "জোটনিরপেক্ষ আন্দোলনের প্রথম শীর্ষ সম্মেলন হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯৬১",
+        "correct": true
+      },
+      {
+        "text": "১৯৪৭",
+        "correct": false
+      },
+      {
+        "text": "১৯৫৫",
+        "correct": false
+      },
+      {
+        "text": "১৯৭১",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বান্দুং সম্মেলন অনুষ্ঠিত হয় কোন সালে?",
+    "options": [
+      {
+        "text": "১৯৫০",
+        "correct": false
+      },
+      {
+        "text": "১৯৬১",
+        "correct": false
+      },
+      {
+        "text": "১৯৪৫",
+        "correct": false
+      },
+      {
+        "text": "১৯৫৫",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "জাতিসংঘ নিরাপত্তা পরিষদের স্থায়ী সদস্যের সংখ্যা কত?",
+    "options": [
+      {
+        "text": "৫",
+        "correct": true
+      },
+      {
+        "text": "৪",
+        "correct": false
+      },
+      {
+        "text": "১০",
+        "correct": false
+      },
+      {
+        "text": "৬",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "শীতল যুদ্ধের প্রধান প্রতিদ্বন্দ্বী শক্তি কোন দুটি?",
+    "options": [
+      {
+        "text": "ব্রিটেন ও ফ্রান্স",
+        "correct": false
+      },
+      {
+        "text": "মার্কিন যুক্তরাষ্ট্র ও সোভিয়েত ইউনিয়ন",
+        "correct": true
+      },
+      {
+        "text": "ভারত ও পাকিস্তান",
+        "correct": false
+      },
+      {
+        "text": "চীন ও জাপান",
+        "correct": false
+      }
+    ]
+  }
+]

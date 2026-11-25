@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  
+   <script src="auth_guard.js"></script>
+   
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#EFF4FC" />
+  <title>Play with Friends | P. K PRACTICE</title>
+
+  <meta name="description" content="Challenge your friends to a live Madhyamik quiz. Create a room, share the code, and see who scores highest." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="P. K PRACTICE" />
+  <meta property="og:title" content="Play the Madhyamik Quiz with Friends | P. K PRACTICE" />
+  <meta property="og:description" content="Challenge your friends to a live Madhyamik quiz. Create a room, share the code, and see who scores highest." />
+  <meta property="og:url" content="https://parthakonai000.github.io/Group-verb-practice/friends.html" />
+  <meta property="og:image" content="https://parthakonai000.github.io/Group-verb-practice/friends.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="P. K PRACTICE: play the Madhyamik quiz with friends" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Play Phrasal Verbs with a Friend | P. K PRACTICE" />
+  <meta name="twitter:description" content="Challenge your friends to a live Madhyamik quiz. Create a room, share the code, and see who scores highest." />
+  <meta name="twitter:image" content="https://parthakonai000.github.io/Group-verb-practice/friends.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("pk_theme") || localStorage.getItem("theme");
+        if (t !== "dark" && t !== "light") t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="friends.css" />
+</head>
+
+<body>
+  <div class="app">
+
+    <!-- ============ Top bar ============ -->
+    <header class="top">
+      <a class="back" href="index.html" aria-label="Back to P. K PRACTICE">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+        P. K PRACTICE
+      </a>
+      <div class="top-actions">
+        <button id="btn-mic" class="icon-btn mic-btn hidden" type="button" aria-label="Mute or unmute microphone" title="Voice Chat">
+          <svg class="mic-on" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="9" y="2" width="6" height="11" rx="3"/>
+            <path d="M5 10v1a7 7 0 0 0 14 0v-1"/>
+            <line x1="12" y1="18" x2="12" y2="22"/>
+            <line x1="8" y1="22" x2="16" y2="22"/>
+          </svg>
+          <svg class="mic-off" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="2" y1="2" x2="22" y2="22"/>
+            <path d="M18.89 13.23A7.12 7.12 0 0 0 19 11v-1"/>
+            <path d="M5 10v1a7 7 0 0 0 12 4.95"/>
+            <path d="M15 9.34V5a3 3 0 0 0-5.68-1.33"/>
+            <path d="M9 9v2a3 3 0 0 0 5.12 2.12"/>
+            <line x1="12" y1="18" x2="12" y2="22"/>
+            <line x1="8" y1="22" x2="16" y2="22"/>
+          </svg>
+        </button>
+
+        <button id="btn-theme" class="icon-btn" type="button" aria-label="Switch light or dark theme">
+          <svg class="sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-card">
+        <h2 id="modal-title"></h2>
+        <p id="modal-sub" class="modal-sub"></p>
+        <div id="modal-tiles" class="tiles"></div>
+        <div class="modal-actions">
+          <button id="modal-cancel" class="btn ghost" type="button">Cancel</button>
+          <button id="modal-ok" class="btn primary" type="button"></button>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <!-- ================= STATE 1: LOBBY ================= -->
+      <section id="state-lobby" class="screen">
+        <div class="hero">
+          <div class="duel" aria-hidden="true">
+            <span id="lobby-avatar" class="avatar lg">?</span>
+            <span class="vs-dot">VS</span>
+            <span class="avatar opp lg unknown">?</span>
+          </div>
+          <h1>Play with friends</h1>
+          <p class="bn">একই প্রশ্ন, একই সময়ে। ২ থেকে ৪ জন, দেখো কে বেশি জানে।</p>
+        </div>
+
+        <div class="card lobby-card">
+          <div>
+            <label class="field-label" for="input-name">Your name</label>
+            <div class="name-row">
+              <input id="input-name" maxlength="20" autocomplete="nickname" placeholder="Type your name" />
+            </div>
+          </div>
+
+          <p id="invite-banner" class="invite-banner hidden">
+            Your friend invited you to room <b id="invite-code"></b>. Add your name and join.
+          </p>
+
+          <div><label class="field-label">Subject</label><div id="subjects" class="tiles"></div></div>
+          <button id="btn-create" class="btn primary" type="button" disabled>Create a room</button>
+
+          <div class="or"><span>or join with a code</span></div>
+
+          <div class="code-entry">
+            <input id="input-code" inputmode="numeric" pattern="[0-9]*" maxlength="4" autocomplete="off" aria-label="4-digit room code" />
+            <div class="cells" aria-hidden="true"><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span></div>
+          </div>
+          <button id="btn-join" class="btn secondary" type="button" disabled>Join room</button>
+        </div>
+        <p id="load-note" class="note" aria-live="polite">Connecting…</p>
+      </section>
+
+      <!-- ================= STATE 2: ROOM (waiting + countdown) ================= -->
+      <section id="state-waiting" class="screen hidden">
+        <div class="subject-row">
+          <div><p class="room-label">Subject</p><p id="subject-name" class="subject-name"></p></div>
+          <button id="btn-subject" class="btn ghost small hidden" type="button">Change</button>
+        </div>
+        <div class="card room-card">
+          <p class="room-label">Room code</p>
+          <div id="room-code" class="code-tiles" aria-live="polite"></div>
+          <div id="share-row" class="share-row">
+            <button id="btn-share" class="btn ghost small" type="button"></button>
+            <button id="btn-native-share" class="btn ghost small hidden" type="button"></button>
+          </div>
+        </div>
+
+        <div id="seats" class="seats"></div>
+
+        <p id="room-status" class="status" aria-live="polite"></p>
+        <div id="countdown" class="countdown hidden" aria-live="assertive"></div>
+
+        <button id="btn-start" class="btn primary" type="button" disabled>Start game</button>
+        <button id="btn-retry" class="btn ghost hidden" type="button">Try again</button>
+        <button id="btn-cancel" class="btn link" type="button">Cancel</button>
+      </section>
+
+      <!-- ================= STATE 3: GAME ARENA ================= -->
+      <section id="state-game" class="screen hidden">
+        <div id="race" class="race" aria-label="Live race"></div>
+
+        <div id="q-area" class="card q-card">
+          <div class="q-meta">
+            <span id="q-progress"></span>
+            <button id="btn-leave" class="leave" type="button">Leave</button>
+          </div>
+          <h2 id="q-text" class="q-bn" lang="bn"></h2>
+          <div id="options" class="options" role="group" aria-label="Answer choices"></div>
+          <div id="feedback" class="feedback" aria-live="polite"></div>
+        </div>
+
+        <div id="finished-msg" class="card wait-card hidden">
+          <div class="spinner" aria-hidden="true"></div>
+          <p class="big"><span id="finish-score">0</span><small>/10</small></p>
+          <p id="finish-text" style="font-weight:600"></p>
+        </div>
+      </section>
+
+      <!-- ================= STATE 4: RESULT ================= -->
+      <section id="state-result" class="screen hidden">
+        <div class="card result-card">
+          <div id="result-badge" class="result-badge"></div>
+          <h2 id="result-title"></h2>
+          <p id="result-reason" class="reason"></p>
+          <div id="result-players" class="result-players"></div>
+        </div>
+        <button id="btn-next" class="btn primary" type="button">Next round</button>
+        <button id="btn-back" class="btn ghost" type="button">Back to lobby</button>
+        <div id="review-wrap"></div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Hidden container for remote voice streams -->
+  <div id="voice-audios" class="hidden" aria-hidden="true"></div>
+
+  <canvas id="confetti" aria-hidden="true"></canvas>
+
+  <script src="questions.js"></script>
+  <script type="module" src="friends.js"></script>
+</body>
+</html>

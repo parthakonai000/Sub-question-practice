@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PK Practice – মাধ্যমিক প্রশ্ন প্র্যাকটিস</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="sheet">
+
+  <!-- হোম -->
+  <section id="home" class="view active">
+    <div class="stamp">PK</div>
+    <h1>PK Practice</h1>
+    <p class="lead">মাধ্যমিকের প্রশ্ন, প্রতিদিন একটু একটু করে।</p>
+    <div class="menu">
+      <button class="opt" data-go="setup">
+        <span class="opt-ico">✏️</span>
+        <span><b>প্র্যাকটিস</b><small>নিজে ১০টি প্রশ্ন সমাধান করো</small></span>
+      </button>
+      <a class="opt" href="friends.html">
+        <span class="opt-ico">🤝</span>
+        <span><b>Play with Friends</b><small>বন্ধুদের সাথে একসাথে খেলো</small></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- প্র্যাকটিস সেটআপ -->
+  <section id="setup" class="view">
+    <button class="back" data-go="home">← হোম</button>
+    <h2>কী প্র্যাকটিস করবে?</h2>
+    <p class="label">বিষয়</p>
+    <div id="subjects" class="chips"></div>
+    <p id="setupError" class="error" hidden></p>
+    <button id="startBtn" class="btn">শুরু করো</button>
+  </section>
+
+  <!-- কুইজ -->
+  <section id="quiz" class="view">
+    <div class="topbar">
+      <button id="quitBtn" class="back">✕ বন্ধ করো</button>
+      <span id="counter" class="count"></span>
+    </div>
+    <div class="bar"><i id="barFill"></i></div>
+    <h2 id="qText" class="question"></h2>
+    <div id="options" class="options"></div>
+    <div id="explain" class="explain" hidden></div>
+    <button id="nextBtn" class="btn" hidden>পরবর্তী</button>
+  </section>
+
+  <!-- রেজাল্ট -->
+  <section id="result" class="view">
+    <div id="scoreStamp" class="score-stamp"></div>
+    <h2 id="resultMsg"></h2>
+    <p id="resultSub" class="lead"></p>
+    <div id="review" class="review"></div>
+    <div class="row">
+      <button id="againBtn" class="btn">আবার প্র্যাকটিস</button>
+      <button class="btn ghost" data-go="home">হোম</button>
+    </div>
+  </section>
+
+</main>
+<script src="questions.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
