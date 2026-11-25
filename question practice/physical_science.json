@@ -1,0 +1,2102 @@
+[
+  {
+    "question": "ওজোন স্তর বায়ুমণ্ডলের কোন স্তরে অবস্থিত?",
+    "options": [
+      {
+        "text": "ট্রপোস্ফিয়ার",
+        "correct": false
+      },
+      {
+        "text": "স্ট্র্যাটোস্ফিয়ার",
+        "correct": true
+      },
+      {
+        "text": "মেসোস্ফিয়ার",
+        "correct": false
+      },
+      {
+        "text": "থার্মোস্ফিয়ার",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ওজোন স্তর ক্ষয়ের প্রধান কারণ কোনটি?",
+    "options": [
+      {
+        "text": "CFC",
+        "correct": true
+      },
+      {
+        "text": "CO₂",
+        "correct": false
+      },
+      {
+        "text": "O₂",
+        "correct": false
+      },
+      {
+        "text": "N₂",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "গ্রিনহাউস প্রভাব বৃদ্ধিতে প্রধান ভূমিকা রাখে কোন গ্যাস?",
+    "options": [
+      {
+        "text": "হাইড্রোজেন",
+        "correct": false
+      },
+      {
+        "text": "কার্বন ডাই-অক্সাইড",
+        "correct": true
+      },
+      {
+        "text": "নিয়ন",
+        "correct": false
+      },
+      {
+        "text": "হিলিয়াম",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "অ্যাসিড বৃষ্টির জন্য প্রধানত দায়ী কোন গ্যাসদ্বয়?",
+    "options": [
+      {
+        "text": "SO₂ ও NO₂",
+        "correct": true
+      },
+      {
+        "text": "O₂ ও H₂",
+        "correct": false
+      },
+      {
+        "text": "N₂ ও O₂",
+        "correct": false
+      },
+      {
+        "text": "CH₄ ও He",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বিশ্ব উষ্ণায়নের একটি প্রত্যক্ষ ফল কী?",
+    "options": [
+      {
+        "text": "সমুদ্রপৃষ্ঠের উচ্চতা বৃদ্ধি",
+        "correct": true
+      },
+      {
+        "text": "দিনের দৈর্ঘ্য কমা",
+        "correct": false
+      },
+      {
+        "text": "মাধ্যাকর্ষণ হ্রাস",
+        "correct": false
+      },
+      {
+        "text": "চাঁদের দূরত্ব কমা",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ওজোন অণুর সংকেত কী?",
+    "options": [
+      {
+        "text": "O₂",
+        "correct": false
+      },
+      {
+        "text": "O₃",
+        "correct": true
+      },
+      {
+        "text": "CO₃",
+        "correct": false
+      },
+      {
+        "text": "O",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বায়ুমণ্ডলের কোন স্তরে আবহাওয়ার পরিবর্তন ঘটে?",
+    "options": [
+      {
+        "text": "স্ট্র্যাটোস্ফিয়ার",
+        "correct": false
+      },
+      {
+        "text": "ট্রপোস্ফিয়ার",
+        "correct": true
+      },
+      {
+        "text": "আয়নোস্ফিয়ার",
+        "correct": false
+      },
+      {
+        "text": "এক্সোস্ফিয়ার",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বয়েলের সূত্রে স্থির থাকে কোন রাশি?",
+    "options": [
+      {
+        "text": "চাপ",
+        "correct": false
+      },
+      {
+        "text": "আয়তন",
+        "correct": false
+      },
+      {
+        "text": "তাপমাত্রা",
+        "correct": true
+      },
+      {
+        "text": "ঘনত্ব",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "স্থির চাপে গ্যাসের আয়তন পরম তাপমাত্রার সঙ্গে—",
+    "options": [
+      {
+        "text": "ব্যস্তানুপাতিক",
+        "correct": false
+      },
+      {
+        "text": "সমানুপাতিক",
+        "correct": true
+      },
+      {
+        "text": "সম্পর্কহীন",
+        "correct": false
+      },
+      {
+        "text": "বর্গানুপাতিক",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পরম শূন্য তাপমাত্রা কত?",
+    "options": [
+      {
+        "text": "০°C",
+        "correct": false
+      },
+      {
+        "text": "−২৭৩°C প্রায়",
+        "correct": true
+      },
+      {
+        "text": "২৭৩°C",
+        "correct": false
+      },
+      {
+        "text": "−১০০°C",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আদর্শ গ্যাস সমীকরণ কোনটি?",
+    "options": [
+      {
+        "text": "PV=nRT",
+        "correct": true
+      },
+      {
+        "text": "P/V=nRT",
+        "correct": false
+      },
+      {
+        "text": "PT=nRV",
+        "correct": false
+      },
+      {
+        "text": "PV=RT/n",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "একই তাপমাত্রা ও চাপে সমান আয়তনের গ্যাসে অণুর সংখ্যা—",
+    "options": [
+      {
+        "text": "ভিন্ন",
+        "correct": false
+      },
+      {
+        "text": "সমান",
+        "correct": true
+      },
+      {
+        "text": "শূন্য",
+        "correct": false
+      },
+      {
+        "text": "চাপের সমান",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "গ্যাসের চাপ সৃষ্টি হয়—",
+    "options": [
+      {
+        "text": "অণুর পারস্পরিক আকর্ষণে",
+        "correct": false
+      },
+      {
+        "text": "পাত্রের দেওয়ালে অণুর সংঘর্ষে",
+        "correct": true
+      },
+      {
+        "text": "অণুর স্থির অবস্থানে",
+        "correct": false
+      },
+      {
+        "text": "তাপহীনতায়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "চার্লসের সূত্রে স্থির থাকে—",
+    "options": [
+      {
+        "text": "চাপ",
+        "correct": true
+      },
+      {
+        "text": "আয়তন",
+        "correct": false
+      },
+      {
+        "text": "ভর",
+        "correct": false
+      },
+      {
+        "text": "ঘনত্ব",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "শূন্যস্থানে আলোর বেগ কত?",
+    "options": [
+      {
+        "text": "3×10⁶ m/s",
+        "correct": false
+      },
+      {
+        "text": "3×10⁸ m/s",
+        "correct": true
+      },
+      {
+        "text": "3×10⁵ m/s",
+        "correct": false
+      },
+      {
+        "text": "3×10¹⁰ m/s",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "অবতল দর্পণের ফোকাস—",
+    "options": [
+      {
+        "text": "কাল্পনিক",
+        "correct": false
+      },
+      {
+        "text": "বাস্তব",
+        "correct": true
+      },
+      {
+        "text": "অসীমে",
+        "correct": false
+      },
+      {
+        "text": "দর্পণের পিছনে সবসময়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সমতল দর্পণে প্রতিবিম্বের প্রকৃতি কী?",
+    "options": [
+      {
+        "text": "বাস্তব ও উল্টো",
+        "correct": false
+      },
+      {
+        "text": "অবাস্তব ও সোজা",
+        "correct": true
+      },
+      {
+        "text": "বাস্তব ও সোজা",
+        "correct": false
+      },
+      {
+        "text": "অবাস্তব ও উল্টো",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "লেন্সের ক্ষমতার SI একক—",
+    "options": [
+      {
+        "text": "মিটার",
+        "correct": false
+      },
+      {
+        "text": "ডায়োপ্টার",
+        "correct": true
+      },
+      {
+        "text": "ওয়াট",
+        "correct": false
+      },
+      {
+        "text": "লুমেন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "উত্তল লেন্সের ক্ষমতা—",
+    "options": [
+      {
+        "text": "ঋণাত্মক",
+        "correct": false
+      },
+      {
+        "text": "ধনাত্মক",
+        "correct": true
+      },
+      {
+        "text": "শূন্য",
+        "correct": false
+      },
+      {
+        "text": "অনির্ণেয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "প্রতিসরাঙ্ক n-এর সংজ্ঞা কোনটি?",
+    "options": [
+      {
+        "text": "v/c",
+        "correct": false
+      },
+      {
+        "text": "c/v",
+        "correct": true
+      },
+      {
+        "text": "cv",
+        "correct": false
+      },
+      {
+        "text": "c+v",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আলো ঘন মাধ্যম থেকে লঘু মাধ্যমে গেলে আপতন কোণ সংকট কোণের বেশি হলে ঘটে—",
+    "options": [
+      {
+        "text": "প্রতিফলন",
+        "correct": false
+      },
+      {
+        "text": "পূর্ণ অভ্যন্তরীণ প্রতিফলন",
+        "correct": true
+      },
+      {
+        "text": "বিচ্ছুরণ",
+        "correct": false
+      },
+      {
+        "text": "ব্যতিচার",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "অবতল লেন্স সর্বদা কেমন প্রতিবিম্ব দেয়?",
+    "options": [
+      {
+        "text": "বাস্তব, উল্টো",
+        "correct": false
+      },
+      {
+        "text": "অবাস্তব, সোজা, খর্বিত",
+        "correct": true
+      },
+      {
+        "text": "বাস্তব, বড়",
+        "correct": false
+      },
+      {
+        "text": "অবাস্তব, উল্টো",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আধুনিক পর্যায় সূত্রে মৌলগুলির ধর্ম পর্যাবৃত্তভাবে নির্ভর করে—",
+    "options": [
+      {
+        "text": "পারমাণবিক ভরের",
+        "correct": false
+      },
+      {
+        "text": "পারমাণবিক সংখ্যার",
+        "correct": true
+      },
+      {
+        "text": "নিউট্রন সংখ্যার",
+        "correct": false
+      },
+      {
+        "text": "ঘনত্বের",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আধুনিক পর্যায় সারণিতে পর্যায়ের সংখ্যা—",
+    "options": [
+      {
+        "text": "৭",
+        "correct": true
+      },
+      {
+        "text": "৮",
+        "correct": false
+      },
+      {
+        "text": "১৮",
+        "correct": false
+      },
+      {
+        "text": "৬",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আধুনিক পর্যায় সারণিতে গোষ্ঠীর সংখ্যা—",
+    "options": [
+      {
+        "text": "৭",
+        "correct": false
+      },
+      {
+        "text": "৮",
+        "correct": false
+      },
+      {
+        "text": "১৮",
+        "correct": true
+      },
+      {
+        "text": "১৬",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "একই গোষ্ঠীর মৌলগুলির বহিঃস্থ কক্ষে সাধারণত সমান থাকে—",
+    "options": [
+      {
+        "text": "নিউট্রন",
+        "correct": false
+      },
+      {
+        "text": "ইলেকট্রন সংখ্যা",
+        "correct": false
+      },
+      {
+        "text": "যোজ্যতা ইলেকট্রন সংখ্যা",
+        "correct": true
+      },
+      {
+        "text": "প্রোটন ও নিউট্রন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "একটি পর্যায়ে বাম থেকে ডানে পারমাণবিক ব্যাসার্ধ সাধারণত—",
+    "options": [
+      {
+        "text": "বাড়ে",
+        "correct": false
+      },
+      {
+        "text": "কমে",
+        "correct": true
+      },
+      {
+        "text": "অপরিবর্তিত",
+        "correct": false
+      },
+      {
+        "text": "প্রথমে কমে পরে বাড়ে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ক্ষার ধাতু কোন গোষ্ঠীতে?",
+    "options": [
+      {
+        "text": "১",
+        "correct": true
+      },
+      {
+        "text": "২",
+        "correct": false
+      },
+      {
+        "text": "১৭",
+        "correct": false
+      },
+      {
+        "text": "১৮",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "হ্যালোজেন মৌলগুলি কোন গোষ্ঠীতে?",
+    "options": [
+      {
+        "text": "১",
+        "correct": false
+      },
+      {
+        "text": "১৪",
+        "correct": false
+      },
+      {
+        "text": "১৭",
+        "correct": true
+      },
+      {
+        "text": "১৮",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আয়নীয় বন্ধন গঠিত হয়—",
+    "options": [
+      {
+        "text": "ইলেকট্রন ভাগাভাগিতে",
+        "correct": false
+      },
+      {
+        "text": "ইলেকট্রন আদান-প্রদানে",
+        "correct": true
+      },
+      {
+        "text": "প্রোটন আদান-প্রদানে",
+        "correct": false
+      },
+      {
+        "text": "নিউট্রন ভাগে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "NaCl-এ কোন বন্ধন থাকে?",
+    "options": [
+      {
+        "text": "সমযোজী",
+        "correct": false
+      },
+      {
+        "text": "আয়নীয়",
+        "correct": true
+      },
+      {
+        "text": "ধাতব",
+        "correct": false
+      },
+      {
+        "text": "হাইড্রোজেন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সমযোজী বন্ধনে পরমাণুগুলি—",
+    "options": [
+      {
+        "text": "ইলেকট্রন ভাগ করে",
+        "correct": true
+      },
+      {
+        "text": "প্রোটন ত্যাগ করে",
+        "correct": false
+      },
+      {
+        "text": "নিউট্রন ভাগ করে",
+        "correct": false
+      },
+      {
+        "text": "আয়ন সৃষ্টি না করেই ভেঙে যায়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "জলের অণুর সংকেত—",
+    "options": [
+      {
+        "text": "H₂O",
+        "correct": true
+      },
+      {
+        "text": "H₂O₂",
+        "correct": false
+      },
+      {
+        "text": "HO₂",
+        "correct": false
+      },
+      {
+        "text": "H₃O",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "মিথেন অণুতে কার্বনের যোজ্যতা কত?",
+    "options": [
+      {
+        "text": "২",
+        "correct": false
+      },
+      {
+        "text": "৩",
+        "correct": false
+      },
+      {
+        "text": "৪",
+        "correct": true
+      },
+      {
+        "text": "১",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "কোনটি সমযোজী যৌগ?",
+    "options": [
+      {
+        "text": "NaCl",
+        "correct": false
+      },
+      {
+        "text": "MgO",
+        "correct": false
+      },
+      {
+        "text": "CH₄",
+        "correct": true
+      },
+      {
+        "text": "CaCl₂",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আয়নীয় যৌগ গলিত অবস্থায় বিদ্যুৎ পরিবহন করে, কারণ—",
+    "options": [
+      {
+        "text": "অণু দ্রুত চলে",
+        "correct": false
+      },
+      {
+        "text": "আয়ন চলনশীল হয়",
+        "correct": true
+      },
+      {
+        "text": "ইলেকট্রন স্থির থাকে",
+        "correct": false
+      },
+      {
+        "text": "তাপ উৎপন্ন হয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "১ মোল পদার্থে কণার সংখ্যা—",
+    "options": [
+      {
+        "text": "6.022×10²³",
+        "correct": true
+      },
+      {
+        "text": "3×10⁸",
+        "correct": false
+      },
+      {
+        "text": "22.4",
+        "correct": false
+      },
+      {
+        "text": "1.66×10⁻²⁴",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "মোলার ভরের একক—",
+    "options": [
+      {
+        "text": "g mol⁻¹",
+        "correct": true
+      },
+      {
+        "text": "mol g",
+        "correct": false
+      },
+      {
+        "text": "g cm",
+        "correct": false
+      },
+      {
+        "text": "kg mol",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "H₂O-র ১ મোলের ভর কত?",
+    "options": [
+      {
+        "text": "16 g",
+        "correct": false
+      },
+      {
+        "text": "18 g",
+        "correct": true
+      },
+      {
+        "text": "20 g",
+        "correct": false
+      },
+      {
+        "text": "2 g",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "CO₂-র আণবিক ভর—",
+    "options": [
+      {
+        "text": "28",
+        "correct": false
+      },
+      {
+        "text": "32",
+        "correct": false
+      },
+      {
+        "text": "44",
+        "correct": true
+      },
+      {
+        "text": "46",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "STP-তে ২ মোল গ্যাসের আয়তন—",
+    "options": [
+      {
+        "text": "11.2 L",
+        "correct": false
+      },
+      {
+        "text": "22.4 L",
+        "correct": false
+      },
+      {
+        "text": "44.8 L",
+        "correct": true
+      },
+      {
+        "text": "5.6 L",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "CaCO₃-এর মোলার ভর (Ca=40,C=12,O=16)—",
+    "options": [
+      {
+        "text": "100 g/mol",
+        "correct": true
+      },
+      {
+        "text": "84 g/mol",
+        "correct": false
+      },
+      {
+        "text": "56 g/mol",
+        "correct": false
+      },
+      {
+        "text": "112 g/mol",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আপেক্ষিক পারমাণবিক ভরের কোনো একক—",
+    "options": [
+      {
+        "text": "g",
+        "correct": false
+      },
+      {
+        "text": "kg",
+        "correct": false
+      },
+      {
+        "text": "নেই",
+        "correct": true
+      },
+      {
+        "text": "mol",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "অ্যাভোগাড্রো ধ্রুবকের একক—",
+    "options": [
+      {
+        "text": "mol⁻¹",
+        "correct": true
+      },
+      {
+        "text": "g mol⁻¹",
+        "correct": false
+      },
+      {
+        "text": "L mol",
+        "correct": false
+      },
+      {
+        "text": "কোনো একক নেই",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "তাপের SI একক—",
+    "options": [
+      {
+        "text": "ক্যালরি",
+        "correct": false
+      },
+      {
+        "text": "জুল",
+        "correct": true
+      },
+      {
+        "text": "ওয়াট",
+        "correct": false
+      },
+      {
+        "text": "কেলভিন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "তাপমাত্রার SI একক—",
+    "options": [
+      {
+        "text": "সেলসিয়াস",
+        "correct": false
+      },
+      {
+        "text": "ফারেনহাইট",
+        "correct": false
+      },
+      {
+        "text": "কেলভিন",
+        "correct": true
+      },
+      {
+        "text": "জুল",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বিশুদ্ধ জলের স্ফুটনাঙ্ক (১ atm-এ)—",
+    "options": [
+      {
+        "text": "০°C",
+        "correct": false
+      },
+      {
+        "text": "৫০°C",
+        "correct": false
+      },
+      {
+        "text": "১০০°C",
+        "correct": true
+      },
+      {
+        "text": "২৭৩°C",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "কোন প্রক্রিয়ায় তরল পৃষ্ঠ থেকে বাষ্পে পরিণত হয়?",
+    "options": [
+      {
+        "text": "স্ফুটন",
+        "correct": false
+      },
+      {
+        "text": "বাষ্পীভবন",
+        "correct": true
+      },
+      {
+        "text": "ঘনীভবন",
+        "correct": false
+      },
+      {
+        "text": "গলন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "কঠিন থেকে সরাসরি গ্যাসে যাওয়া—",
+    "options": [
+      {
+        "text": "গলন",
+        "correct": false
+      },
+      {
+        "text": "ঊর্ধ্বপাতন",
+        "correct": true
+      },
+      {
+        "text": "ঘনীভবন",
+        "correct": false
+      },
+      {
+        "text": "স্ফুটন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "তাপ সঞ্চালনের যে পদ্ধতিতে মাধ্যমের প্রয়োজন হয় না—",
+    "options": [
+      {
+        "text": "পরিবহন",
+        "correct": false
+      },
+      {
+        "text": "পরিচলন",
+        "correct": false
+      },
+      {
+        "text": "বিকিরণ",
+        "correct": true
+      },
+      {
+        "text": "সবগুলি",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বরফ গলনের সময় তাপমাত্রা—",
+    "options": [
+      {
+        "text": "বাড়ে",
+        "correct": false
+      },
+      {
+        "text": "কমে",
+        "correct": false
+      },
+      {
+        "text": "স্থির থাকে",
+        "correct": true
+      },
+      {
+        "text": "শূন্য হয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "তাপের পরিমাণ Q=—",
+    "options": [
+      {
+        "text": "mcΔT",
+        "correct": true
+      },
+      {
+        "text": "m/cT",
+        "correct": false
+      },
+      {
+        "text": "m+c+T",
+        "correct": false
+      },
+      {
+        "text": "cΔT/m",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "তড়িৎ প্রবাহের SI একক—",
+    "options": [
+      {
+        "text": "ভোল্ট",
+        "correct": false
+      },
+      {
+        "text": "অ্যাম্পিয়ার",
+        "correct": true
+      },
+      {
+        "text": "ওহম",
+        "correct": false
+      },
+      {
+        "text": "কুলম্ব",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ওহমের সূত্র—",
+    "options": [
+      {
+        "text": "V=IR",
+        "correct": true
+      },
+      {
+        "text": "I=VR",
+        "correct": false
+      },
+      {
+        "text": "R=VI",
+        "correct": false
+      },
+      {
+        "text": "V=I/R",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "রোধের SI একক—",
+    "options": [
+      {
+        "text": "অ্যাম্পিয়ার",
+        "correct": false
+      },
+      {
+        "text": "ওহম",
+        "correct": true
+      },
+      {
+        "text": "ভোল্ট",
+        "correct": false
+      },
+      {
+        "text": "ওয়াট",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সিরিজ বর্তনীতে কোনটি একই থাকে?",
+    "options": [
+      {
+        "text": "বিভব",
+        "correct": false
+      },
+      {
+        "text": "প্রবাহ",
+        "correct": true
+      },
+      {
+        "text": "রোধ",
+        "correct": false
+      },
+      {
+        "text": "ক্ষমতা",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সমান্তরাল বর্তনীতে প্রতিটি শাখার দুই প্রান্তে—",
+    "options": [
+      {
+        "text": "প্রবাহ সমান",
+        "correct": false
+      },
+      {
+        "text": "বিভব পার্থক্য সমান",
+        "correct": true
+      },
+      {
+        "text": "রোধ সমান",
+        "correct": false
+      },
+      {
+        "text": "ক্ষমতা শূন্য",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বিদ্যুৎ ক্ষমতার একক—",
+    "options": [
+      {
+        "text": "জুল",
+        "correct": false
+      },
+      {
+        "text": "ওয়াট",
+        "correct": true
+      },
+      {
+        "text": "কুলম্ব",
+        "correct": false
+      },
+      {
+        "text": "ওহম",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "১ কিলোওয়াট-ঘণ্টা সমান—",
+    "options": [
+      {
+        "text": "3.6×10⁶ J",
+        "correct": true
+      },
+      {
+        "text": "3600 J",
+        "correct": false
+      },
+      {
+        "text": "1000 J",
+        "correct": false
+      },
+      {
+        "text": "36 J",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "তড়িৎ প্রবাহ I=—",
+    "options": [
+      {
+        "text": "Q/t",
+        "correct": true
+      },
+      {
+        "text": "Qt",
+        "correct": false
+      },
+      {
+        "text": "t/Q",
+        "correct": false
+      },
+      {
+        "text": "Q+t",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পরমাণুর নিউক্লিয়াসে থাকে—",
+    "options": [
+      {
+        "text": "ইলেকট্রন ও প্রোটন",
+        "correct": false
+      },
+      {
+        "text": "প্রোটন ও নিউট্রন",
+        "correct": true
+      },
+      {
+        "text": "শুধু ইলেকট্রন",
+        "correct": false
+      },
+      {
+        "text": "নিউট্রন ও ফোটন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আইসোটোপের পারমাণবিক সংখ্যা—",
+    "options": [
+      {
+        "text": "ভিন্ন",
+        "correct": false
+      },
+      {
+        "text": "সমান",
+        "correct": true
+      },
+      {
+        "text": "শূন্য",
+        "correct": false
+      },
+      {
+        "text": "দ্বিগুণ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "আলফা কণা আসলে—",
+    "options": [
+      {
+        "text": "ইলেকট্রন",
+        "correct": false
+      },
+      {
+        "text": "হিলিয়াম নিউক্লিয়াস",
+        "correct": true
+      },
+      {
+        "text": "প্রোটন",
+        "correct": false
+      },
+      {
+        "text": "নিউট্রন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "বিটা কণা সাধারণত—",
+    "options": [
+      {
+        "text": "ইলেকট্রন",
+        "correct": true
+      },
+      {
+        "text": "হিলিয়াম নিউক্লিয়াস",
+        "correct": false
+      },
+      {
+        "text": "ফোটন",
+        "correct": false
+      },
+      {
+        "text": "প্রোটন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "গামা রশ্মির আধান—",
+    "options": [
+      {
+        "text": "+২",
+        "correct": false
+      },
+      {
+        "text": "−১",
+        "correct": false
+      },
+      {
+        "text": "০",
+        "correct": true
+      },
+      {
+        "text": "+১",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "নিউক্লীয় বিভাজনে—",
+    "options": [
+      {
+        "text": "হালকা নিউক্লিয়াস যুক্ত হয়",
+        "correct": false
+      },
+      {
+        "text": "ভারী নিউক্লিয়াস ভেঙে যায়",
+        "correct": true
+      },
+      {
+        "text": "ইলেকট্রন হারায়",
+        "correct": false
+      },
+      {
+        "text": "রাসায়নিক বন্ধন গড়ে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "হাইড্রোজেন বোমার শক্তির উৎস—",
+    "options": [
+      {
+        "text": "নিউক্লীয় সংযোজন",
+        "correct": true
+      },
+      {
+        "text": "নিউক্লীয় বিভাজন",
+        "correct": false
+      },
+      {
+        "text": "দহন",
+        "correct": false
+      },
+      {
+        "text": "জারণ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "অর্ধায়ু হলো—",
+    "options": [
+      {
+        "text": "সব পরমাণুর ক্ষয়ের সময়",
+        "correct": false
+      },
+      {
+        "text": "অর্ধেক তেজস্ক্রিয় নিউক্লিয়াস ক্ষয়ে যেতে লাগা সময়",
+        "correct": true
+      },
+      {
+        "text": "নিউক্লিয়াস দ্বিগুণ হওয়ার সময়",
+        "correct": false
+      },
+      {
+        "text": "বিকিরণ থামার সময়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "তড়িৎ বিশ্লেষণে ধনায়ন যায়—",
+    "options": [
+      {
+        "text": "অ্যানোডে",
+        "correct": false
+      },
+      {
+        "text": "ক্যাথোডে",
+        "correct": true
+      },
+      {
+        "text": "দ্রবণের বাইরে",
+        "correct": false
+      },
+      {
+        "text": "কোনোটিতে নয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "তড়িৎ বিশ্লেষ্যে জারণ ঘটে—",
+    "options": [
+      {
+        "text": "ক্যাথোডে",
+        "correct": false
+      },
+      {
+        "text": "অ্যানোডে",
+        "correct": true
+      },
+      {
+        "text": "দুই তড়িৎদ্বারেই",
+        "correct": false
+      },
+      {
+        "text": "দ্রবণে নয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "তড়িৎ বিশ্লেষ্যে বিজারণ ঘটে—",
+    "options": [
+      {
+        "text": "অ্যানোডে",
+        "correct": false
+      },
+      {
+        "text": "ক্যাথোডে",
+        "correct": true
+      },
+      {
+        "text": "ইলেক্ট্রোলাইটে",
+        "correct": false
+      },
+      {
+        "text": "বাহ্যিক বর্তনীতে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "জলীয় CuSO₄-এর তড়িৎ বিশ্লেষণে ক্যাথোডে জমে—",
+    "options": [
+      {
+        "text": "তামা",
+        "correct": true
+      },
+      {
+        "text": "সালফার",
+        "correct": false
+      },
+      {
+        "text": "অক্সিজেন",
+        "correct": false
+      },
+      {
+        "text": "হাইড্রোজেন সালফাইড",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ইলেক্ট্রোলাইট হলো এমন পদার্থ যা—",
+    "options": [
+      {
+        "text": "গলিত/দ্রবণে আয়নের মাধ্যমে বিদ্যুৎ চালায়",
+        "correct": true
+      },
+      {
+        "text": "শুধু কঠিনে বিদ্যুৎ চালায়",
+        "correct": false
+      },
+      {
+        "text": "তাপ শোষণ করে",
+        "correct": false
+      },
+      {
+        "text": "চৌম্বকত্ব দেখায়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ইলেক্ট্রোপ্লেটিংয়ে আবরণী ধাতুর দণ্ড যুক্ত হয়—",
+    "options": [
+      {
+        "text": "ক্যাথোডে",
+        "correct": false
+      },
+      {
+        "text": "অ্যানোডে",
+        "correct": true
+      },
+      {
+        "text": "ব্যাটারির মাঝখানে",
+        "correct": false
+      },
+      {
+        "text": "কোনোটিতেই নয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "রেডক্স বিক্রিয়ায় ঘটে—",
+    "options": [
+      {
+        "text": "শুধু জারণ",
+        "correct": false
+      },
+      {
+        "text": "শুধু বিজারণ",
+        "correct": false
+      },
+      {
+        "text": "জারণ ও বিজারণ একসঙ্গে",
+        "correct": true
+      },
+      {
+        "text": "কোনোটিই নয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "তড়িৎ বিশ্লেষ্যে ইলেকট্রন বাহ্যিক বর্তনীতে প্রবাহিত হয়—",
+    "options": [
+      {
+        "text": "অ্যানোড থেকে ক্যাথোডে",
+        "correct": true
+      },
+      {
+        "text": "ক্যাথোড থেকে অ্যানোডে",
+        "correct": false
+      },
+      {
+        "text": "দ্রবণ থেকে বাইরে",
+        "correct": false
+      },
+      {
+        "text": "দুইদিকে সমান",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "হাইড্রোজেন ক্লোরাইড গ্যাসের জলীয় দ্রবণ—",
+    "options": [
+      {
+        "text": "সালফিউরিক অ্যাসিড",
+        "correct": false
+      },
+      {
+        "text": "হাইড্রোক্লোরিক অ্যাসিড",
+        "correct": true
+      },
+      {
+        "text": "নাইট্রিক অ্যাসিড",
+        "correct": false
+      },
+      {
+        "text": "কার্বনিক অ্যাসিড",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "অ্যামোনিয়া গ্যাসের সংকেত—",
+    "options": [
+      {
+        "text": "NH₃",
+        "correct": true
+      },
+      {
+        "text": "NO₂",
+        "correct": false
+      },
+      {
+        "text": "N₂O",
+        "correct": false
+      },
+      {
+        "text": "NH₄",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "অ্যামোনিয়া প্রস্তুতিতে ব্যবহৃত প্রক্রিয়া—",
+    "options": [
+      {
+        "text": "হ্যাবার",
+        "correct": true
+      },
+      {
+        "text": "কন্ট্যাক্ট",
+        "correct": false
+      },
+      {
+        "text": "সলভে",
+        "correct": false
+      },
+      {
+        "text": "অস্টওয়াল্ড",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সালফিউরিক অ্যাসিড শিল্পে প্রস্তুত হয়—",
+    "options": [
+      {
+        "text": "কন্ট্যাক্ট পদ্ধতিতে",
+        "correct": true
+      },
+      {
+        "text": "হ্যাবার পদ্ধতিতে",
+        "correct": false
+      },
+      {
+        "text": "সলভে পদ্ধতিতে",
+        "correct": false
+      },
+      {
+        "text": "বেসেমার পদ্ধতিতে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "CO₂ গ্যাস চুনজলকে—",
+    "options": [
+      {
+        "text": "নীল করে",
+        "correct": false
+      },
+      {
+        "text": "দুধের মতো সাদা করে",
+        "correct": true
+      },
+      {
+        "text": "লাল করে",
+        "correct": false
+      },
+      {
+        "text": "বর্ণহীন থেকে নীল করে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "হাইড্রোজেন গ্যাস শনাক্তে জ্বলন্ত কাঠি কাছে আনলে—",
+    "options": [
+      {
+        "text": "পপ শব্দে জ্বলে",
+        "correct": true
+      },
+      {
+        "text": "চুনজল ঘোলা করে",
+        "correct": false
+      },
+      {
+        "text": "কোনো পরিবর্তন হয় না",
+        "correct": false
+      },
+      {
+        "text": "বেগুনি হয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "অ্যামোনিয়া গ্যাস শুকাতে ব্যবহৃত হয়—",
+    "options": [
+      {
+        "text": "জল",
+        "correct": false
+      },
+      {
+        "text": "কুইকলাইম",
+        "correct": true
+      },
+      {
+        "text": "ঘন H₂SO₄",
+        "correct": false
+      },
+      {
+        "text": "CaCl₂",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "নাইট্রিক অ্যাসিডের সংকেত—",
+    "options": [
+      {
+        "text": "HNO₃",
+        "correct": true
+      },
+      {
+        "text": "HNO₂",
+        "correct": false
+      },
+      {
+        "text": "H₂NO₃",
+        "correct": false
+      },
+      {
+        "text": "NO₃",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ধাতুর আকরিক হলো—",
+    "options": [
+      {
+        "text": "ধাতুর প্রাকৃতিক যৌগ যাতে নিষ্কাশন লাভজনক",
+        "correct": true
+      },
+      {
+        "text": "বিশুদ্ধ ধাতু",
+        "correct": false
+      },
+      {
+        "text": "ধাতুর মিশ্রণ",
+        "correct": false
+      },
+      {
+        "text": "ধাতুর অক্সাইড মাত্র",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সালফাইড আকরিককে বায়ুতে উত্তপ্ত করাকে বলে—",
+    "options": [
+      {
+        "text": "ক্যালসিনেশন",
+        "correct": false
+      },
+      {
+        "text": "রোস্টিং",
+        "correct": true
+      },
+      {
+        "text": "গলন",
+        "correct": false
+      },
+      {
+        "text": "পরিশোধন",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "কার্বনেট আকরিককে সীমিত/বায়ুশূন্য পরিবেশে উত্তপ্ত করা—",
+    "options": [
+      {
+        "text": "রোস্টিং",
+        "correct": false
+      },
+      {
+        "text": "ক্যালসিনেশন",
+        "correct": true
+      },
+      {
+        "text": "তড়িৎ বিশ্লেষণ",
+        "correct": false
+      },
+      {
+        "text": "স্ফটিকীকরণ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "লোহা নিষ্কাশনে ব্লাস্ট ফার্নেসে বিজারক—",
+    "options": [
+      {
+        "text": "CO",
+        "correct": true
+      },
+      {
+        "text": "O₂",
+        "correct": false
+      },
+      {
+        "text": "N₂",
+        "correct": false
+      },
+      {
+        "text": "Cl₂",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "অ্যালুমিনিয়াম নিষ্কাশিত হয়—",
+    "options": [
+      {
+        "text": "কার্বন দিয়ে বিজারণে",
+        "correct": false
+      },
+      {
+        "text": "গলিত অ্যালুমিনা তড়িৎ বিশ্লেষণে",
+        "correct": true
+      },
+      {
+        "text": "জলীয় দ্রবণে",
+        "correct": false
+      },
+      {
+        "text": "পাতন পদ্ধতিতে",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "গ্যালভানাইজিংয়ে লোহার উপর প্রলেপ দেওয়া হয়—",
+    "options": [
+      {
+        "text": "তামা",
+        "correct": false
+      },
+      {
+        "text": "দস্তা",
+        "correct": true
+      },
+      {
+        "text": "টিন",
+        "correct": false
+      },
+      {
+        "text": "অ্যালুমিনিয়াম",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "পিতল হলো—",
+    "options": [
+      {
+        "text": "তামা ও দস্তার সংকর",
+        "correct": true
+      },
+      {
+        "text": "তামা ও টিনের সংকর",
+        "correct": false
+      },
+      {
+        "text": "লোহা ও কার্বনের সংকর",
+        "correct": false
+      },
+      {
+        "text": "সীসা ও টিনের সংকর",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ধাতুর তড়িৎ পরিশোধনে বিশুদ্ধ ধাতু জমা হয়—",
+    "options": [
+      {
+        "text": "অ্যানোডে",
+        "correct": false
+      },
+      {
+        "text": "ক্যাথোডে",
+        "correct": true
+      },
+      {
+        "text": "ইলেক্ট্রোলাইটের উপরে",
+        "correct": false
+      },
+      {
+        "text": "কোনোটিতেই নয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "মিথেনের সংকেত—",
+    "options": [
+      {
+        "text": "CH₄",
+        "correct": true
+      },
+      {
+        "text": "C₂H₆",
+        "correct": false
+      },
+      {
+        "text": "C₂H₄",
+        "correct": false
+      },
+      {
+        "text": "CH₃OH",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ইথিনে কার্বন-কার্বন বন্ধন—",
+    "options": [
+      {
+        "text": "একক",
+        "correct": false
+      },
+      {
+        "text": "দ্বিবন্ধ",
+        "correct": true
+      },
+      {
+        "text": "ত্রিবন্ধ",
+        "correct": false
+      },
+      {
+        "text": "আয়নীয়",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "অ্যালকেনের সাধারণ সংকেত—",
+    "options": [
+      {
+        "text": "CₙH₂ₙ₊₂",
+        "correct": true
+      },
+      {
+        "text": "CₙH₂ₙ",
+        "correct": false
+      },
+      {
+        "text": "CₙH₂ₙ₋₂",
+        "correct": false
+      },
+      {
+        "text": "CₙHₙ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ইথানলের কার্যকরী মূলক—",
+    "options": [
+      {
+        "text": "–COOH",
+        "correct": false
+      },
+      {
+        "text": "–OH",
+        "correct": true
+      },
+      {
+        "text": "–CHO",
+        "correct": false
+      },
+      {
+        "text": "–CO–",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "অ্যাসিটিক অ্যাসিডের সংকেত—",
+    "options": [
+      {
+        "text": "CH₃COOH",
+        "correct": true
+      },
+      {
+        "text": "C₂H₅OH",
+        "correct": false
+      },
+      {
+        "text": "HCOOH",
+        "correct": false
+      },
+      {
+        "text": "CH₃CHO",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সমাবয়বতার অর্থ—",
+    "options": [
+      {
+        "text": "একই আণবিক সংকেত, ভিন্ন গঠন",
+        "correct": true
+      },
+      {
+        "text": "ভিন্ন সংকেত, একই গঠন",
+        "correct": false
+      },
+      {
+        "text": "একই ভর, ভিন্ন মৌল",
+        "correct": false
+      },
+      {
+        "text": "শুধু কার্বনযুক্ত যৌগ",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "ইথাইন (অ্যাসিটিলিন)-এর সংকেত—",
+    "options": [
+      {
+        "text": "C₂H₂",
+        "correct": true
+      },
+      {
+        "text": "C₂H₄",
+        "correct": false
+      },
+      {
+        "text": "C₂H₆",
+        "correct": false
+      },
+      {
+        "text": "CH₄",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "সাবানীকরণে চর্বি ক্ষারের সঙ্গে বিক্রিয়া করে উৎপন্ন হয়—",
+    "options": [
+      {
+        "text": "সাবান ও গ্লিসারল",
+        "correct": true
+      },
+      {
+        "text": "অ্যালকোহল ও CO₂",
+        "correct": false
+      },
+      {
+        "text": "শুধু পানি",
+        "correct": false
+      },
+      {
+        "text": "মিথেন",
+        "correct": false
+      }
+    ]
+  }
+]
