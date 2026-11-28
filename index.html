@@ -244,31 +244,38 @@
       if (customWrap) customWrap.style.display = "none";
     }
 
-    function showAllInstallUI() {
-      if (localStorage.getItem(INSTALLED_KEY) === "true") return;
-      if (popup) popup.style.display = "block";
+    function showDownloadButtonOnly() {
+      if (isStandalone || localStorage.getItem(INSTALLED_KEY) === "true") {
+        hideAllInstallUI();
+        return;
+      }
       if (customWrap) customWrap.style.display = "flex";
     }
 
-    if (isStandalone || localStorage.getItem(INSTALLED_KEY) === "true") {
-      hideAllInstallUI();
-    } else {
-      window.addEventListener("beforeinstallprompt", (e) => {
-        e.preventDefault();
-        deferredPrompt = e;
-        showAllInstallUI();
-      });
-    }
+    // পেজ লোড হলেই (beforeinstallprompt না এলেও) বাটন দেখাবে
+    showDownloadButtonOnly();
+
+    window.addEventListener("beforeinstallprompt", (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      if (!isStandalone && localStorage.getItem(INSTALLED_KEY) !== "true") {
+        if (customWrap) customWrap.style.display = "flex";
+        if (popup) popup.style.display = "block";
+      }
+    });
 
     async function triggerAppInstall() {
-      if (!deferredPrompt) return;
-      deferredPrompt.prompt();
-      const result = await deferredPrompt.userChoice;
-      if (result.outcome === "accepted") {
-        localStorage.setItem(INSTALLED_KEY, "true");
-        hideAllInstallUI();
+      if (deferredPrompt) {
+        deferredPrompt.prompt();
+        const result = await deferredPrompt.userChoice;
+        if (result.outcome === "accepted") {
+          localStorage.setItem(INSTALLED_KEY, "true");
+          hideAllInstallUI();
+        }
+        deferredPrompt = null;
+      } else {
+        alert("ব্রাউজারের মেনু (⋮) থেকে 'Add to Home screen' বা 'Install app' সিলেক্ট করুন।");
       }
-      deferredPrompt = null;
     }
 
     if (customDownloadBtn) customDownloadBtn.addEventListener("click", triggerAppInstall);
@@ -289,6 +296,7 @@
     }
   })();
 </script>
+
 
 <!-- ========================================================== -->
 <!-- =============== END: PK PRACTICE PWA SYSTEM =============== -->
