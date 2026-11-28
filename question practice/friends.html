@@ -151,6 +151,463 @@
           <div><p class="room-label">Subject</p><p id="subject-name" class="subject-name"></p></div>
           <button id="btn-subject" class="btn ghost small hidden" type="button">Change</button>
         </div>
+
+       <!-- ========================================================== -->
+<!--        START: PK ONLINE FRIENDS WIDGET (ALL-IN-ONE)        -->
+<!-- ========================================================== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  .pk-of-trigger, .pk-of-overlay {
+    --ink: #0d1f4a; --blue: #2457f5; --blue-d: #1b43c9; --soft: #eef3ff; --line: #dce6fb;
+    --muted: #62708f; --live: #14c47c; --wait: #f5a524;
+    font-family: 'Plus Jakarta Sans', 'Hind Siliguri', 'Segoe UI', system-ui, sans-serif;
+  }
+  .pk-of-trigger *, .pk-of-overlay * { box-sizing: border-box; font-family: inherit; }
+  .pk-of-hidden { display: none !important; }
+
+  /* ---------- রাডার লোগো (বাটন + পপআপ দুই জায়গাতেই) ---------- */
+  .pk-of-logo { --c: var(--wait); position: relative; width: 40px; height: 40px; flex-shrink: 0; display: grid; place-items: center; }
+  .pk-of-live .pk-of-logo, .pk-of-logo.pk-of-live { --c: var(--live); }
+  .pk-of-core { width: 13px; height: 13px; border-radius: 50%; background: var(--c); border: 3px solid #fff; box-shadow: 0 0 0 1.5px var(--c); z-index: 1; transition: background .4s; }
+  .pk-of-ring { position: absolute; inset: 0; border-radius: 50%; border: 2px solid var(--c); opacity: 0; animation: pkOfRing 2.6s ease-out infinite; }
+  .pk-of-ring.b { animation-delay: 1.3s; }
+  .pk-of-logo:not(.pk-of-live) .pk-of-ring { animation-duration: 3.6s; }
+  @keyframes pkOfRing { 0% { transform: scale(.3); opacity: .8; } 100% { transform: scale(1); opacity: 0; } }
+
+  /* ---------- মূল বাটন ---------- */
+  .pk-of-trigger {
+    display: flex; align-items: center; gap: 12px; width: 100%; max-width: 360px; margin: 12px auto; padding: 11px 12px 11px 14px;
+    background: #fff; color: var(--ink); border: 1.5px solid var(--line); border-radius: 16px; cursor: pointer; text-align: left;
+    box-shadow: 0 1px 0 #fff inset, 0 12px 28px -14px rgba(36, 87, 245, .45);
+    transition: transform .15s, box-shadow .2s, border-color .2s;
+  }
+  .pk-of-trigger:hover { border-color: #b4c8fb; box-shadow: 0 1px 0 #fff inset, 0 16px 32px -14px rgba(36, 87, 245, .55); }
+  .pk-of-trigger:active { transform: scale(.985); }
+  .pk-of-trigger:focus-visible, .pk-of-overlay button:focus-visible { outline: 3px solid rgba(36, 87, 245, .45); outline-offset: 2px; }
+
+  .pk-of-stack { display: flex; flex-shrink: 0; min-width: 34px; }
+  .pk-of-av { width: 34px; height: 34px; margin-left: -11px; display: grid; place-items: center; border-radius: 11px; border: 2.5px solid #fff;
+    font-size: 14px; font-weight: 700; color: #fff; background: hsl(var(--h, 224) 68% 48%); animation: pkOfAv .5s cubic-bezier(.3, 1.5, .5, 1) both; }
+  .pk-of-av:first-child { margin-left: 0; }
+  .pk-of-more { background: var(--soft); color: var(--blue); font-size: 12px; }
+  @keyframes pkOfAv { from { transform: scale(.4); opacity: 0; } }
+
+  .pk-of-btn-text { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+  .pk-of-btn-title { font-size: 14.5px; font-weight: 700; line-height: 1.25; }
+  .pk-of-btn-sub { font-size: 12px; color: var(--muted); margin-top: 1px; }
+
+  .pk-of-badge { position: relative; flex-shrink: 0; min-width: 40px; height: 40px; padding: 0 10px; display: grid; place-items: center;
+    border-radius: 12px; background: var(--ink); color: #fff; font-size: 18px; font-weight: 700; }
+  .pk-of-badge::after { content: ''; position: absolute; top: -3px; right: -3px; width: 11px; height: 11px; border-radius: 50%; background: var(--wait); border: 2.5px solid #fff; transition: background .4s; }
+  .pk-of-live .pk-of-badge::after { background: var(--live); animation: pkOfBadge 2s ease-out infinite; }
+  @keyframes pkOfBadge { 0% { box-shadow: 0 0 0 0 rgba(20, 196, 124, .6); } 100% { box-shadow: 0 0 0 9px rgba(20, 196, 124, 0); } }
+  .pk-of-badge b.pk-of-bump, .pk-of-count.pk-of-bump { animation: pkOfBump .45s cubic-bezier(.3, 1.6, .5, 1); }
+  @keyframes pkOfBump { from { transform: translateY(6px) scale(.7); opacity: .3; } }
+
+  /* ---------- পপআপ ---------- */
+  .pk-of-overlay { position: fixed; inset: 0; z-index: 9999; display: flex; align-items: flex-end; justify-content: center; padding: 0;
+    background: rgba(13, 31, 74, .5); backdrop-filter: blur(4px); animation: pkOfFade .25s ease both; }
+  .pk-of-overlay.pk-of-closing { animation: pkOfFade .18s ease reverse both; }
+  .pk-of-overlay.pk-of-closing .pk-of-modal { animation: pkOfSheetOut .18s ease both; }
+  @keyframes pkOfFade { from { opacity: 0; } }
+
+  .pk-of-modal { width: 100%; max-width: 440px; max-height: 92vh; display: flex; flex-direction: column; overflow: hidden; background: #fbfcff;
+    border-radius: 24px 24px 0 0; border: 1px solid var(--line); border-bottom: 0; box-shadow: 0 -20px 50px -20px rgba(13, 31, 74, .45);
+    animation: pkOfSheet .4s cubic-bezier(.2, .9, .2, 1) both; }
+  @keyframes pkOfSheet { from { transform: translateY(60px); opacity: 0; } }
+  @keyframes pkOfSheetOut { to { transform: translateY(40px); opacity: 0; } }
+  @media (min-width: 520px) {
+    .pk-of-overlay { align-items: center; padding: 16px; }
+    .pk-of-modal { border-radius: 22px; border-bottom: 1px solid var(--line); animation-name: pkOfPop; }
+    @keyframes pkOfPop { from { transform: translateY(14px) scale(.96); opacity: 0; } }
+  }
+
+  .pk-of-grab { width: 38px; height: 4px; border-radius: 4px; background: #cfdaf3; margin: 8px auto 0; }
+  @media (min-width: 520px) { .pk-of-grab { display: none; } }
+
+  .pk-of-header { padding: 14px 16px 14px 18px; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid var(--line); background: linear-gradient(#fff, var(--soft)); }
+  .pk-of-htext { flex: 1; min-width: 0; }
+  .pk-of-header h3 { margin: 0; font-size: 19px; font-weight: 700; line-height: 1.25; color: var(--ink); }
+  .pk-of-count { display: inline-block; color: var(--blue); }
+  .pk-of-substatus { margin: 1px 0 0; font-size: 12.5px; color: var(--muted); }
+  .pk-of-logo.pk-of-live ~ .pk-of-htext .pk-of-substatus { color: #0b9a60; }
+  .pk-of-close { flex-shrink: 0; width: 34px; height: 34px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 11px; background: #fff;
+    color: var(--ink); font-size: 20px; line-height: 1; cursor: pointer; transition: background .2s, transform .15s; }
+  .pk-of-close:hover { background: var(--soft); transform: rotate(90deg); }
+
+  .pk-of-profile { padding: 11px 18px; display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 14.5px; color: var(--ink); border-bottom: 1px dashed var(--line); }
+  .pk-of-profile > span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .pk-of-profile > span em { font-style: normal; color: var(--muted); }
+
+
+  .pk-of-body { padding: 14px 18px 20px; overflow-y: auto; }
+  .pk-of-title { margin: 0 0 10px; font-size: 13px; font-weight: 600; color: var(--muted); }
+  .pk-of-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; max-height: 310px; overflow-y: auto; scrollbar-width: thin; }
+
+  .pk-of-item { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 8px; padding: 9px 12px; max-height: 64px;
+    background: #fff; border: 1px solid var(--line); border-radius: 13px; transition: border-color .2s; animation: pkOfRowIn .5s cubic-bezier(.2, .8, .2, 1) both; }
+  .pk-of-item.pk-of-me { order: -1; background: var(--soft); border-color: #c5d6ff; }
+  .pk-of-item:hover { border-color: #b4c8fb; }
+  .pk-of-item.pk-of-leaving { animation: pkOfRowOut .3s ease forwards; pointer-events: none; }
+  @keyframes pkOfRowIn { from { opacity: 0; transform: translateX(-14px); background: #d9f7ea; border-color: var(--live); } }
+  @keyframes pkOfRowOut { to { opacity: 0; transform: translateX(14px); max-height: 0; padding-top: 0; padding-bottom: 0; margin-bottom: 0; border-width: 0; } }
+
+  .pk-of-item-left { display: flex; align-items: center; gap: 12px; min-width: 0; }
+  .pk-of-avatar { width: 36px; height: 36px; flex-shrink: 0; display: grid; place-items: center; border-radius: 11px; font-size: 15px; font-weight: 700; color: #fff; background: hsl(var(--h, 224) 68% 48%); }
+  .pk-of-uname { font-size: 15.5px; font-weight: 600; color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .pk-of-you { font-size: 12px; font-weight: 600; color: var(--blue); background: #fff; border: 1px solid #c5d6ff; padding: 1px 8px; border-radius: 6px; }
+  .pk-of-gdot { position: relative; width: 10px; height: 10px; flex-shrink: 0; border-radius: 50%; background: var(--live); }
+  .pk-of-gdot::after { content: ''; position: absolute; inset: 0; border-radius: 50%; background: var(--live); animation: pkOfDot 2s ease-out infinite; }
+  @keyframes pkOfDot { to { transform: scale(2.8); opacity: 0; } }
+
+  .pk-of-skel, .pk-of-empty { display: none; }
+  .pk-of-loading .pk-of-skel { display: block; }
+  .pk-of-sk { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; padding: 9px 12px; border: 1px solid var(--line); border-radius: 13px; }
+  .pk-of-sk i, .pk-of-sk b { display: block; background: linear-gradient(100deg, #eaf0fd 30%, #f8faff 50%, #eaf0fd 70%) 0 0 / 200% 100%; animation: pkOfShimmer 1.3s linear infinite; }
+  .pk-of-sk i { width: 36px; height: 36px; border-radius: 11px; }
+  .pk-of-sk b { width: 46%; height: 12px; border-radius: 6px; }
+  .pk-of-sk:last-child b { width: 32%; }
+  @keyframes pkOfShimmer { to { background-position: -200% 0; } }
+  .pk-of-alone:not(.pk-of-loading) .pk-of-empty { display: block; margin: 4px 2px 0; font-size: 13.5px; line-height: 1.55; color: var(--muted); }
+
+  @media (prefers-reduced-motion: reduce) { .pk-of-trigger *, .pk-of-overlay, .pk-of-overlay * { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
+</style>
+
+<!-- অনলাইন ফ্রেন্ডস বাটন -->
+<button id="pk-of-open-btn" class="pk-of-trigger" type="button" aria-haspopup="dialog">
+  <span class="pk-of-stack" aria-hidden="true">
+    <span id="pk-of-av1" class="pk-of-av pk-of-hidden"></span>
+    <span id="pk-of-av2" class="pk-of-av pk-of-hidden"></span>
+    <span id="pk-of-av3" class="pk-of-av pk-of-hidden"></span>
+    <span id="pk-of-more" class="pk-of-av pk-of-more pk-of-hidden"></span>
+  </span>
+  <span class="pk-of-btn-text">
+    <span class="pk-of-btn-title">Online Friends</span>
+    <span class="pk-of-btn-sub">See who is online right now</span>
+  </span>
+  <span class="pk-of-badge"><b id="pk-of-btn-count">0</b></span>
+</button>
+
+<!-- পপআপ -->
+<div id="pk-of-overlay" class="pk-of-overlay pk-of-hidden">
+  <div id="pk-of-modal" class="pk-of-modal pk-of-loading pk-of-alone" role="dialog" aria-modal="true" aria-labelledby="pk-of-heading">
+    <div class="pk-of-grab" aria-hidden="true"></div>
+    <div class="pk-of-header">
+      <span id="pk-of-logo" class="pk-of-logo" aria-hidden="true"><i class="pk-of-ring"></i><i class="pk-of-ring b"></i><i class="pk-of-core"></i></span>
+      <div class="pk-of-htext">
+        <h3 id="pk-of-heading">Online Friends <span class="pk-of-count">(<span id="pk-of-modal-count">0</span>)</span></h3>
+        <p id="pk-of-conn-status" class="pk-of-substatus" aria-live="polite">Connecting...</p>
+      </div>
+      <button id="pk-of-close-btn" class="pk-of-close" type="button" aria-label="Close">&times;</button>
+    </div>
+
+    <div class="pk-of-profile">
+      <span><em>Your name:</em> <strong id="pk-of-my-name">Guest</strong></span>
+    </div>
+
+
+    <div class="pk-of-body">
+      <p class="pk-of-title">Active now</p>
+      <ul id="pk-of-list" class="pk-of-list"></ul>
+      <div class="pk-of-skel" aria-hidden="true">
+        <div class="pk-of-sk"><i></i><b></b></div>
+        <div class="pk-of-sk"><i></i><b></b></div>
+      </div>
+      <p class="pk-of-empty">Only you are here right now. Friends will show up here as soon as they join.</p>
+    </div>
+  </div>
+</div>
+
+<!-- PubNub SDK -->
+<script src="https://cdn.pubnub.com/sdk/javascript/pubnub.7.4.5.min.js"></script>
+
+<script>
+(function () {
+  const PUBLISH_KEY = 'pub-c-af6b665e-1c74-4b4f-90f6-439e0852eb3f';
+  const SUBSCRIBE_KEY = 'sub-c-88a6b3d8-cc35-46d8-a396-2fd83368df4a';
+  const CHANNEL_NAME = 'quiz_demo_room';
+
+  const NAME_KEY = 'pk_username';
+  const USER_ID_KEY = 'pk_user_id';
+
+  const openBtn = document.getElementById('pk-of-open-btn');
+  const closeBtn = document.getElementById('pk-of-close-btn');
+  const overlay = document.getElementById('pk-of-overlay');
+  const modal = document.getElementById('pk-of-modal');
+  const logo = document.getElementById('pk-of-logo');
+  const btnCount = document.getElementById('pk-of-btn-count');
+  const modalCount = document.getElementById('pk-of-modal-count');
+  const connStatus = document.getElementById('pk-of-conn-status');
+  const myNameEl = document.getElementById('pk-of-my-name');
+  const listUl = document.getElementById('pk-of-list');
+  const moreEl = document.getElementById('pk-of-more');
+  const avEls = [
+    document.getElementById('pk-of-av1'),
+    document.getElementById('pk-of-av2'),
+    document.getElementById('pk-of-av3')
+  ];
+
+  let pubnub = null;
+  const onlineUsers = new Map();
+  const rows = new Map(); // শুধু UI: uuid -> <li>
+
+  function getUserId() {
+    let id = localStorage.getItem(USER_ID_KEY);
+    if (!id) {
+      id = 'u_' + Math.random().toString(36).slice(2, 9);
+      localStorage.setItem(USER_ID_KEY, id);
+    }
+    return id;
+  }
+
+  function getSavedName() {
+    const raw = (localStorage.getItem(NAME_KEY) || '').trim().slice(0, 20);
+    return raw || 'Guest';
+  }
+
+  const myUserId = getUserId();
+  let currentName = getSavedName();
+
+  // ---------- শুধু UI সাহায্যকারী ----------
+  function hueOf(name) {
+    let h = 0;
+    for (const ch of name) h = (h * 31 + ch.charCodeAt(0)) % 360;
+    return h;
+  }
+
+  function bump(el) {
+    el.classList.remove('pk-of-bump');
+    void el.offsetWidth;
+    el.classList.add('pk-of-bump');
+  }
+
+  function finishLoading() { modal.classList.remove('pk-of-loading'); }
+
+  function setLink(isUp) {
+    connStatus.textContent = isUp ? 'Live' : 'Connection lost, retrying...';
+    logo.classList.toggle('pk-of-live', isUp);
+    openBtn.classList.toggle('pk-of-live', isUp);
+  }
+
+  function buildRow(uuid) {
+    const li = document.createElement('li');
+    li.className = 'pk-of-item' + (uuid === myUserId ? ' pk-of-me' : '');
+
+    const left = document.createElement('div');
+    left.className = 'pk-of-item-left';
+    const avatar = document.createElement('div');
+    avatar.className = 'pk-of-avatar';
+    const uname = document.createElement('span');
+    uname.className = 'pk-of-uname';
+    left.appendChild(avatar);
+    left.appendChild(uname);
+
+    if (uuid === myUserId) {
+      const you = document.createElement('span');
+      you.className = 'pk-of-you';
+      you.textContent = 'You';
+      left.appendChild(you);
+    }
+
+    const dot = document.createElement('span');
+    dot.className = 'pk-of-gdot';
+    li.appendChild(left);
+    li.appendChild(dot);
+    return li;
+  }
+
+  function fillRow(li, name) {
+    const avatar = li.querySelector('.pk-of-avatar');
+    avatar.textContent = name.charAt(0).toUpperCase();
+    avatar.style.setProperty('--h', hueOf(name));
+    li.querySelector('.pk-of-uname').textContent = name;
+    li.dataset.name = name;
+  }
+
+  function renderList() {
+    const total = onlineUsers.size;
+    const countStr = String(total);
+    if (btnCount.textContent !== countStr) {
+      btnCount.textContent = countStr;
+      modalCount.textContent = countStr;
+      bump(btnCount);
+      bump(modalCount.parentNode);
+    }
+    myNameEl.textContent = currentName;
+    modal.classList.toggle('pk-of-alone', total <= 1);
+
+    // বাটনের লোগো: অনলাইন ইউজারদের অক্ষর (সর্বোচ্চ ৩টি, বাকিরা +N)
+    const namesArr = Array.from(onlineUsers.values());
+    avEls.forEach((el, idx) => {
+      const n = namesArr[idx];
+      if (n) {
+        const ch = n.charAt(0).toUpperCase();
+        if (el.textContent !== ch || el.classList.contains('pk-of-hidden')) {
+          el.textContent = ch;
+          el.style.setProperty('--h', hueOf(n));
+          el.classList.remove('pk-of-hidden');
+        }
+      } else {
+        el.classList.add('pk-of-hidden');
+      }
+    });
+    moreEl.classList.toggle('pk-of-hidden', total <= 3);
+    moreEl.textContent = '+' + (total - 3);
+
+    // যারা চলে গেছে তাদের সরানো
+    rows.forEach((li, uuid) => {
+      if (!onlineUsers.has(uuid)) {
+        rows.delete(uuid);
+        li.classList.add('pk-of-leaving');
+        setTimeout(() => li.remove(), 320);
+      }
+    });
+    // নতুনদের যোগ / নাম বদলালে আপডেট
+    onlineUsers.forEach((name, uuid) => {
+      let li = rows.get(uuid);
+      if (!li) {
+        li = buildRow(uuid);
+        rows.set(uuid, li);
+        fillRow(li, name);
+        listUl.appendChild(li);
+      } else if (li.dataset.name !== name) {
+        fillRow(li, name);
+      }
+    });
+  }
+
+  function syncHereNow() {
+    if (!pubnub) return;
+    pubnub.hereNow({
+      channels: [CHANNEL_NAME],
+      includeState: true
+    }, (status, response) => {
+      if (status && status.error) return;
+
+      onlineUsers.clear();
+      onlineUsers.set(myUserId, currentName);
+
+      const ch = response && response.channels && response.channels[CHANNEL_NAME];
+      const occupants = (ch && Array.isArray(ch.occupants)) ? ch.occupants : [];
+      occupants.forEach((occ) => {
+        const stName = occ.state && typeof occ.state.name === 'string' ? occ.state.name.trim() : '';
+        const finalName = stName || (occ.uuid === myUserId ? currentName : 'Guest');
+        onlineUsers.set(occ.uuid, finalName);
+      });
+
+      renderList();
+      finishLoading();
+    });
+  }
+
+  function pushMyState() {
+    if (!pubnub) return;
+    pubnub.setState({
+      channels: [CHANNEL_NAME],
+      state: { name: currentName }
+    }, () => {
+      setTimeout(syncHereNow, 400);
+    });
+  }
+
+  // ---------- পপআপ খোলা/বন্ধ ----------
+  function openModal() {
+    overlay.classList.remove('pk-of-closing', 'pk-of-hidden');
+    document.body.style.overflow = 'hidden';
+    syncHereNow();
+  }
+
+  function closeModal() {
+    if (overlay.classList.contains('pk-of-hidden')) return;
+    overlay.classList.add('pk-of-closing');
+    setTimeout(() => {
+      overlay.classList.add('pk-of-hidden');
+      overlay.classList.remove('pk-of-closing');
+      document.body.style.overflow = '';
+      openBtn.focus();
+    }, 180);
+  }
+
+  openBtn.addEventListener('click', openModal);
+  closeBtn.addEventListener('click', closeModal);
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) closeModal();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModal();
+  });
+
+  window.addEventListener('pagehide', () => {
+    if (pubnub) {
+      try { pubnub.unsubscribe({ channels: [CHANNEL_NAME] }); } catch (e) {}
+    }
+  });
+
+  function initPubNub() {
+    if (typeof PubNub === 'undefined') return;
+
+    onlineUsers.set(myUserId, currentName);
+    renderList();
+    setTimeout(finishLoading, 6000); // কানেকশন ধীর হলেও স্কেলিটন আটকে থাকবে না
+
+    pubnub = new PubNub({
+      publishKey: PUBLISH_KEY,
+      subscribeKey: SUBSCRIBE_KEY,
+      userId: myUserId,
+      heartbeatInterval: 15
+    });
+
+    pubnub.addListener({
+      status: (statusEvent) => {
+        if (statusEvent.category === 'PNConnectedCategory') {
+          connStatus.textContent = 'Live';
+          logo.classList.add('pk-of-live');
+          openBtn.classList.add('pk-of-live');
+          pushMyState();
+        } else if (statusEvent.category === 'PNNetworkDownCategory') {
+          setLink(false);
+        } else if (statusEvent.category === 'PNNetworkUpCategory' || statusEvent.category === 'PNReconnectedCategory') {
+          setLink(true);
+        }
+      },
+      presence: (pEvent) => {
+        const uuid = pEvent.uuid;
+        if (pEvent.action === 'join' || pEvent.action === 'state-change') {
+          const stName = pEvent.state && typeof pEvent.state.name === 'string' ? pEvent.state.name.trim() : '';
+          const existing = onlineUsers.get(uuid);
+          const resolved = stName || existing || (uuid === myUserId ? currentName : 'Guest');
+          onlineUsers.set(uuid, resolved);
+          renderList();
+
+          if (pEvent.action === 'join' && uuid !== myUserId) {
+            setTimeout(syncHereNow, 400);
+          }
+        } else if ((pEvent.action === 'leave' || pEvent.action === 'timeout') && uuid !== myUserId) {
+          onlineUsers.delete(uuid);
+          renderList();
+        }
+      }
+    });
+
+    pubnub.subscribe({
+      channels: [CHANNEL_NAME],
+      withPresence: true
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPubNub);
+  } else {
+    initPubNub();
+  }
+})();
+</script>
+<!-- ========================================================== -->
+<!--         END: PK ONLINE FRIENDS WIDGET (ALL-IN-ONE)         -->
+<!-- ========================================================== -->
+
         <div class="card room-card">
           <p class="room-label">Room code</p>
           <div id="room-code" class="code-tiles" aria-live="polite"></div>
