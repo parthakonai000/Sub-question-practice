@@ -216,11 +216,12 @@
   
   
   
-  <div id="pwaInstallPopup" style="display:none; position:fixed; bottom:16px; left:16px; right:16px; background:#ffffff; border:1px solid #d1d5db; border-radius:12px; padding:14px 16px; box-shadow:0 10px 25px rgba(0,0,0,0.15); z-index:9999; font-family:sans-serif;">
+  <div id="pwaInstallPopup" style="display:none; position:fixed; bottom:16px; left:16px; right:16px; background:#ffffff; border:1px solid #d1d5db; border-radius:12px; padding:14px 16px; box-shadow:0 10px 25px rgba(0,0,0,0.15); z-index:9999; font-family:sans-serif; touch-action:none; transition:transform 0.2s ease, opacity 0.2s ease;">
+  <div style="width:36px; height:4px; background:#d1d5db; border-radius:999px; margin:0 auto 8px auto;"></div>
   <div style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
     <div>
       <div style="font-weight:700; font-size:15px; color:#111827;">অ্যাপ ইনস্টল করুন</div>
-      <div style="font-size:13px; color:#4b5563; margin-top:2px;">ফোনের হোম স্ক্রিন থেকে দ্রুত ব্যবহার করতে অ্যাপটি ইনস্টল করুন।</div>
+      <div style="font-size:13px; color:#4b5563; margin-top:2px;">হোম স্ক্রিনে রাখতে Install চাপুন, অথবা নিচে/পাশে স্লাইড করে সরান।</div>
     </div>
     <button id="pwaInstallBtn" type="button" style="background:#2563eb; color:#ffffff; border:none; border-radius:8px; padding:10px 14px; font-size:13px; font-weight:600; cursor:pointer; white-space:nowrap;">
       Install
@@ -274,18 +275,65 @@
       deferredPrompt = null;
       if (popup) popup.style.display = "none";
     });
+
+    // হাতে স্লাইড বা টানলে পপ-আপ সরিয়ে দেওয়ার লজিক
+    if (popup) {
+      let startX = 0;
+      let startY = 0;
+      let currentX = 0;
+      let currentY = 0;
+      let isDragging = false;
+
+      popup.addEventListener("touchstart", (e) => {
+        if (e.target === installBtn) return;
+        const touch = e.touches[0];
+        startX = touch.clientX;
+        startY = touch.clientY;
+        currentX = 0;
+        currentY = 0;
+        isDragging = true;
+        popup.style.transition = "none";
+      }, { passive: true });
+
+      popup.addEventListener("touchmove", (e) => {
+        if (!isDragging) return;
+        const touch = e.touches[0];
+        currentX = touch.clientX - startX;
+        currentY = touch.clientY - startY;
+
+        // নিচে বা ডানে/বামে টানলে পপ-আপ সাথে সাথে নড়বে
+        const moveY = currentY > 0 ? currentY : currentY * 0.25;
+        popup.style.transform = `translate(${currentX}px, ${moveY}px)`;
+        const distance = Math.max(Math.abs(currentX), Math.max(0, currentY));
+        popup.style.opacity = String(Math.max(0.2, 1 - distance / 180));
+      }, { passive: true });
+
+      popup.addEventListener("touchend", () => {
+        if (!isDragging) return;
+        isDragging = false;
+        popup.style.transition = "transform 0.2s ease, opacity 0.2s ease";
+
+        // যথেষ্ট দূরে (৭০px-এর বেশি) স্লাইড করলে পপ-আপ লুকিয়ে যাবে
+        if (currentY > 70 || Math.abs(currentX) > 90) {
+          const exitX = Math.abs(currentX) > 90 ? (currentX > 0 ? 320 : -320) : 0;
+          const exitY = currentY > 70 ? 200 : 0;
+          popup.style.transform = `translate(${exitX}px, ${exitY}px)`;
+          popup.style.opacity = "0";
+          setTimeout(() => {
+            popup.style.display = "none";
+            popup.style.transform = "";
+            popup.style.opacity = "1";
+          }, 200);
+        } else {
+          // অল্প টেনে ছেড়ে দিলে আগের জায়গায় ফিরে আসবে
+          popup.style.transform = "";
+          popup.style.opacity = "1";
+        }
+      });
+    }
   })();
 </script>
 
-<script>
-  if ("serviceWorker" in navigator) {
-    window.addEventListener("load", () => {
-      navigator.serviceWorker.register("../sw.js", { scope: "../" })
-        .then((reg) => console.log("SW registered from friends.html:", reg.scope))
-        .catch((err) => console.error("SW registration failed:", err));
-    });
-  }
-</script>
 
 </body>
 </html>
