@@ -9,6 +9,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+
+<link rel="manifest" href="./manifest.json">
+<meta name="theme-color" content="#2563eb">
+<link rel="apple-touch-icon" href="./icon-192.png">
+
+
 </head>
 <body>
 <div class="app">
@@ -99,5 +105,81 @@
   </main>
 </div>
 <script src="script.js"></script>
+
+
+
+
+
+<div id="pwaInstallPopup" style="display:none; position:fixed; bottom:16px; left:16px; right:16px; background:#ffffff; border:1px solid #d1d5db; border-radius:12px; padding:14px 16px; box-shadow:0 10px 25px rgba(0,0,0,0.15); z-index:9999; font-family:sans-serif;">
+  <div style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+    <div>
+      <div style="font-weight:700; font-size:15px; color:#111827;">অ্যাপ ইনস্টল করুন</div>
+      <div style="font-size:13px; color:#4b5563; margin-top:2px;">ফোনের হোম স্ক্রিন থেকে দ্রুত ব্যবহার করতে অ্যাপটি ইনস্টল করুন।</div>
+    </div>
+    <button id="pwaInstallBtn" type="button" style="background:#2563eb; color:#ffffff; border:none; border-radius:8px; padding:10px 14px; font-size:13px; font-weight:600; cursor:pointer; white-space:nowrap;">
+      Install
+    </button>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const INSTALLED_KEY = "pk_practice_pwa_installed";
+    const popup = document.getElementById("pwaInstallPopup");
+    const installBtn = document.getElementById("pwaInstallBtn");
+    let deferredPrompt = null;
+
+    const isStandalone =
+      window.matchMedia("(display-mode: standalone)").matches ||
+      window.navigator.standalone === true;
+
+    if (isStandalone || localStorage.getItem(INSTALLED_KEY) === "true") {
+      if (popup) popup.style.display = "none";
+      return;
+    }
+
+    window.addEventListener("beforeinstallprompt", (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+
+      if (localStorage.getItem(INSTALLED_KEY) !== "true" && popup) {
+        popup.style.display = "block";
+      }
+    });
+
+    if (installBtn) {
+      installBtn.addEventListener("click", async () => {
+        if (!deferredPrompt) return;
+
+        deferredPrompt.prompt();
+        const result = await deferredPrompt.userChoice;
+
+        if (result.outcome === "accepted") {
+          localStorage.setItem(INSTALLED_KEY, "true");
+          if (popup) popup.style.display = "none";
+        }
+
+        deferredPrompt = null;
+      });
+    }
+
+    window.addEventListener("appinstalled", () => {
+      localStorage.setItem(INSTALLED_KEY, "true");
+      deferredPrompt = null;
+      if (popup) popup.style.display = "none";
+    });
+  })();
+</script>
+
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./sw.js")
+        .then((reg) => console.log("SW registered:", reg.scope))
+        .catch((err) => console.error("SW registration failed:", err));
+    });
+  }
+</script>
+
 </body>
 </html>
