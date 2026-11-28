@@ -3,7 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>PK Practice – মাধ্যমিক প্রশ্ন প্র্যাকটিস</title>
+<title>PK Practice – Madhyamik question practice</title>
+
+ <meta name="description" content="Challenge your friends to a live Madhyamik quiz. Create a room, share the code, and see who scores highest." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="P. K PRACTICE" />
+  <meta property="og:title" content="Play the Madhyamik Quiz with Friends | P. K PRACTICE" />
+  <meta property="og:description" content="Challenge your friends to a live Madhyamik quiz. Create a room, share the code, and see who scores highest." />
+  <meta property="og:url" content="https://parthakonai000.github.io/Sub-question-practice/" />
+  <meta property="og:image" content="https://parthakonai000.github.io/Sub-question-practice/Madhyamik_banner.jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="P. K PRACTICE: play the Madhyamik quiz with friends" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Play Phrasal Verbs with a Friend | P. K PRACTICE" />
+  <meta name="twitter:description" content="Challenge your friends to a live Madhyamik quiz. Create a room, share the code, and see who scores highest." />
+  <meta name="twitter:image" content="https://parthakonai000.github.io/Sub-question-practice/Madhyamik_banner.jpeg" />
+
+
+
+
+
+
+
 <script>try{document.documentElement.dataset.theme=localStorage.getItem("pk-theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,6 +68,232 @@
           <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
         </a>
       </div>
+      
+      <!-- ========================================================== -->
+<!-- ============== START: PK PRACTICE PWA SYSTEM ============== -->
+<!-- ========================================================== -->
+
+<style>
+  /* --- Animated Download App Button --- */
+  .pk-download-wrap {
+    display: none;
+    justify-content: center;
+    margin: 18px auto;
+  }
+
+  .pk-download-btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 22px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    background: linear-gradient(135deg, #4f46e5 0%, #2563eb 100%);
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.32);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    animation: pkPulseGlow 2.4s infinite ease-in-out;
+    font-family: inherit;
+  }
+
+  .pk-download-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(37, 99, 235, 0.42);
+  }
+
+  .pk-download-btn:active {
+    transform: scale(0.96);
+  }
+
+  .pk-download-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.38) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    transform: skewX(-25deg);
+    animation: pkShineSweep 3.2s infinite;
+  }
+
+  .pk-download-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 50%;
+    animation: pkIconBounce 1.6s infinite ease-in-out;
+  }
+
+  @keyframes pkPulseGlow {
+    0%, 100% { box-shadow: 0 6px 18px rgba(37, 99, 235, 0.30); }
+    50% { box-shadow: 0 10px 26px rgba(79, 70, 229, 0.55); }
+  }
+
+  @keyframes pkShineSweep {
+    0% { left: -75%; }
+    45%, 100% { left: 135%; }
+  }
+
+  @keyframes pkIconBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(2.5px); }
+  }
+
+  /* --- Fixed Bottom Install Popup (স্লাইড করলে সরবে না) --- */
+  #pwaInstallPopup {
+    display: none;
+    position: fixed;
+    bottom: 16px;
+    left: 16px;
+    right: 16px;
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 14px;
+    padding: 14px 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    font-family: sans-serif;
+  }
+
+  .pk-popup-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .pk-popup-title {
+    font-weight: 700;
+    font-size: 15px;
+    color: #111827;
+  }
+
+  .pk-popup-desc {
+    font-size: 13px;
+    color: #4b5563;
+    margin-top: 2px;
+  }
+
+  .pk-popup-install-btn {
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+</style>
+
+<!-- 1. Animated Download App Button -->
+<div id="pkDownloadWrap" class="pk-download-wrap">
+  <button id="pkCustomDownloadBtn" class="pk-download-btn" type="button">
+    <span class="pk-download-icon">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+        <polyline points="7 10 12 15 17 10"></polyline>
+        <line x1="12" y1="15" x2="12" y2="3"></line>
+      </svg>
+    </span>
+    <span>Download App</span>
+  </button>
+</div>
+
+<!-- 2. Fixed Bottom Install Popup -->
+<div id="pwaInstallPopup">
+  <div class="pk-popup-body">
+    <div>
+      <div class="pk-popup-title">অ্যাপ ইনস্টল করুন</div>
+      <div class="pk-popup-desc">ফোনের হোম স্ক্রিন থেকে দ্রুত ব্যবহার করতে অ্যাপটি ইনস্টল করুন।</div>
+    </div>
+    <button id="pwaInstallBtn" class="pk-popup-install-btn" type="button">Install</button>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const INSTALLED_KEY = "pk_practice_pwa_installed";
+    const popup = document.getElementById("pwaInstallPopup");
+    const popupInstallBtn = document.getElementById("pwaInstallBtn");
+    const customWrap = document.getElementById("pkDownloadWrap");
+    const customDownloadBtn = document.getElementById("pkCustomDownloadBtn");
+    let deferredPrompt = null;
+
+    const isStandalone =
+      window.matchMedia("(display-mode: standalone)").matches ||
+      window.navigator.standalone === true;
+
+    function hideAllInstallUI() {
+      if (popup) popup.style.display = "none";
+      if (customWrap) customWrap.style.display = "none";
+    }
+
+    function showAllInstallUI() {
+      if (localStorage.getItem(INSTALLED_KEY) === "true") return;
+      if (popup) popup.style.display = "block";
+      if (customWrap) customWrap.style.display = "flex";
+    }
+
+    if (isStandalone || localStorage.getItem(INSTALLED_KEY) === "true") {
+      hideAllInstallUI();
+    } else {
+      window.addEventListener("beforeinstallprompt", (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        showAllInstallUI();
+      });
+    }
+
+    async function triggerAppInstall() {
+      if (!deferredPrompt) return;
+      deferredPrompt.prompt();
+      const result = await deferredPrompt.userChoice;
+      if (result.outcome === "accepted") {
+        localStorage.setItem(INSTALLED_KEY, "true");
+        hideAllInstallUI();
+      }
+      deferredPrompt = null;
+    }
+
+    if (customDownloadBtn) customDownloadBtn.addEventListener("click", triggerAppInstall);
+    if (popupInstallBtn) popupInstallBtn.addEventListener("click", triggerAppInstall);
+
+    window.addEventListener("appinstalled", () => {
+      localStorage.setItem(INSTALLED_KEY, "true");
+      deferredPrompt = null;
+      hideAllInstallUI();
+    });
+
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./sw.js")
+          .then((reg) => console.log("SW registered:", reg.scope))
+          .catch((err) => console.error("SW registration failed:", err));
+      });
+    }
+  })();
+</script>
+
+<!-- ========================================================== -->
+<!-- =============== END: PK PRACTICE PWA SYSTEM =============== -->
+<!-- ========================================================== -->
+
     </section>
 
     <!-- বিষয় বাছাই -->
