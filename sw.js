@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pk-practice-root-v6';
+const CACHE_NAME = 'pk-practice-root-v7';
 
 // শুধু রুট লেভেলের অফলাইন ফাইলগুলো ক্যাশ হবে
 const OFFLINE_ASSETS = [
